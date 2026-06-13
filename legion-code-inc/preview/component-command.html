@@ -1,0 +1,32 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../colors_and_type.css"><style>
+html,body{margin:0;padding:0;background:var(--bg-canvas);color:var(--text-primary);font-family:var(--font-sans);}
+.card{padding:20px 24px;}
+.cap{font-family:var(--font-mono);font-size:11px;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-tertiary);margin-bottom:14px;}
+</style></head><body><div class="card">
+    <div class="cap">Command palette · cmdk</div>
+    <div style="background:var(--bg-elevated);border:1px solid var(--border-default);border-radius:var(--radius-lg);overflow:hidden;box-shadow:0 12px 32px -6px rgba(0,0,0,0.6);">
+      <div style="display:flex;align-items:center;gap:10px;padding:12px 14px;border-bottom:1px solid var(--border-subtle);">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="6" cy="6" r="4.5" stroke="#858B97" stroke-width="1.5"/><path d="M9.5 9.5 L12 12" stroke="#858B97" stroke-width="1.5" stroke-linecap="round"/></svg>
+        <input style="flex:1;background:none;border:none;outline:none;color:var(--text-primary);font-size:14px;font-family:var(--font-sans);" placeholder="Search scans, findings, or commands…" value="webhook">
+        <span style="font-family:var(--font-mono);font-size:10px;color:var(--text-tertiary);border:1px solid var(--border-default);border-radius:var(--radius-sm);padding:1px 5px;">esc</span>
+      </div>
+      <div style="padding:6px 0;">
+        <div style="padding:4px 14px;font-family:var(--font-mono);font-size:10px;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-tertiary);">Findings</div>
+        <div style="display:flex;align-items:center;gap:10px;padding:7px 14px;background:var(--bg-subtle);">
+          <span style="display:inline-block;padding:2px 6px;border-radius:var(--radius-sm);background:var(--severity-critical-bg);color:var(--severity-critical);font-family:var(--font-mono);font-size:9px;font-weight:600;text-transform:uppercase;">CRIT</span>
+          <span style="font-size:13px;color:var(--text-primary);flex:1;">PAN in <strong style="font-family:var(--font-mono);font-weight:500;background:var(--brand-primary-subtle);color:var(--brand-primary);padding:1px 3px;border-radius:2px;">webhook</strong>.ts:142</span>
+          <span style="font-family:var(--font-mono);font-size:11px;color:var(--text-tertiary);">⏎</span>
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;padding:7px 14px;">
+          <span style="display:inline-block;padding:2px 6px;border-radius:var(--radius-sm);background:var(--severity-warning-bg);color:var(--severity-warning);font-family:var(--font-mono);font-size:9px;font-weight:600;text-transform:uppercase;">WARN</span>
+          <span style="font-size:13px;color:var(--text-primary);flex:1;">Stripe <strong style="font-family:var(--font-mono);font-weight:500;background:var(--brand-primary-subtle);color:var(--brand-primary);padding:1px 3px;border-radius:2px;">webhook</strong> secret in env</span>
+        </div>
+        <div style="padding:4px 14px;margin-top:6px;font-family:var(--font-mono);font-size:10px;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-tertiary);">Commands</div>
+        <div style="display:flex;align-items:center;gap:10px;padding:7px 14px;">
+          <span style="width:14px;height:14px;display:inline-flex;align-items:center;justify-content:center;color:var(--text-tertiary);">⌘</span>
+          <span style="font-size:13px;color:var(--text-primary);flex:1;">Run Quick Scan</span>
+          <span style="font-family:var(--font-mono);font-size:11px;color:var(--text-tertiary);">⌘K</span>
+        </div>
+      </div>
+    </div>
+  </div></body></html>

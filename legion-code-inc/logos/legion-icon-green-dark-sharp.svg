@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Legion">
+  <title>Legion icon — dark L on green (sharp corners)</title>
+  <desc>Brand-green square with sharp corners. Use as source for OS-rounded app icons (iOS, Android) where the platform handles corner rounding.</desc>
+  <rect width="64" height="64" fill="#3DDC97"/>
+  <path d="M16 12 L26 12 L26 44 L48 44 L48 54 L16 54 Z" fill="#0A0B0D"/>
+</svg>

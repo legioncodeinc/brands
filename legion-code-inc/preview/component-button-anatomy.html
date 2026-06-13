@@ -1,0 +1,23 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../colors_and_type.css"><style>
+html,body{margin:0;padding:0;background:var(--bg-canvas);color:var(--text-primary);font-family:var(--font-sans);}
+.card{padding:20px 24px;}
+.cap{font-family:var(--font-mono);font-size:11px;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-tertiary);margin-bottom:14px;}
+</style></head><body><div class="card">
+    <div class="cap">Anatomy · button</div>
+    <div style="display:flex;align-items:flex-start;gap:24px;">
+      <div style="position:relative;padding-top:36px;padding-right:60px;padding-bottom:36px;padding-left:0;">
+        <button style="font-family:var(--font-sans);font-size:14px;font-weight:500;padding:9px 16px;border-radius:8px;background:var(--brand-primary);color:#0A0B0D;border:none;display:inline-flex;align-items:center;gap:8px;">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7 L6 11 L12 3" stroke="#0A0B0D" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Run Quick Scan
+        </button>
+        <!-- Annotations -->
+        <div style="position:absolute;top:0;left:0;font-family:var(--font-mono);font-size:10px;color:var(--text-tertiary);">↓ radius.md · 8 px</div>
+        <div style="position:absolute;bottom:0;left:0;font-family:var(--font-mono);font-size:10px;color:var(--text-tertiary);">↑ text 14 / 500 · -0.005em</div>
+        <div style="position:absolute;top:36px;right:0;font-family:var(--font-mono);font-size:10px;color:var(--text-tertiary);">← bg: brand.primary · fg: text.inverse</div>
+      </div>
+      <div style="font-size:12px;color:var(--text-secondary);line-height:1.6;max-width:280px;">
+        <div style="font-family:var(--font-mono);font-size:10px;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-tertiary);margin-bottom:6px;">RULES</div>
+        Padding 9 × 16. Gap to leading icon 8 px. Icons inherit fg color. <strong style="color:var(--text-primary);">One brand-primary button per visible region</strong> — neutralize the others.
+      </div>
+    </div>
+  </div></body></html>

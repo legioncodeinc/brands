@@ -1,0 +1,27 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../colors_and_type.css"><style>
+html,body{margin:0;padding:0;background:var(--bg-canvas);color:var(--text-primary);font-family:var(--font-sans);}
+.card{padding:20px 24px;}
+.cap{font-family:var(--font-mono);font-size:11px;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-tertiary);margin-bottom:14px;}
+</style></head><body><div class="card">
+    <div class="cap">Tabs · accordion · breadcrumbs</div>
+    <div style="font-family:var(--font-mono);font-size:11px;color:var(--text-tertiary);margin-bottom:14px;">
+      <span style="color:var(--text-secondary);">Scans</span><span style="margin:0 6px;">/</span><span style="color:var(--text-secondary);">acme/checkout</span><span style="margin:0 6px;">/</span><span style="color:var(--text-primary);">3a7f1bc</span>
+    </div>
+    <div style="display:flex;border-bottom:1px solid var(--border-default);margin-bottom:14px;">
+      <div style="padding:8px 14px;font-size:13px;font-weight:500;color:var(--text-primary);border-bottom:2px solid var(--text-primary);margin-bottom:-1px;">Findings</div>
+      <div style="padding:8px 14px;font-size:13px;color:var(--text-secondary);">Evidence</div>
+      <div style="padding:8px 14px;font-size:13px;color:var(--text-secondary);">Signature</div>
+      <div style="padding:8px 14px;font-size:13px;color:var(--text-secondary);">Settings</div>
+    </div>
+    <div style="border:1px solid var(--border-default);border-radius:var(--radius-md);overflow:hidden;">
+      <div style="padding:10px 14px;border-bottom:1px solid var(--border-subtle);display:flex;align-items:center;justify-content:space-between;background:var(--bg-elevated);">
+        <span style="font-size:13px;font-weight:500;">How Legion signs reports</span>
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M3 8 L6 5 L9 8" stroke="#A1A8B3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div style="padding:10px 14px;font-size:12px;color:var(--text-secondary);line-height:1.5;background:var(--bg-elevated);">Each finding is hashed and signed with an Ed25519 key. The public key and verification instructions are embedded in the PDF.</div>
+      <div style="padding:10px 14px;display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--border-subtle);">
+        <span style="font-size:13px;color:var(--text-secondary);">Verify a report offline</span>
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M3 5 L6 8 L9 5" stroke="#A1A8B3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+    </div>
+  </div></body></html>

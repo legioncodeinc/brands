@@ -1,0 +1,33 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../colors_and_type.css"><style>
+  html,body{margin:0;padding:0;background:var(--bg-canvas);color:var(--text-primary);}
+  .card{padding:22px 26px;}
+  .cap{font-family:var(--font-mono);font-size:11px;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-tertiary);margin-bottom:18px;display:flex;justify-content:space-between;align-items:baseline;}
+  .cap b{color:var(--text-secondary);font-weight:500;}
+  .evidence{background:var(--bg-elevated);border:1px solid var(--border-default);border-radius:var(--radius-md);padding:14px 16px;display:grid;gap:10px;}
+  .coord{font-family:var(--font-mono);font-size:14px;font-weight:500;color:var(--text-primary);}
+  .meta{font-family:var(--font-mono);font-size:12px;color:var(--text-secondary);}
+  .snippet{background:var(--bg-inset);border-radius:var(--radius-sm);padding:10px 12px;font-family:var(--font-mono);font-size:12px;color:var(--text-primary);line-height:1.55;}
+  .gutter{color:var(--text-tertiary);}
+  .str{color:var(--severity-warning);}
+  .verify{font-family:var(--font-mono);font-size:11px;color:var(--brand-primary);font-weight:600;letter-spacing:0.04em;}
+  .ladder{margin-top:16px;border-top:1px solid var(--border-subtle);padding-top:14px;display:grid;gap:8px;}
+  .ladder-row{display:grid;grid-template-columns:96px 1fr auto;gap:18px;align-items:baseline;font-family:var(--font-mono);font-size:13px;color:var(--text-primary);}
+  .ladder-row .tok{font-size:11px;color:var(--text-tertiary);}
+  .ladder-row .spec{font-size:10px;color:var(--text-tertiary);text-align:right;}
+  .footnote{margin-top:14px;font-size:12px;color:var(--text-tertiary);line-height:1.5;}
+</style></head><body><div class="card">
+  <div class="cap"><span>Mono · JetBrains Mono · the texture of trust</span><b>local · 100–800</b></div>
+  <div class="evidence">
+    <div class="coord">src/handlers/webhook.ts:142 · commit 3a7f1bc</div>
+    <div class="meta">scanned 2026-05-17 14:08 UTC · scanner v1.4.0</div>
+    <div class="snippet"><span class="gutter">142 │</span>  console.log(<span class="str">'Processing card:'</span>, cardNumber)</div>
+    <div class="verify">legion-verify=lgn_4f8a92c1ab</div>
+  </div>
+  <div class="ladder">
+    <div class="ladder-row"><span class="tok">400 inline</span><span style="font-weight:400">file:line · hash · path</span><span class="spec">regular</span></div>
+    <div class="ladder-row"><span class="tok">500 header</span><span style="font-weight:500">file:line · hash · path</span><span class="spec">medium</span></div>
+    <div class="ladder-row"><span class="tok">600 hash</span><span style="font-weight:600">file:line · hash · path</span><span class="spec">semibold</span></div>
+    <div class="ladder-row"><span class="tok">400 italic</span><span style="font-style:italic">// commented evidence</span><span class="spec">italic</span></div>
+  </div>
+  <div class="footnote">Every coordinate, file path, commit hash, snippet, DNS record, and verification code uses JetBrains Mono. Inline 400; 500 in finding headers; 600 for highlighted hashes.</div>
+</div></body></html>

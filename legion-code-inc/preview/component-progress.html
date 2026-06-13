@@ -1,0 +1,44 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../colors_and_type.css"><style>
+html,body{margin:0;padding:0;background:var(--bg-canvas);color:var(--text-primary);font-family:var(--font-sans);}
+.card{padding:20px 24px;}
+.cap{font-family:var(--font-mono);font-size:11px;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-tertiary);margin-bottom:14px;}
+</style></head><body><div class="card">
+    <div class="cap">Progress · scan layers · skeleton</div>
+    <div style="display:grid;gap:12px;">
+      <div>
+        <div style="display:flex;justify-content:space-between;font-family:var(--font-mono);font-size:11px;color:var(--text-tertiary);margin-bottom:6px;"><span>SCANNING</span><span>62%</span></div>
+        <div style="height:4px;background:var(--bg-elevated);border-radius:2px;overflow:hidden;"><div style="width:62%;height:100%;background:var(--brand-primary);"></div></div>
+      </div>
+      <div style="border:1px solid var(--border-default);border-radius:var(--radius-md);overflow:hidden;">
+        <div style="display:grid;grid-template-columns:24px 1fr auto;gap:12px;padding:10px 14px;border-bottom:1px solid var(--border-subtle);align-items:center;background:var(--bg-elevated);">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="7" stroke="#3DDC97" stroke-width="1.5" fill="rgba(61,220,151,0.12)"/><path d="M5 8 L7 10 L11 6" stroke="#3DDC97" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <div>
+            <div style="font-size:13px;color:var(--text-primary);">Layer 1 · Secrets and credentials</div>
+            <div style="font-family:var(--font-mono);font-size:11px;color:var(--text-tertiary);margin-top:2px;">1,247 files scanned · 3 findings</div>
+          </div>
+          <span style="font-family:var(--font-mono);font-size:11px;color:var(--brand-primary);">DONE</span>
+        </div>
+        <div style="display:grid;grid-template-columns:24px 1fr auto;gap:12px;padding:10px 14px;border-bottom:1px solid var(--border-subtle);align-items:center;">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6" stroke="#3DDC97" stroke-width="1.5" fill="none" stroke-dasharray="6 4" style="animation:spin 1s linear infinite;transform-origin:8px 8px;"/></svg>
+          <div>
+            <div style="font-size:13px;color:var(--text-primary);">Layer 2 · Dependency CVEs</div>
+            <div style="font-family:var(--font-mono);font-size:11px;color:var(--text-secondary);margin-top:2px;">scanning <span style="color:var(--text-primary);">package-lock.json</span></div>
+          </div>
+          <span style="font-family:var(--font-mono);font-size:11px;color:var(--text-secondary);">42%</span>
+        </div>
+        <div style="display:grid;grid-template-columns:24px 1fr auto;gap:12px;padding:10px 14px;align-items:center;">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6" stroke="#3A3F4A" stroke-width="1.5"/></svg>
+          <div>
+            <div style="font-size:13px;color:var(--text-tertiary);">Layer 3 · PAN / payment-data regex</div>
+            <div style="font-family:var(--font-mono);font-size:11px;color:var(--text-disabled);margin-top:2px;">Luhn-validated</div>
+          </div>
+          <span style="font-family:var(--font-mono);font-size:11px;color:var(--text-disabled);">QUEUED</span>
+        </div>
+      </div>
+      <div style="display:flex;gap:8px;align-items:center;">
+        <div style="flex:1;height:12px;background:linear-gradient(90deg,var(--bg-elevated) 0%,var(--bg-subtle) 50%,var(--bg-elevated) 100%);background-size:200% 100%;border-radius:var(--radius-sm);animation:sk 1.4s linear infinite;"></div>
+        <div style="width:60px;height:12px;background:var(--bg-elevated);border-radius:var(--radius-sm);"></div>
+      </div>
+    </div>
+    <style>@keyframes spin{to{transform:rotate(360deg)}}@keyframes sk{0%{background-position:200% 0}100%{background-position:-200% 0}}</style>
+  </div></body></html>

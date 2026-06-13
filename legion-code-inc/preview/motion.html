@@ -1,0 +1,29 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../colors_and_type.css"><style>
+html,body{margin:0;padding:0;background:var(--bg-canvas);color:var(--text-primary);}
+.card{padding:20px 24px;}
+.cap{font-family:var(--font-mono);font-size:11px;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-tertiary);margin-bottom:14px;}
+.row{display:grid;grid-template-columns:90px 1fr auto;gap:16px;align-items:baseline;padding:10px 0;border-bottom:1px solid var(--border-subtle);}
+.row:last-child{border-bottom:none;}
+.tok{font-family:var(--font-mono);font-size:11px;color:var(--text-tertiary);}
+.spec{font-family:var(--font-mono);font-size:10px;color:var(--text-tertiary);text-align:right;}
+</style></head><body><div class="card">
+    <div class="cap">Motion · disciplined, brief</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+      <div style="background:var(--bg-elevated);border:1px solid var(--border-default);border-radius:var(--radius-md);padding:12px 14px;">
+        <div style="font-family:var(--font-mono);font-size:11px;color:var(--text-tertiary);margin-bottom:8px;">DURATION</div>
+        <div style="display:grid;gap:6px;font-family:var(--font-mono);font-size:12px;">
+          <div style="display:flex;justify-content:space-between;"><span style="color:var(--text-secondary)">dur.fast</span><span style="color:var(--text-primary)">120ms</span></div>
+          <div style="display:flex;justify-content:space-between;"><span style="color:var(--text-secondary)">dur.base</span><span style="color:var(--text-primary)">200ms</span></div>
+          <div style="display:flex;justify-content:space-between;"><span style="color:var(--text-secondary)">dur.slow</span><span style="color:var(--text-primary)">400ms</span></div>
+        </div>
+      </div>
+      <div style="background:var(--bg-elevated);border:1px solid var(--border-default);border-radius:var(--radius-md);padding:12px 14px;">
+        <div style="font-family:var(--font-mono);font-size:11px;color:var(--text-tertiary);margin-bottom:8px;">EASING</div>
+        <div style="display:grid;gap:6px;font-family:var(--font-mono);font-size:11px;line-height:1.5;">
+          <div><span style="color:var(--text-primary)">ease.out</span> <span style="color:var(--text-tertiary)">cubic-bezier(.2,.8,.2,1)</span></div>
+          <div><span style="color:var(--text-primary)">ease.inOut</span> <span style="color:var(--text-tertiary)">cubic-bezier(.65,0,.35,1)</span></div>
+        </div>
+      </div>
+    </div>
+    <div style="margin-top:10px;font-size:12px;color:var(--text-tertiary);line-height:1.5;">Cap-pulse on scan-complete only. No bounce, no spring, no shimmer except the skeleton.</div>
+  </div></body></html>

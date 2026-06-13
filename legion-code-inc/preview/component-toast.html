@@ -1,0 +1,38 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../colors_and_type.css"><style>
+html,body{margin:0;padding:0;background:var(--bg-canvas);color:var(--text-primary);font-family:var(--font-sans);}
+.card{padding:20px 24px;}
+.cap{font-family:var(--font-mono);font-size:11px;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-tertiary);margin-bottom:14px;}
+</style></head><body><div class="card">
+    <div class="cap">Toast · tooltip · popover</div>
+    <div style="display:grid;gap:12px;">
+      <div style="display:flex;align-items:center;gap:12px;background:var(--bg-elevated);border:1px solid var(--border-default);border-left:3px solid var(--brand-primary);border-radius:var(--radius-md);padding:12px 14px;">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="7" stroke="#3DDC97" stroke-width="1.5"/><path d="M5 8 L7 10 L11 6" stroke="#3DDC97" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div style="flex:1;">
+          <div style="font-size:13px;font-weight:500;">Domain verified</div>
+          <div style="font-size:12px;color:var(--text-tertiary);font-family:var(--font-mono);">apex.dev · TXT record matched at 14:08:22 UTC</div>
+        </div>
+        <button style="background:none;border:none;color:var(--text-tertiary);cursor:pointer;font-size:18px;line-height:1;">×</button>
+      </div>
+      <div style="display:flex;align-items:center;gap:12px;background:var(--bg-elevated);border:1px solid var(--border-default);border-left:3px solid var(--severity-critical);border-radius:var(--radius-md);padding:12px 14px;">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 2 L15 14 L1 14 Z" stroke="#FF4D5E" stroke-width="1.5" fill="none"/><path d="M8 6 V9" stroke="#FF4D5E" stroke-width="1.5" stroke-linecap="round"/><circle cx="8" cy="11.5" r="0.8" fill="#FF4D5E"/></svg>
+        <div style="flex:1;">
+          <div style="font-size:13px;font-weight:500;">Scan failed</div>
+          <div style="font-size:12px;color:var(--text-tertiary);">The repository is empty. Connect a repository with at least one commit.</div>
+        </div>
+      </div>
+      <div style="display:flex;gap:14px;align-items:flex-start;">
+        <div style="position:relative;flex:1;">
+          <div style="background:var(--bg-subtle);border:1px solid var(--border-strong);border-radius:var(--radius-md);padding:8px 10px;font-size:12px;color:var(--text-primary);box-shadow:0 4px 12px -2px rgba(0,0,0,0.5);display:inline-block;">
+            Cryptographically signed with Ed25519
+            <div style="position:absolute;bottom:-5px;left:24px;width:10px;height:10px;background:var(--bg-subtle);border-right:1px solid var(--border-strong);border-bottom:1px solid var(--border-strong);transform:rotate(45deg);"></div>
+          </div>
+        </div>
+        <div style="background:var(--bg-elevated);border:1px solid var(--border-default);border-radius:var(--radius-md);padding:12px;width:200px;box-shadow:0 12px 32px -6px rgba(0,0,0,0.6);">
+          <div style="font-family:var(--font-mono);font-size:10px;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-tertiary);margin-bottom:6px;">Quick actions</div>
+          <div style="font-size:13px;padding:4px 0;color:var(--text-primary);">Copy file path</div>
+          <div style="font-size:13px;padding:4px 0;color:var(--text-primary);">Open in GitHub</div>
+          <div style="font-size:13px;padding:4px 0;color:var(--text-secondary);">Ignore this finding</div>
+        </div>
+      </div>
+    </div>
+  </div></body></html>

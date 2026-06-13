@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Legion — Brand Guide</title>
+  <link rel="icon" href="logos/legion-favicon.svg">
+  <link rel="stylesheet" href="colors_and_type.css">
+  <style>
+    /* ============================================================
+       Brand guide — single-document index of the Legion design
+       system. Tokens, components, brand assets, and a directory
+       of every product surface. All references back to canonical
+       sources so engineering and partners have one place to land.
+       ============================================================ */
+
+    html, body { margin: 0; padding: 0; }
+    body { background: var(--bg-canvas); color: var(--text-primary); }
+
+    /* ---- Layout shell ---------------------------------------- */
+    .guide {
+      display: grid;
+      grid-template-columns: 240px 1fr;
+      max-width: 1440px;
+      margin: 0 auto;
+      min-height: 100vh;
+    }
+
+    /* ---- Side nav ------------------------------------------- */
+    .nav {
+      position: sticky;
+      top: 0;
+      align-self: start;
+      height: 100vh;
+      padding: 28px 20px 24px;
+      border-right: 1px solid var(--border-default);
+      background: var(--bg-canvas);
+      display: flex;
+      flex-direction: column;
+      overflow-y: auto;
+    }
+    .nav-brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding-bottom: 22px;
+      margin-bottom: 18px;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .nav-brand .word {
+      font-family: var(--font-sans);
+      font-weight: 700;
+      font-size: 18px;
+      letter-spacing: -0.03em;
+      color: var(--text-primary);
+    }
+    .nav-section {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-tertiary);
+      padding: 18px 8px 8px;
+    }
+    .nav a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 7px 10px;
+      border-radius: var(--radius-md);
+      font-size: 13px;
+      color: var(--text-secondary);
+      text-decoration: none;
+      transition: background var(--dur-fast) var(--ease-out), color var(--dur-fast) var(--ease-out);
+    }
+    .nav a:hover { background: var(--bg-elevated); color: var(--text-primary); }
+    .nav a .num {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--text-tertiary);
+      letter-spacing: 0.04em;
+    }
+    .nav-meta {
+      margin-top: auto;
+      padding-top: 16px;
+      border-top: 1px solid var(--border-subtle);
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--text-tertiary);
+      line-height: 1.6;
+    }
+    .nav-meta .v { color: var(--brand-primary); }
+
+    /* ---- Main column ---------------------------------------- */
+    .main {
+      padding: 48px 56px 96px;
+      min-width: 0;
+    }
+    @media (max-width: 1000px) {
+      .guide { grid-template-columns: 1fr; }
+      .nav { position: static; height: auto; border-right: none; border-bottom: 1px solid var(--border-default); }
+      .main { padding: 32px 24px 64px; }
+    }
+
+    /* ---- Section heading vocabulary ------------------------- */
+    .eyebrow {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-tertiary);
+    }
+    .sec {
+      padding: 56px 0 28px;
+      border-top: 1px solid var(--border-subtle);
+      scroll-margin-top: 16px;
+    }
+    .sec:first-of-type { border-top: none; padding-top: 0; }
+    .sec h2 {
+      font-size: 32px;
+      line-height: 1.15;
+      font-weight: 700;
+      letter-spacing: -0.025em;
+      margin: 8px 0 8px;
+    }
+    .sec .lede {
+      font-size: 15px;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      max-width: 64ch;
+      margin: 0 0 28px;
+    }
+    .sub-eyebrow {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-tertiary);
+      margin: 24px 0 12px;
+    }
+
+    /* ---- Hero ----------------------------------------------- */
+    .hero {
+      padding: 32px 0 40px;
+      display: grid;
+      grid-template-columns: 1.4fr 1fr;
+      gap: 48px;
+      align-items: center;
+    }
+    @media (max-width: 880px) { .hero { grid-template-columns: 1fr; } }
+    .hero h1 {
+      font-size: 56px;
+      line-height: 1.05;
+      font-weight: 700;
+      letter-spacing: -0.035em;
+      margin: 16px 0 18px;
+      text-wrap: pretty;
+    }
+    .hero p {
+      font-size: 17px;
+      color: var(--text-secondary);
+      line-height: 1.55;
+      max-width: 56ch;
+      margin: 0;
+    }
+    .hero-stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 32px;
+      margin-top: 28px;
+    }
+    .hero-stats .cell .v {
+      font-family: var(--font-mono);
+      font-size: 28px;
+      font-weight: 600;
+      color: var(--text-primary);
+      letter-spacing: -0.01em;
+    }
+    .hero-stats .cell .k {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-tertiary);
+      margin-top: 4px;
+    }
+    .hero-mark {
+      background: linear-gradient(180deg, var(--bg-surface) 0%, var(--bg-canvas) 100%);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-xl);
+      padding: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 280px;
+    }
+    .hero-mark img { width: 100%; max-width: 260px; height: auto; display: block; }
+
+    /* ---- Color palettes ------------------------------------- */
+    .swatch-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 12px;
+    }
+    .swatch {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+    }
+    .swatch .chip {
+      height: 76px;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .swatch .meta {
+      padding: 10px 12px 12px;
+    }
+    .swatch .meta .tok {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--text-primary);
+      letter-spacing: -0.01em;
+      line-height: 1.4;
+    }
+    .swatch .meta .hex {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--text-tertiary);
+      margin-top: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+    .swatch .meta .role {
+      font-size: 11.5px;
+      color: var(--text-secondary);
+      margin-top: 8px;
+      line-height: 1.45;
+    }
+
+    /* Text-on-dark mini specimens */
+    .text-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+    }
+    @media (max-width: 720px) { .text-grid { grid-template-columns: 1fr; } }
+    .text-spec {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-md);
+      padding: 16px 18px;
+    }
+    .text-spec .tok {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--text-tertiary);
+      margin-bottom: 8px;
+    }
+    .text-spec .sample {
+      font-size: 18px;
+      letter-spacing: -0.01em;
+    }
+
+    /* ---- Type ------------------------------------------------ */
+    .type-stack {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-lg);
+      padding: 8px 24px;
+    }
+    .type-row {
+      display: grid;
+      grid-template-columns: 88px 1fr auto;
+      gap: 18px;
+      align-items: baseline;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .type-row:last-child { border-bottom: none; }
+    .type-row .tok {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--text-tertiary);
+    }
+    .type-row .spec {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--text-tertiary);
+      text-align: right;
+      white-space: nowrap;
+    }
+    .type-row .display { font-size: 56px; line-height: 60px; font-weight: 700; letter-spacing: -0.035em; }
+    .type-row .h1      { font-size: 44px; line-height: 52px; font-weight: 700; letter-spacing: -0.025em; }
+    .type-row .h2      { font-size: 32px; line-height: 40px; font-weight: 700; letter-spacing: -0.02em; }
+    .type-row .h3      { font-size: 24px; line-height: 32px; font-weight: 600; letter-spacing: -0.01em; }
+    .type-row .body    { font-size: 16px; line-height: 24px; color: var(--text-secondary); }
+    .type-row .small   { font-size: 13px; line-height: 20px; color: var(--text-secondary); }
+    .type-row .cap     { font-size: 12px; line-height: 16px; color: var(--text-tertiary); }
+
+    .mono-evidence {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-lg);
+      padding: 18px 22px;
+      display: grid;
+      gap: 12px;
+    }
+    .mono-evidence .coord {
+      font-family: var(--font-mono);
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text-primary);
+    }
+    .mono-evidence .meta {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--text-tertiary);
+    }
+    .mono-evidence .snippet {
+      background: var(--bg-inset);
+      border-radius: var(--radius-sm);
+      padding: 12px 14px;
+      font-family: var(--font-mono);
+      font-size: 13px;
+      color: var(--text-primary);
+      line-height: 1.55;
+    }
+    .mono-evidence .snippet .ln { color: var(--text-tertiary); margin-right: 8px; }
+    .mono-evidence .snippet .str { color: var(--severity-warning); }
+    .mono-evidence .verify {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--brand-primary);
+      letter-spacing: 0.04em;
+    }
+
+    /* ---- Token tables (spacing, radii, motion) -------------- */
+    .token-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+    }
+    @media (max-width: 720px) { .token-grid { grid-template-columns: 1fr; } }
+    .token-card {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-md);
+      padding: 18px 20px;
+    }
+    .token-card .head {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: 16px;
+    }
+    .token-card .head .tok {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--text-primary);
+    }
+    .token-card .head .val {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--text-tertiary);
+    }
+    .token-card .bar {
+      height: 8px;
+      background: var(--brand-primary);
+      border-radius: 4px;
+    }
+    .radii-row {
+      display: flex;
+      align-items: flex-end;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .radii-cell {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+    .radii-cell .box {
+      width: 72px;
+      height: 72px;
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-default);
+    }
+    .radii-cell .tok {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--text-tertiary);
+    }
+    .radii-cell .px {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--text-disabled);
+    }
+
+    /* ---- Severity strip ------------------------------------- */
+    .sev-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+    }
+    @media (max-width: 880px) { .sev-grid { grid-template-columns: repeat(2, 1fr); } }
+    .sev-card {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-md);
+      padding: 16px 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .sev-card .badge {
+      align-self: flex-start;
+      font-family: var(--font-mono);
+      font-size: 10px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 3px 8px;
+      border-radius: var(--radius-sm);
+    }
+    .sev-card .badge.critical { background: var(--severity-critical-bg); color: var(--severity-critical); }
+    .sev-card .badge.warning  { background: var(--severity-warning-bg);  color: var(--severity-warning); }
+    .sev-card .badge.info     { background: var(--severity-info-bg);     color: var(--severity-info); }
+    .sev-card .badge.success  { background: var(--severity-success-bg);  color: var(--severity-success); }
+    .sev-card .role {
+      font-size: 12.5px;
+      color: var(--text-secondary);
+      line-height: 1.5;
+    }
+    .sev-card .hex {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--text-tertiary);
+      margin-top: auto;
+    }
+
+    /* ---- Component frames ----------------------------------- */
+    .component-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+    }
+    @media (max-width: 880px) { .component-grid { grid-template-columns: 1fr; } }
+    .frame {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .frame .frame-head {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border-subtle);
+      background: var(--bg-surface);
+    }
+    .frame .frame-head .name {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-primary);
+      letter-spacing: -0.005em;
+    }
+    .frame .frame-head .src {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--text-tertiary);
+    }
+    .frame iframe {
+      width: 100%;
+      border: none;
+      background: var(--bg-canvas);
+      display: block;
+    }
+
+    /* ---- Logo grid ------------------------------------------ */
+    .logo-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+    }
+    @media (max-width: 720px) { .logo-grid { grid-template-columns: 1fr; } }
+    .logo-card {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+    }
+    .logo-card .stage {
+      height: 160px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    .logo-card.dark  .stage { background: var(--bg-canvas); }
+    .logo-card.light .stage { background: #FFFFFF; }
+    .logo-card .stage img { max-width: 70%; max-height: 100%; }
+    .logo-card .meta {
+      padding: 12px 16px;
+      border-top: 1px solid var(--border-subtle);
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 12px;
+    }
+    .logo-card .meta .name {
+      font-size: 13px;
+      color: var(--text-primary);
+      font-weight: 500;
+    }
+    .logo-card .meta .path {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--text-tertiary);
+    }
+
+    .icon-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      gap: 12px;
+    }
+    .icon-cell {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-md);
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+    .icon-cell .stage {
+      width: 56px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .icon-cell.light-stage .stage { background: #FFFFFF; border-radius: var(--radius-sm); }
+    .icon-cell .stage img { width: 40px; height: 40px; }
+    .icon-cell .tok {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--text-tertiary);
+      text-align: center;
+    }
+
+    /* ---- Voice & content rules ------------------------------ */
+    .rule-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+    }
+    @media (max-width: 720px) { .rule-grid { grid-template-columns: 1fr; } }
+    .rule {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-md);
+      padding: 16px 18px;
+    }
+    .rule .tag {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 8px;
+    }
+    .rule.do  .tag { color: var(--brand-primary); }
+    .rule.dont .tag { color: var(--severity-critical); }
+    .rule p {
+      font-size: 13.5px;
+      color: var(--text-primary);
+      line-height: 1.55;
+      margin: 0;
+    }
+    .rule.dont p { color: var(--text-secondary); }
+
+    /* ---- Product surfaces ----------------------------------- */
+    .surface-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+    }
+    @media (max-width: 880px) { .surface-grid { grid-template-columns: 1fr; } }
+    .surface {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-lg);
+      padding: 22px 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      text-decoration: none;
+      color: inherit;
+      transition: background var(--dur-fast) var(--ease-out), border-color var(--dur-fast) var(--ease-out), transform var(--dur-fast) var(--ease-out);
+    }
+    .surface:hover {
+      background: var(--bg-subtle);
+      border-color: var(--border-strong);
+    }
+    .surface .num {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--text-tertiary);
+      letter-spacing: 0.06em;
+    }
+    .surface .name {
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      color: var(--text-primary);
+    }
+    .surface .desc {
+      font-size: 13.5px;
+      color: var(--text-secondary);
+      line-height: 1.55;
+      flex: 1;
+    }
+    .surface .open {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--brand-primary);
+      font-weight: 600;
+    }
+    .surface .open::after { content: "→"; }
+    .surface .href {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--text-tertiary);
+      margin-top: 4px;
+    }
+
+    /* ---- File references ------------------------------------ */
+    .files {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-md);
+      padding: 14px 18px;
+      display: grid;
+      gap: 6px;
+    }
+    .files .f {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--text-secondary);
+    }
+    .files .f .strong { color: var(--text-primary); }
+
+    /* ---- Reduce motion -------------------------------------- */
+    html { scroll-behavior: smooth; }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+    }
+  </style>
+</head>
+<body>
+  <div class="guide" data-screen-label="Legion brand guide">
+
+    <!-- =====================================================
+         Side nav — table of contents
+         ===================================================== -->
+    <aside class="nav" aria-label="Brand guide navigation">
+      <div class="nav-brand">
+        <img src="logos/legion-symbol.svg" alt="" width="28" height="28" style="color: var(--text-primary);">
+        <span class="word">LEGION</span>
+      </div>
+
+      <div class="nav-section">Foundations</div>
+      <a href="#overview"><span>Overview</span><span class="num">00</span></a>
+      <a href="#colors"><span>Color</span><span class="num">01</span></a>
+      <a href="#typography"><span>Typography</span><span class="num">02</span></a>
+      <a href="#spacing"><span>Spacing &amp; radii</span><span class="num">03</span></a>
+      <a href="#motion"><span>Motion</span><span class="num">04</span></a>
+
+      <div class="nav-section">Brand</div>
+      <a href="#logo"><span>Logo &amp; symbol</span><span class="num">05</span></a>
+      <a href="#iconography"><span>Iconography</span><span class="num">06</span></a>
+      <a href="#voice"><span>Voice &amp; rules</span><span class="num">07</span></a>
+
+      <div class="nav-section">System</div>
+      <a href="#components"><span>Components</span><span class="num">08</span></a>
+      <a href="#surfaces"><span>Product pages</span><span class="num">09</span></a>
+
+      <div class="nav-meta">
+        v1.0 · <span class="v">live</span><br>
+        May 2026<br>
+        <span style="opacity:0.7">colors_and_type.css</span>
+      </div>
+    </aside>
+
+    <!-- =====================================================
+         Main column
+         ===================================================== -->
+    <main class="main">
+
+      <!-- 00 / Hero ............................................. -->
+      <section class="sec" id="overview">
+        <div class="hero">
+          <div>
+            <div class="eyebrow">Legion · Design System v1.0</div>
+            <h1>Security for vibe coders, built from one consistent system.</h1>
+            <p>The single source of truth for every Legion surface — the dark‑native product UI, the signed light‑theme PDF report, marketing, and email. Tokens, type, color, motion, components, and brand assets, all in one document.</p>
+            <div class="hero-stats">
+              <div class="cell"><div class="v">2</div><div class="k">Type families</div></div>
+              <div class="cell"><div class="v">18</div><div class="k">Color tokens</div></div>
+              <div class="cell"><div class="v">12</div><div class="k">Spacing steps</div></div>
+              <div class="cell"><div class="v">7</div><div class="k">Product pages</div></div>
+            </div>
+          </div>
+          <div class="hero-mark">
+            <img src="logos/legion-logo-dark.svg" alt="Legion logo">
+          </div>
+        </div>
+      </section>
+
+      <!-- 01 / Colors ........................................... -->
+      <section class="sec" id="colors">
+        <div class="eyebrow">01 / Color</div>
+        <h2>Color</h2>
+        <p class="lede">Dark‑native by default. Five surfaces, four text levels, three border weights, four severity colors, and one brand color — <code class="mono" style="color:var(--brand-primary)">#3DDC97</code> — reserved for verified, signed, and trusted states. Never decorative. Severity is semantic: red is <em>what a finding is</em>, not how the user should feel.</p>
+
+        <div class="sub-eyebrow">Surfaces</div>
+        <div class="swatch-grid">
+          <div class="swatch"><div class="chip" style="background:#0A0B0D"></div><div class="meta"><div class="tok">bg.canvas</div><div class="hex">#0A0B0D</div><div class="role">Page background. The base layer.</div></div></div>
+          <div class="swatch"><div class="chip" style="background:#13151A"></div><div class="meta"><div class="tok">bg.surface</div><div class="hex">#13151A</div><div class="role">Sidebars and section panels.</div></div></div>
+          <div class="swatch"><div class="chip" style="background:#1C1F26"></div><div class="meta"><div class="tok">bg.elevated</div><div class="hex">#1C1F26</div><div class="role">Cards, inputs, popovers.</div></div></div>
+          <div class="swatch"><div class="chip" style="background:#242831"></div><div class="meta"><div class="tok">bg.subtle</div><div class="hex">#242831</div><div class="role">Hover / active surfaces.</div></div></div>
+          <div class="swatch"><div class="chip" style="background:#06070A"></div><div class="meta"><div class="tok">bg.inset</div><div class="hex">#06070A</div><div class="role">Code regions inside cards.</div></div></div>
+        </div>
+
+        <div class="sub-eyebrow">Text on dark</div>
+        <div class="text-grid">
+          <div class="text-spec"><div class="tok">text.primary · #F5F6F7</div><div class="sample" style="color:#F5F6F7">Primary — headings, finding titles, evidence.</div></div>
+          <div class="text-spec"><div class="tok">text.secondary · #A1A8B3</div><div class="sample" style="color:#A1A8B3">Secondary — paragraphs and body copy.</div></div>
+          <div class="text-spec"><div class="tok">text.tertiary · #858B97</div><div class="sample" style="color:#858B97">Tertiary — labels, metadata, captions.</div></div>
+          <div class="text-spec"><div class="tok">text.disabled · #4A5160</div><div class="sample" style="color:#4A5160">Disabled — inactive controls.</div></div>
+        </div>
+
+        <div class="sub-eyebrow">Brand · the verified‑green</div>
+        <div class="swatch-grid">
+          <div class="swatch"><div class="chip" style="background:#3DDC97"></div><div class="meta"><div class="tok">brand.primary</div><div class="hex">#3DDC97</div><div class="role">Signed, verified, trusted. The L‑mark cap. <strong style="color:var(--text-primary)">Scarcity rule:</strong> max one per visible region.</div></div></div>
+          <div class="swatch"><div class="chip" style="background:#2EC585"></div><div class="meta"><div class="tok">brand.primary.hover</div><div class="hex">#2EC585</div><div class="role">Hover state for primary CTA.</div></div></div>
+          <div class="swatch"><div class="chip" style="background:#22A26D"></div><div class="meta"><div class="tok">brand.primary.pressed</div><div class="hex">#22A26D</div><div class="role">Active / pressed state.</div></div></div>
+          <div class="swatch"><div class="chip" style="background:rgba(61, 220, 151, 0.12)"></div><div class="meta"><div class="tok">brand.primary.subtle</div><div class="hex">12% tint</div><div class="role">Signed‑pill background, focus ring halo.</div></div></div>
+        </div>
+
+        <div class="sub-eyebrow">Severity — semantic, never decorative</div>
+        <div class="sev-grid">
+          <div class="sev-card"><span class="badge critical">Critical</span><div class="role">A finding that should block a release. PAN in logs, exposed secret, RCE.</div><div class="hex">#FF4D5E</div></div>
+          <div class="sev-card"><span class="badge warning">Warning</span><div class="role">A finding to fix soon. SQL‑injection‑prone pattern, outdated dependency with CVE.</div><div class="hex">#FFB02E</div></div>
+          <div class="sev-card"><span class="badge info">Info</span><div class="role">Worth knowing. Out‑of‑date package without known CVE, weak header policy.</div><div class="hex">#5B8AFF</div></div>
+          <div class="sev-card"><span class="badge success">Success</span><div class="role">Verified pass. Equals <code class="mono">brand.primary</code>. DNS record verified, signed.</div><div class="hex">#3DDC97</div></div>
+        </div>
+      </section>
+
+      <!-- 02 / Typography ....................................... -->
+      <section class="sec" id="typography">
+        <div class="eyebrow">02 / Typography</div>
+        <h2>Typography</h2>
+        <p class="lede">Two families. <strong style="color:var(--text-primary)">Inter</strong> for everything UI and prose. <strong style="color:var(--text-primary)">JetBrains Mono</strong> for every coordinate, file path, hash, snippet, DNS record, code, and timestamp — the <em>texture of trust</em>. Modular 1.25 scale on a 16 px base. Headings 700 with tightened tracking.</p>
+
+        <div class="sub-eyebrow">Scale · Inter</div>
+        <div class="type-stack">
+          <div class="type-row"><div class="tok">text.5xl</div><div class="display">Find every card.</div><div class="spec">56 / 60 · 700</div></div>
+          <div class="type-row"><div class="tok">text.4xl</div><div class="h1">3 critical findings.</div><div class="spec">44 / 52 · 700</div></div>
+          <div class="type-row"><div class="tok">text.3xl</div><div class="h2">Quick Scan complete.</div><div class="spec">32 / 40 · 700</div></div>
+          <div class="type-row"><div class="tok">text.2xl</div><div class="h3">PAN logged in plain text</div><div class="spec">24 / 32 · 600</div></div>
+          <div class="type-row"><div class="tok">text.base</div><div class="body">Body copy at 16 / 24, Inter 400. The default reading size.</div><div class="spec">16 / 24 · 400</div></div>
+          <div class="type-row"><div class="tok">text.sm</div><div class="small">Secondary body and table cells.</div><div class="spec">13 / 20 · 400</div></div>
+          <div class="type-row"><div class="tok">text.xs</div><div class="cap">Captions · badges · timestamps.</div><div class="spec">12 / 16 · 400</div></div>
+        </div>
+
+        <div class="sub-eyebrow">Mono · the texture of trust</div>
+        <div class="mono-evidence">
+          <div class="coord">src/handlers/webhook.ts:142 · commit 3a7f1bc</div>
+          <div class="meta">scanned 2026-05-17 14:08 UTC · scanner v1.4.0</div>
+          <div class="snippet"><span class="ln">142 │</span>  console.log(<span class="str">'Processing card:'</span>, cardNumber)</div>
+          <div class="verify">legion-verify=lgn_4f8a92c1ab</div>
+        </div>
+        <p class="lede" style="margin-top:14px">Inline weight 400. <strong style="color:var(--text-primary)">500</strong> in finding headers. <strong style="color:var(--text-primary)">600</strong> for highlighted hashes. Never use mono for prose.</p>
+      </section>
+
+      <!-- 03 / Spacing & radii .................................. -->
+      <section class="sec" id="spacing">
+        <div class="eyebrow">03 / Spacing &amp; radii</div>
+        <h2>Spacing &amp; radii</h2>
+        <p class="lede">4 px base unit. Every value is a multiple of 4. Generous whitespace is part of the brand — density comes from mono evidence inside a card, not from packed layout.</p>
+
+        <div class="sub-eyebrow">Spacing scale</div>
+        <div class="token-grid">
+          <div class="token-card"><div class="head"><span class="tok">space.1</span><span class="val">4 px</span></div><div class="bar" style="width:4px"></div></div>
+          <div class="token-card"><div class="head"><span class="tok">space.2</span><span class="val">8 px</span></div><div class="bar" style="width:8px"></div></div>
+          <div class="token-card"><div class="head"><span class="tok">space.3</span><span class="val">12 px</span></div><div class="bar" style="width:12px"></div></div>
+          <div class="token-card"><div class="head"><span class="tok">space.4</span><span class="val">16 px</span></div><div class="bar" style="width:16px"></div></div>
+          <div class="token-card"><div class="head"><span class="tok">space.6</span><span class="val">24 px</span></div><div class="bar" style="width:24px"></div></div>
+          <div class="token-card"><div class="head"><span class="tok">space.8</span><span class="val">32 px</span></div><div class="bar" style="width:32px"></div></div>
+          <div class="token-card"><div class="head"><span class="tok">space.12</span><span class="val">48 px</span></div><div class="bar" style="width:48px"></div></div>
+          <div class="token-card"><div class="head"><span class="tok">space.16</span><span class="val">64 px</span></div><div class="bar" style="width:64px"></div></div>
+        </div>
+
+        <div class="sub-eyebrow">Radii</div>
+        <div class="radii-row">
+          <div class="radii-cell"><div class="box" style="border-radius:4px"></div><span class="tok">radius.sm</span><span class="px">4 px</span></div>
+          <div class="radii-cell"><div class="box" style="border-radius:8px"></div><span class="tok">radius.md</span><span class="px">8 px</span></div>
+          <div class="radii-cell"><div class="box" style="border-radius:12px"></div><span class="tok">radius.lg</span><span class="px">12 px</span></div>
+          <div class="radii-cell"><div class="box" style="border-radius:16px"></div><span class="tok">radius.xl</span><span class="px">16 px</span></div>
+          <div class="radii-cell"><div class="box" style="border-radius:9999px"></div><span class="tok">radius.full</span><span class="px">9999</span></div>
+        </div>
+      </section>
+
+      <!-- 04 / Motion ........................................... -->
+      <section class="sec" id="motion">
+        <div class="eyebrow">04 / Motion</div>
+        <h2>Motion</h2>
+        <p class="lede">Disciplined and brief. Everything settles into stillness within ~1.2 s. Default easing <code class="mono">cubic-bezier(0.2, 0.8, 0.2, 1)</code>. The L‑mark cap may pulse on scan‑complete and during scanning. Nowhere else. No bounce, no spring, no infinite shimmer except the skeleton. <code class="mono">prefers-reduced-motion</code> disables the cap pulse entirely.</p>
+        <div class="token-grid">
+          <div class="token-card"><div class="head"><span class="tok">dur.fast</span><span class="val">120 ms</span></div><div class="role" style="font-size:12.5px;color:var(--text-secondary);line-height:1.5;">Hover, press, focus transitions.</div></div>
+          <div class="token-card"><div class="head"><span class="tok">dur.base</span><span class="val">200 ms</span></div><div class="role" style="font-size:12.5px;color:var(--text-secondary);line-height:1.5;">Focus ring bloom, search‑bar rise.</div></div>
+          <div class="token-card"><div class="head"><span class="tok">dur.slow</span><span class="val">400 ms</span></div><div class="role" style="font-size:12.5px;color:var(--text-secondary);line-height:1.5;">Page‑level transitions, scan‑layer reveals.</div></div>
+          <div class="token-card"><div class="head"><span class="tok">ease.out</span><span class="val">0.2, 0.8, 0.2, 1</span></div><div class="role" style="font-size:12.5px;color:var(--text-secondary);line-height:1.5;">Default. Settle without overshoot.</div></div>
+        </div>
+      </section>
+
+      <!-- 05 / Logo ............................................. -->
+      <section class="sec" id="logo">
+        <div class="eyebrow">05 / Logo &amp; symbol</div>
+        <h2>Logo &amp; symbol</h2>
+        <p class="lede">The Legion symbol is an L‑form with a verified‑signal cap. It reads three ways: the letter L, the corner of the <code class="mono">file:line</code> coordinate bracket every finding uses, and the cryptographic signature seal. The accent cap is fixed brand equity — never recolored, never re‑shaped.</p>
+        <div class="logo-grid">
+          <div class="logo-card dark"><div class="stage"><img src="logos/legion-logo-dark.svg" alt="Legion logo on dark"></div><div class="meta"><span class="name">Primary lockup — dark</span><span class="path">legion-logo-dark.svg</span></div></div>
+          <div class="logo-card light"><div class="stage"><img src="logos/legion-logo-light.svg" alt="Legion logo on light"></div><div class="meta"><span class="name">Primary lockup — light</span><span class="path">legion-logo-light.svg</span></div></div>
+          <div class="logo-card dark"><div class="stage"><img src="logos/legion-symbol-dark.svg" alt="Legion symbol on dark"></div><div class="meta"><span class="name">Symbol — dark</span><span class="path">legion-symbol-dark.svg</span></div></div>
+          <div class="logo-card light"><div class="stage"><img src="logos/legion-symbol-light.svg" alt="Legion symbol on light"></div><div class="meta"><span class="name">Symbol — light</span><span class="path">legion-symbol-light.svg</span></div></div>
+        </div>
+      </section>
+
+      <!-- 06 / Iconography ...................................... -->
+      <section class="sec" id="iconography">
+        <div class="eyebrow">06 / Iconography</div>
+        <h2>Iconography</h2>
+        <p class="lede">24×24 grid. 1.5 px stroke. Stroked, never filled. Geometric construction — circles, right angles, 45° diagonals. The pairing icon set is <strong style="color:var(--text-primary)">Lucide</strong>. Never substitute Heroicons, Material, Phosphor, or any rounded/filled set.</p>
+        <div class="icon-strip">
+          <div class="icon-cell"><div class="stage"><img src="logos/legion-icon-green-dark.svg" alt=""></div><div class="tok">icon · rounded · dark</div></div>
+          <div class="icon-cell light-stage"><div class="stage"><img src="logos/legion-icon-green-light.svg" alt=""></div><div class="tok">icon · rounded · light</div></div>
+          <div class="icon-cell"><div class="stage"><img src="logos/legion-icon-green-dark-sharp.svg" alt=""></div><div class="tok">icon · sharp · dark</div></div>
+          <div class="icon-cell light-stage"><div class="stage"><img src="logos/legion-icon-green-light-sharp.svg" alt=""></div><div class="tok">icon · sharp · light</div></div>
+          <div class="icon-cell"><div class="stage"><img src="logos/legion-icon-mono-white.svg" alt=""></div><div class="tok">icon · mono · white</div></div>
+          <div class="icon-cell"><div class="stage"><img src="logos/legion-icon-mono-green.svg" alt=""></div><div class="tok">icon · mono · green</div></div>
+          <div class="icon-cell light-stage"><div class="stage"><img src="logos/legion-icon-mono-black.svg" alt=""></div><div class="tok">icon · mono · black</div></div>
+          <div class="icon-cell"><div class="stage"><img src="logos/legion-favicon.svg" alt=""></div><div class="tok">favicon</div></div>
+        </div>
+      </section>
+
+      <!-- 07 / Voice ............................................ -->
+      <section class="sec" id="voice">
+        <div class="eyebrow">07 / Voice &amp; rules</div>
+        <h2>Voice &amp; rules</h2>
+        <p class="lede">The direct expert next door. Clear, grounded, never alarmist, never condescending. "You" addresses the customer. "We" is Legion the team. Never "I." Legion never alarms — the red is confident, not panicked.</p>
+        <div class="rule-grid">
+          <div class="rule do">
+            <div class="tag">Do</div>
+            <p>"Your webhook handler logs the raw card number to console output. Any service reading those logs sees the PAN in plain text."</p>
+          </div>
+          <div class="rule dont">
+            <div class="tag">Don't</div>
+            <p>"Great news, we found 12 critical issues!"</p>
+          </div>
+          <div class="rule do">
+            <div class="tag">Do</div>
+            <p>"No scans yet. Connect a GitHub repository to start."</p>
+          </div>
+          <div class="rule dont">
+            <div class="tag">Don't</div>
+            <p>"Get your free report now!"</p>
+          </div>
+          <div class="rule do">
+            <div class="tag">Do</div>
+            <p>"Layer 1 scanners running (1 of 3 complete)"</p>
+          </div>
+          <div class="rule dont">
+            <div class="tag">Don't</div>
+            <p>"Defeat your enemies — secure the perimeter."</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 08 / Components ....................................... -->
+      <section class="sec" id="components">
+        <div class="eyebrow">08 / Components</div>
+        <h2>Components</h2>
+        <p class="lede">The product is built from a small set of repeatable elements. Each card below renders the live preview straight from the design system. Use these as the visual contract for any new surface.</p>
+        <div class="component-grid">
+          <div class="frame"><div class="frame-head"><span class="name">Buttons</span><span class="src">preview/component-buttons.html</span></div><iframe src="preview/component-buttons.html" height="280" loading="lazy" title="Buttons"></iframe></div>
+          <div class="frame"><div class="frame-head"><span class="name">Inputs</span><span class="src">preview/component-inputs.html</span></div><iframe src="preview/component-inputs.html" height="280" loading="lazy" title="Inputs"></iframe></div>
+          <div class="frame"><div class="frame-head"><span class="name">Forms</span><span class="src">preview/component-forms.html</span></div><iframe src="preview/component-forms.html" height="320" loading="lazy" title="Forms"></iframe></div>
+          <div class="frame"><div class="frame-head"><span class="name">Badges</span><span class="src">preview/component-badges.html</span></div><iframe src="preview/component-badges.html" height="220" loading="lazy" title="Badges"></iframe></div>
+          <div class="frame"><div class="frame-head"><span class="name">Finding card</span><span class="src">preview/component-finding-card.html</span></div><iframe src="preview/component-finding-card.html" height="360" loading="lazy" title="Finding card"></iframe></div>
+          <div class="frame"><div class="frame-head"><span class="name">Toast &amp; tooltip</span><span class="src">preview/component-toast.html</span></div><iframe src="preview/component-toast.html" height="280" loading="lazy" title="Toast"></iframe></div>
+          <div class="frame"><div class="frame-head"><span class="name">Modal &amp; dialog</span><span class="src">preview/component-modal.html</span></div><iframe src="preview/component-modal.html" height="320" loading="lazy" title="Modal"></iframe></div>
+          <div class="frame"><div class="frame-head"><span class="name">Tabs &amp; accordion</span><span class="src">preview/component-tabs.html</span></div><iframe src="preview/component-tabs.html" height="280" loading="lazy" title="Tabs"></iframe></div>
+          <div class="frame"><div class="frame-head"><span class="name">Findings table</span><span class="src">preview/component-table.html</span></div><iframe src="preview/component-table.html" height="320" loading="lazy" title="Table"></iframe></div>
+          <div class="frame"><div class="frame-head"><span class="name">Progress &amp; skeleton</span><span class="src">preview/component-progress.html</span></div><iframe src="preview/component-progress.html" height="280" loading="lazy" title="Progress"></iframe></div>
+          <div class="frame"><div class="frame-head"><span class="name">Command palette</span><span class="src">preview/component-command.html</span></div><iframe src="preview/component-command.html" height="320" loading="lazy" title="Command"></iframe></div>
+          <div class="frame"><div class="frame-head"><span class="name">Nav</span><span class="src">preview/component-nav.html</span></div><iframe src="preview/component-nav.html" height="280" loading="lazy" title="Nav"></iframe></div>
+        </div>
+      </section>
+
+      <!-- 09 / Product surfaces ................................. -->
+      <section class="sec" id="surfaces">
+        <div class="eyebrow">09 / Product pages</div>
+        <h2>Product surfaces</h2>
+        <p class="lede">The seven pages that make up the Legion portal flow. Each opens the live React kit at the corresponding hash. Use these as the canonical end‑to‑end reference when building the production app.</p>
+        <div class="surface-grid">
+          <a class="surface" href="ui_kits/legion-portal/index.html#home">
+            <span class="num">01 / Self scan</span>
+            <span class="name">Home</span>
+            <span class="desc">Center‑stage search bar. One field — paste a GitHub repo URL or a domain. No nav, no hero copy beyond the tag. The brand mark sits centered at the bottom.</span>
+            <span class="open">Open page</span>
+            <span class="href">index.html#home</span>
+          </a>
+          <a class="surface" href="ui_kits/legion-portal/index.html#auth">
+            <span class="num">02 / Sign in</span>
+            <span class="name">Auth</span>
+            <span class="desc">Single‑screen sign‑in with passkey, GitHub OAuth, and email magic‑link. No marketing chrome — just a calm, signed surface.</span>
+            <span class="open">Open page</span>
+            <span class="href">index.html#auth</span>
+          </a>
+          <a class="surface" href="ui_kits/legion-portal/index.html#domain">
+            <span class="num">03 / Domain validation</span>
+            <span class="name">Domain</span>
+            <span class="desc">Two parallel paths — DNS TXT record and apex email — whichever completes first wins. Mono for the record, the address, the code.</span>
+            <span class="open">Open page</span>
+            <span class="href">index.html#domain</span>
+          </a>
+          <a class="surface" href="ui_kits/legion-portal/index.html#scanning">
+            <span class="num">04 / Scanning</span>
+            <span class="name">Scanning</span>
+            <span class="desc">Live layer checklist — Secrets, Dependency CVEs, PAN/payment‑data regex. Each row shows the current file path in mono.</span>
+            <span class="open">Open page</span>
+            <span class="href">index.html#scanning</span>
+          </a>
+          <a class="surface" href="ui_kits/legion-portal/index.html#gated">
+            <span class="num">05 / Results gated</span>
+            <span class="name">Gated report</span>
+            <span class="desc">Non‑closable modal capturing name, work email, company. The full report is visible behind it — score, counts, blurred first finding — so the user knows the report is real.</span>
+            <span class="open">Open page</span>
+            <span class="href">index.html#gated</span>
+          </a>
+          <a class="surface" href="ui_kits/legion-portal/index.html#results">
+            <span class="num">06 / Results open</span>
+            <span class="name">Signed report</span>
+            <span class="desc">Severity‑grouped finding cards. Signed pill in the header. Right‑rail upsell modules. Bottom CTA for signed PDF and signed JSON downloads.</span>
+            <span class="open">Open page</span>
+            <span class="href">index.html#results</span>
+          </a>
+          <a class="surface" href="ui_kits/legion-portal/index.html#dashboard">
+            <span class="num">07 / Dashboard</span>
+            <span class="name">Portal dashboard</span>
+            <span class="desc">Logged‑in home. Triage cards, scan history table, recurring scans, and a sticky sidebar of saved repositories.</span>
+            <span class="open">Open page</span>
+            <span class="href">index.html#dashboard</span>
+          </a>
+          <a class="surface" href="ui_kits/legion-portal/index.html#contact">
+            <span class="num">— / Contact</span>
+            <span class="name">Contact</span>
+            <span class="desc">Escape hatch for users without a public website or application. A short form — name, email, stage, and a note — replies from a real engineer within one business day.</span>
+            <span class="open">Open page</span>
+            <span class="href">index.html#contact</span>
+          </a>
+        </div>
+
+        <div class="sub-eyebrow">Source files</div>
+        <div class="files">
+          <div class="f"><span class="strong">colors_and_type.css</span> — single‑file token + base‑style stylesheet (the source of truth)</div>
+          <div class="f"><span class="strong">preview/*.html</span> — Design System tab cards, one concept per file</div>
+          <div class="f"><span class="strong">ui_kits/legion-portal/</span> — React kit for the seven product surfaces above</div>
+          <div class="f"><span class="strong">logos/</span> — 19 canonical SVG mark variants</div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+</body>
+</html>

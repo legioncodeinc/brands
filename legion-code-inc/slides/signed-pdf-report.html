@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Legion — Signed Quick Scan Report · acme/checkout</title>
+  <link rel="icon" href="../assets/logos/legion-favicon.svg">
+  <link rel="stylesheet" href="../colors_and_type.css">
+  <style>
+    /* Apply the light theme on this page only. The class flips every
+       token to its light value (see colors_and_type.css §.theme-light). */
+    html, body {
+      background: var(--bg-canvas);
+      color: var(--text-primary);
+      font-family: var(--font-sans);
+      font-size: 14px;
+      line-height: 1.55;
+    }
+    .sheet {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 64px 72px 80px;
+      background: var(--bg-canvas);
+      min-height: 100vh;
+    }
+
+    /* Print mode — emulates the actual signed PDF when sent to a payment processor. */
+    @media print {
+      @page { size: A4; margin: 18mm 16mm 20mm; }
+      .sheet { padding: 0; max-width: none; }
+      .print-only { display: block; }
+      .screen-only { display: none; }
+    }
+    .print-only { display: none; }
+
+    /* ---- Header ---- */
+    .report-head {
+      display: flex; align-items: flex-start; justify-content: space-between;
+      gap: 32px;
+      padding-bottom: 24px; border-bottom: 1px solid var(--border-default);
+      margin-bottom: 32px;
+    }
+    .report-head .lockup {
+      display: flex; align-items: center; gap: 12px;
+    }
+    .report-head .lockup img { height: 36px; display: block; }
+    .report-head h1 {
+      font-size: 24px; font-weight: 700; letter-spacing: -0.02em;
+      margin: 0; line-height: 1.2;
+    }
+    .report-head .sub {
+      font-family: var(--font-mono); font-size: 12px;
+      color: var(--text-secondary); margin-top: 4px;
+    }
+    .report-head .sub .strong { color: var(--text-primary); font-weight: 500; }
+    .signed-pill {
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 6px 12px; border-radius: var(--radius-full);
+      background: var(--brand-primary-subtle); color: var(--brand-primary);
+      font-family: var(--font-mono); font-size: 12px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 0.06em;
+      border: 1px solid var(--brand-primary);
+    }
+
+    /* ---- Score + counts strip ---- */
+    .summary {
+      display: grid; grid-template-columns: 180px 1fr;
+      gap: 32px; align-items: center;
+      background: var(--bg-elevated); border: 1px solid var(--border-default);
+      border-radius: var(--radius-lg); padding: 24px 28px;
+      margin-bottom: 32px;
+    }
+    .summary .score {
+      text-align: center; padding-right: 24px;
+      border-right: 1px solid var(--border-default);
+    }
+    .summary .score .label {
+      font-family: var(--font-mono); font-size: 10px;
+      text-transform: uppercase; letter-spacing: 0.08em;
+      color: var(--text-tertiary); margin-bottom: 6px;
+    }
+    .summary .score .num {
+      font-size: 52px; font-weight: 700; letter-spacing: -0.03em;
+      line-height: 1; color: var(--severity-critical);
+    }
+    .summary .score .grade {
+      font-family: var(--font-mono); font-size: 11px;
+      color: var(--text-secondary); margin-top: 6px;
+    }
+    .counts { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+    .count .num {
+      font-size: 28px; font-weight: 700; letter-spacing: -0.02em; line-height: 1;
+      margin-bottom: 4px;
+    }
+    .count .lbl {
+      font-family: var(--font-mono); font-size: 10px;
+      text-transform: uppercase; letter-spacing: 0.06em;
+      color: var(--text-tertiary);
+    }
+
+    /* ---- Section heads ---- */
+    .section-head {
+      display: flex; align-items: center; gap: 12px;
+      padding: 28px 0 12px;
+    }
+    .section-head .title {
+      font-size: 17px; font-weight: 600; letter-spacing: -0.01em;
+    }
+    .section-head .count {
+      font-family: var(--font-mono); font-size: 11px; color: var(--text-tertiary);
+    }
+    .section-head .line {
+      flex: 1; height: 1px; background: var(--border-default);
+    }
+
+    /* ---- Finding card ---- */
+    .finding {
+      background: var(--bg-elevated); border: 1px solid var(--border-default);
+      border-radius: var(--radius-md); overflow: hidden;
+      margin-bottom: 10px;
+    }
+    .finding .row1 {
+      display: grid; grid-template-columns: auto 1fr auto;
+      gap: 14px; align-items: flex-start; padding: 14px 18px;
+    }
+    .finding .title {
+      font-size: 14px; font-weight: 600; color: var(--text-primary); line-height: 1.4;
+    }
+    .finding .coord {
+      font-family: var(--font-mono); font-size: 12px;
+      color: var(--text-secondary); margin-top: 3px;
+    }
+    .finding .coord .file { color: var(--text-primary); }
+    .finding .tag {
+      font-family: var(--font-mono); font-size: 11px;
+      color: var(--text-tertiary); white-space: nowrap;
+    }
+    .finding .snippet {
+      background: var(--bg-subtle); padding: 11px 18px;
+      font-family: var(--font-mono); font-size: 12px;
+      color: var(--text-primary); line-height: 1.55;
+      border-top: 1px solid var(--border-default);
+      border-bottom: 1px solid var(--border-default);
+      white-space: pre-wrap;
+    }
+    .finding .snippet .lineno { color: var(--text-tertiary); margin-right: 8px; user-select: none; }
+    .finding .snippet .str { color: var(--severity-warning); }
+    .finding .why-how { padding: 14px 18px; display: grid; gap: 10px; }
+    .finding .why-how .label {
+      font-family: var(--font-mono); font-size: 10px;
+      text-transform: uppercase; letter-spacing: 0.08em;
+      color: var(--text-tertiary); margin-bottom: 3px;
+    }
+    .finding .why-how p {
+      font-size: 13px; color: var(--text-secondary); line-height: 1.55; margin: 0;
+    }
+
+    /* ---- Severity badge ---- */
+    .badge {
+      display: inline-flex; align-items: center;
+      padding: 3px 7px; border-radius: var(--radius-sm);
+      font-family: var(--font-mono); font-size: 10px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 0.06em; line-height: 1.3;
+      white-space: nowrap;
+    }
+    .badge.crit { background: var(--severity-critical-bg); color: var(--severity-critical); }
+    .badge.warn { background: var(--severity-warning-bg); color: var(--severity-warning); }
+    .badge.info { background: var(--severity-info-bg); color: var(--severity-info); }
+
+    /* ---- Signature panel ---- */
+    .sig {
+      margin-top: 48px; padding: 24px;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-md);
+    }
+    .sig .label {
+      font-family: var(--font-mono); font-size: 10px;
+      text-transform: uppercase; letter-spacing: 0.08em;
+      color: var(--text-tertiary); margin-bottom: 6px;
+    }
+    .sig .h {
+      font-size: 15px; font-weight: 600; margin: 0 0 4px;
+      letter-spacing: -0.01em;
+    }
+    .sig .body {
+      font-size: 13px; color: var(--text-secondary); margin: 0 0 16px;
+      line-height: 1.55;
+    }
+    .sig .grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 14px;
+      font-family: var(--font-mono); font-size: 11px; line-height: 1.55;
+    }
+    .sig .row { display: grid; grid-template-columns: 80px 1fr; gap: 8px; }
+    .sig .row .k { color: var(--text-tertiary); }
+    .sig .row .v { color: var(--text-primary); word-break: break-all; }
+
+    /* ---- Footer ---- */
+    .pg-foot {
+      margin-top: 40px; padding-top: 20px;
+      border-top: 1px solid var(--border-default);
+      display: flex; align-items: center; justify-content: space-between;
+      font-family: var(--font-mono); font-size: 10px;
+      color: var(--text-tertiary);
+    }
+    .pg-foot .strong { color: var(--text-secondary); }
+
+    /* ---- Page-number footer for print ---- */
+    .page-no {
+      display: none; font-family: var(--font-mono); font-size: 9px;
+      color: var(--text-tertiary); text-align: right;
+    }
+    @media print { .page-no { display: block; } }
+
+    /* ---- Print actions (hidden in PDF) ---- */
+    .actions {
+      position: fixed; top: 16px; right: 16px; z-index: 20;
+      display: flex; gap: 8px;
+    }
+    .actions button, .actions a {
+      font-family: var(--font-sans); font-size: 12px; font-weight: 500;
+      padding: 8px 12px; border-radius: var(--radius-md);
+      border: 1px solid var(--border-default);
+      background: var(--bg-elevated); color: var(--text-primary);
+      cursor: pointer; text-decoration: none;
+      display: inline-flex; align-items: center; gap: 6px;
+    }
+    .actions button:hover, .actions a:hover { background: var(--bg-subtle); }
+    @media print { .actions { display: none; } }
+  </style>
+</head>
+<body>
+
+<div class="actions screen-only">
+  <button onclick="window.print()">Print / Save as PDF</button>
+  <a href="../ui_kits/legion-portal/index.html">Back to portal kit</a>
+</div>
+
+<div class="sheet" data-screen-label="Legion signed PDF report">
+
+  <!-- Header -->
+  <header class="report-head">
+    <div>
+      <div class="lockup">
+        <img src="../assets/logos/legion-logo-light.svg" alt="Legion">
+      </div>
+      <h1 style="margin-top:18px;">Quick Scan — github.com/acme/checkout</h1>
+      <div class="sub">
+        <span class="strong">commit 3a7f1bc</span> · <span>HEAD</span> · main branch
+      </div>
+      <div class="sub" style="margin-top:2px;">
+        scanned 2026-05-17 14:08 UTC · scanner v1.4.0 · skill-bundle quick-scan@1.4.0
+      </div>
+    </div>
+    <span class="signed-pill">
+      <svg width="11" height="11" viewBox="0 0 11 11" fill="none">
+        <path d="M1 5.8 L4.2 8.5 L10 2" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      Signed
+    </span>
+  </header>
+
+  <!-- Summary -->
+  <div class="summary">
+    <div class="score">
+      <div class="label">LEGION SCORE</div>
+      <div class="num">38</div>
+      <div class="grade">D · needs work</div>
+    </div>
+    <div class="counts">
+      <div class="count">
+        <div class="num" style="color:var(--severity-critical)">2</div>
+        <div class="lbl">Critical</div>
+      </div>
+      <div class="count">
+        <div class="num" style="color:var(--severity-warning)">5</div>
+        <div class="lbl">Warning</div>
+      </div>
+      <div class="count">
+        <div class="num" style="color:var(--severity-info)">3</div>
+        <div class="lbl">Info</div>
+      </div>
+      <div class="count">
+        <div class="num" style="color:var(--text-secondary)">1,247</div>
+        <div class="lbl">Files scanned</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Plain-English summary -->
+  <p style="font-size:15px;color:var(--text-primary);line-height:1.6;max-width:62ch;margin:0 0 20px;">
+    Two issues will block a Stripe risk review. Your webhook handler writes raw
+    card numbers to console output, and a Stripe live secret is still readable
+    in git history from April. Both are fixable in under an hour. Five other
+    issues need attention this sprint; three more can wait.
+  </p>
+
+  <!-- Critical -->
+  <div class="section-head">
+    <span class="title" style="color:var(--severity-critical)">Critical</span>
+    <span class="count">2 findings · fix these first</span>
+    <span class="line"></span>
+  </div>
+
+  <div class="finding">
+    <div class="row1">
+      <span class="badge crit">Critical</span>
+      <div>
+        <div class="title">Primary account number found in plain text</div>
+        <div class="coord"><span class="file">src/handlers/webhook.ts</span>:142</div>
+      </div>
+      <span class="tag">PCI-DSS 3.4</span>
+    </div>
+    <div class="snippet"><span class="lineno">142 │</span>console.log(<span class="str">'Processing card:'</span>, cardNumber)</div>
+    <div class="why-how">
+      <div>
+        <div class="label">Why it matters</div>
+        <p>Your webhook handler logs the raw card number to console output. Any service reading those logs — your hosting provider, your log aggregator, anyone with read access to the server — sees the PAN in plain text. This is a PCI-DSS 3.4 violation and the most common reason Stripe risk teams suspend accounts.</p>
+      </div>
+      <div>
+        <div class="label">How to fix</div>
+        <p>Remove the <code>console.log</code>, or mask the value. The masked form should show only the last four digits: <code>Processing card: ****1234</code>. Rotate any logs already written; treat them as compromised.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="finding">
+    <div class="row1">
+      <span class="badge crit">Critical</span>
+      <div>
+        <div class="title">Stripe secret key committed to git history</div>
+        <div class="coord"><span class="file">.env.local</span>:3 — added in commit a91f2b3</div>
+      </div>
+      <span class="tag">Credentials</span>
+    </div>
+    <div class="snippet"><span class="lineno">  3 │</span>STRIPE_SECRET_KEY=<span class="str">sk_live_51M7q…</span></div>
+    <div class="why-how">
+      <div>
+        <div class="label">Why it matters</div>
+        <p>The key was added in commit <code>a91f2b3</code> on 2026-04-22 and is still readable in git history even though <code>.env.local</code> is now in <code>.gitignore</code>. Anyone with read access to the repo can pull the key and charge against your Stripe account.</p>
+      </div>
+      <div>
+        <div class="label">How to fix</div>
+        <p>Rotate the key in the Stripe dashboard now. Then rewrite git history with <code>git filter-repo</code> or contact Stripe support to invalidate the old key. Update your deployment with the new key.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Warning -->
+  <div class="section-head">
+    <span class="title" style="color:var(--severity-warning)">Warning</span>
+    <span class="count">2 of 5 shown · upgrade at next maintenance window</span>
+    <span class="line"></span>
+  </div>
+
+  <div class="finding">
+    <div class="row1">
+      <span class="badge warn">Warning</span>
+      <div>
+        <div class="title">Known bug in a dependency you're using</div>
+        <div class="coord"><span class="file">package.json</span>:18 — <code>axios@0.21.1</code></div>
+      </div>
+      <span class="tag">CVE-2023-45857</span>
+    </div>
+    <div class="snippet"><span class="lineno"> 18 │</span>  "axios": <span class="str">"0.21.1"</span>,</div>
+    <div class="why-how">
+      <div>
+        <div class="label">Why it matters</div>
+        <p>axios 0.21.1 has a published vulnerability that lets a server respond with a redirect that the client follows blindly. If you make API calls to any service that could be compromised or proxied, the attacker can read or modify the response.</p>
+      </div>
+      <div>
+        <div class="label">How to fix</div>
+        <p>Upgrade to <code>axios@1.6.0</code> or later. Run <code>npm install axios@latest</code> and your tests. No code changes required for the upgrade.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="finding">
+    <div class="row1">
+      <span class="badge warn">Warning</span>
+      <div>
+        <div class="title">API allows requests from any origin</div>
+        <div class="coord"><span class="file">src/server.ts</span>:47</div>
+      </div>
+      <span class="tag">OWASP A05</span>
+    </div>
+    <div class="snippet"><span class="lineno"> 47 │</span>app.use(cors({ origin: <span class="str">"*"</span> }))</div>
+    <div class="why-how">
+      <div>
+        <div class="label">Why it matters</div>
+        <p>Setting CORS <code>origin</code> to <code>"*"</code> lets any website call your API and read the response. If your API uses cookie authentication, a malicious site can act as a logged-in user.</p>
+      </div>
+      <div>
+        <div class="label">How to fix</div>
+        <p>Replace <code>"*"</code> with the explicit list of origins your frontend is served from: <code>["https://app.acme.com"]</code>. For multiple environments, use an array.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Info -->
+  <div class="section-head">
+    <span class="title" style="color:var(--severity-info)">Info</span>
+    <span class="count">1 of 3 shown · no action required</span>
+    <span class="line"></span>
+  </div>
+
+  <div class="finding">
+    <div class="row1">
+      <span class="badge info">Info</span>
+      <div>
+        <div class="title">Dependency 2 majors behind, no known CVE</div>
+        <div class="coord"><span class="file">package.json</span>:22 — <code>lodash@4.17.20</code></div>
+      </div>
+      <span class="tag">Maintenance</span>
+    </div>
+    <div class="snippet"><span class="lineno"> 22 │</span>  "lodash": <span class="str">"4.17.20"</span>,</div>
+    <div class="why-how">
+      <div>
+        <div class="label">Why it matters</div>
+        <p>You're 2 major versions behind the current release. There are no known security issues at this version, but you're missing performance improvements and tree-shaking benefits.</p>
+      </div>
+      <div>
+        <div class="label">How to fix</div>
+        <p>Upgrade at your next maintenance window. Most usages of lodash are drop-in compatible — the bump is API-stable.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Signature panel -->
+  <div class="sig">
+    <div class="label">SIGNATURE</div>
+    <h2 class="h">Cryptographically signed with Ed25519</h2>
+    <p class="body">
+      This report's contents — every finding above, the commit SHA, the scanner
+      version, the timestamps — are covered by an Ed25519 signature. The recipient
+      can verify offline with the bundled CLI or at <strong>verify.legionsecure.ai</strong>.
+      A modified document will fail verification.
+    </p>
+    <div class="grid">
+      <div>
+        <div class="row"><span class="k">algorithm</span><span class="v">Ed25519</span></div>
+        <div class="row"><span class="k">public-key</span><span class="v">4f8a92c1ab3e7d…921ec0</span></div>
+        <div class="row"><span class="k">signed-at</span><span class="v">2026-05-17T14:08:42Z</span></div>
+      </div>
+      <div>
+        <div class="row"><span class="k">covers</span><span class="v">findings · metadata · scope</span></div>
+        <div class="row"><span class="k">report-id</span><span class="v">rpt_3a7f1bc_quick</span></div>
+        <div class="row"><span class="k">scope</span><span class="v">HEAD @ 3a7f1bc · 1,247 files</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="pg-foot">
+    <span>Legion · Quick Scan · <span class="strong">rpt_3a7f1bc_quick</span></span>
+    <span>2026-05-17 · <span class="strong">page 1</span></span>
+  </div>
+
+</div>
+
+</body>
+</html>

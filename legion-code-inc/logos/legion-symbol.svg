@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Legion symbol">
+  <title>Legion symbol</title>
+  <desc>An L-form mark with a verified-signal cap. The L reads as both Legion and as the coordinate bracket (file:line) that every Legion finding is anchored to. The accent cap is the cryptographic signature.</desc>
+  <path d="M12 8 L24 8 L24 44 L48 44 L48 56 L12 56 Z" fill="currentColor"/>
+  <rect x="12" y="8" width="12" height="8" fill="#3DDC97"/>
+</svg>

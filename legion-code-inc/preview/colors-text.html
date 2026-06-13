@@ -1,0 +1,36 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../colors_and_type.css"><style>
+html,body{margin:0;padding:0;background:var(--bg-canvas);color:var(--text-primary);font-family:var(--font-sans);}
+.card{padding:20px 24px;}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:stretch;}
+.sw{flex:1;min-width:0;border-radius:var(--radius-md);border:1px solid var(--border-default);overflow:hidden;background:var(--bg-elevated);}
+.sw-fill{height:64px;border-bottom:1px solid var(--border-subtle);}
+.sw-meta{padding:8px 10px;}
+.sw-name{font-family:var(--font-mono);font-size:11px;color:var(--text-primary);font-weight:500;}
+.sw-hex{font-family:var(--font-mono);font-size:10px;color:var(--text-tertiary);margin-top:2px;}
+.cap{font-family:var(--font-mono);font-size:11px;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-tertiary);margin-bottom:10px;}
+</style></head><body><div class="card">
+    <div class="cap">Text on dark</div>
+    <div class="row" style="flex-direction:column;gap:0;border:1px solid var(--border-default);border-radius:var(--radius-md);overflow:hidden;background:var(--bg-elevated);">
+      <div style="display:grid;grid-template-columns:130px 1fr 80px;align-items:center;padding:10px 14px;border-bottom:1px solid var(--border-subtle);">
+        <div style="font-family:var(--font-mono);font-size:11px;color:var(--text-tertiary);">text.primary</div>
+        <div style="font-size:14px;color:#F5F6F7">Primary account number found in plain text</div>
+        <div style="font-family:var(--font-mono);font-size:10px;color:var(--text-tertiary);text-align:right;">#F5F6F7</div>
+      </div><div style="display:grid;grid-template-columns:130px 1fr 80px;align-items:center;padding:10px 14px;border-bottom:1px solid var(--border-subtle);">
+        <div style="font-family:var(--font-mono);font-size:11px;color:var(--text-tertiary);">text.secondary</div>
+        <div style="font-size:14px;color:#A1A8B3">Body copy — descriptions, finding context</div>
+        <div style="font-family:var(--font-mono);font-size:10px;color:var(--text-tertiary);text-align:right;">#A1A8B3</div>
+      </div><div style="display:grid;grid-template-columns:130px 1fr 80px;align-items:center;padding:10px 14px;border-bottom:1px solid var(--border-subtle);">
+        <div style="font-family:var(--font-mono);font-size:11px;color:var(--text-tertiary);">text.tertiary</div>
+        <div style="font-size:14px;color:#858B97">Metadata · timestamps · captions</div>
+        <div style="font-family:var(--font-mono);font-size:10px;color:var(--text-tertiary);text-align:right;">#858B97</div>
+      </div><div style="display:grid;grid-template-columns:130px 1fr 80px;align-items:center;padding:10px 14px;border-bottom:1px solid var(--border-subtle);">
+        <div style="font-family:var(--font-mono);font-size:11px;color:var(--text-tertiary);">text.disabled</div>
+        <div style="font-size:14px;color:#4A5160">Disabled control label</div>
+        <div style="font-family:var(--font-mono);font-size:10px;color:var(--text-tertiary);text-align:right;">#4A5160</div>
+      </div><div style="display:grid;grid-template-columns:130px 1fr 80px;align-items:center;padding:10px 14px;border-bottom:1px solid var(--border-subtle);background:#3DDC97;">
+        <div style="font-family:var(--font-mono);font-size:11px;color:#0A0B0D;">text.inverse</div>
+        <div style="font-size:14px;color:#0A0B0D">Inverse on brand (used on #3DDC97 fills)</div>
+        <div style="font-family:var(--font-mono);font-size:10px;color:#0A0B0D;text-align:right;">#0A0B0D</div>
+      </div>
+    </div>
+  </div></body></html>

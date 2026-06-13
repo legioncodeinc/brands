@@ -1,0 +1,247 @@
+/* ============================================================
+   Legion — Design Tokens
+   Single source of truth. Token names mirror the brand guide.
+   Use these tokens; never raw hex values, except in the tokens file itself.
+   ============================================================ */
+
+/* ---- JetBrains Mono (brand) — local static cuts -----------------
+   The texture of trust. Every coordinate, file path, hash, snippet,
+   DNS record, and verification code uses this family.
+   Weights used in product: 400 inline, 500 finding headers, 600
+   highlighted hashes. We ship the full ladder for completeness.
+   ----------------------------------------------------------------- */
+@font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 100; font-display: swap; src: url('fonts/JetBrainsMono-Thin.woff2') format('woff2'); }
+@font-face { font-family: 'JetBrains Mono'; font-style: italic; font-weight: 100; font-display: swap; src: url('fonts/JetBrainsMono-ThinItalic.woff2') format('woff2'); }
+@font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 200; font-display: swap; src: url('fonts/JetBrainsMono-ExtraLight.woff2') format('woff2'); }
+@font-face { font-family: 'JetBrains Mono'; font-style: italic; font-weight: 200; font-display: swap; src: url('fonts/JetBrainsMono-ExtraLightItalic.woff2') format('woff2'); }
+@font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 300; font-display: swap; src: url('fonts/JetBrainsMono-Light.woff2') format('woff2'); }
+@font-face { font-family: 'JetBrains Mono'; font-style: italic; font-weight: 300; font-display: swap; src: url('fonts/JetBrainsMono-LightItalic.woff2') format('woff2'); }
+@font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url('fonts/JetBrainsMono-Regular.woff2') format('woff2'); }
+@font-face { font-family: 'JetBrains Mono'; font-style: italic; font-weight: 400; font-display: swap; src: url('fonts/JetBrainsMono-Italic.woff2') format('woff2'); }
+@font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 500; font-display: swap; src: url('fonts/JetBrainsMono-Medium.woff2') format('woff2'); }
+@font-face { font-family: 'JetBrains Mono'; font-style: italic; font-weight: 500; font-display: swap; src: url('fonts/JetBrainsMono-MediumItalic.woff2') format('woff2'); }
+@font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 600; font-display: swap; src: url('fonts/JetBrainsMono-SemiBold.woff2') format('woff2'); }
+@font-face { font-family: 'JetBrains Mono'; font-style: italic; font-weight: 600; font-display: swap; src: url('fonts/JetBrainsMono-SemiBoldItalic.woff2') format('woff2'); }
+@font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url('fonts/JetBrainsMono-Bold.woff2') format('woff2'); }
+@font-face { font-family: 'JetBrains Mono'; font-style: italic; font-weight: 700; font-display: swap; src: url('fonts/JetBrainsMono-BoldItalic.woff2') format('woff2'); }
+@font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 800; font-display: swap; src: url('fonts/JetBrainsMono-ExtraBold.woff2') format('woff2'); }
+@font-face { font-family: 'JetBrains Mono'; font-style: italic; font-weight: 800; font-display: swap; src: url('fonts/JetBrainsMono-ExtraBoldItalic.woff2') format('woff2'); }
+
+/* ---- Inter (brand) — local variable fonts -----------------------
+   The Inter variable fonts ship with the brand. They carry the
+   optical-size axis (opsz) and weight axis (wght). Always reference
+   via --font-sans; never @font-face a static cut alongside.
+   ----------------------------------------------------------------- */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('fonts/Inter-VariableFont_opsz_wght.ttf') format('truetype-variations'),
+       url('fonts/Inter-VariableFont_opsz_wght.ttf') format('truetype');
+  font-variation-settings: 'opsz' 16;
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('fonts/Inter-Italic-VariableFont_opsz_wght.ttf') format('truetype-variations'),
+       url('fonts/Inter-Italic-VariableFont_opsz_wght.ttf') format('truetype');
+  font-variation-settings: 'opsz' 16;
+}
+
+:root {
+  /* ---- Surfaces (dark — primary) -------------------------------- */
+  --bg-canvas:    #0A0B0D;
+  --bg-surface:   #13151A;
+  --bg-elevated:  #1C1F26;
+  --bg-subtle:    #242831;
+  --bg-inset:     #06070A;
+
+  /* ---- Text (on dark) ------------------------------------------- */
+  --text-primary:   #F5F6F7;
+  --text-secondary: #A1A8B3;
+  --text-tertiary:  #858B97;
+  --text-disabled:  #4A5160;
+  --text-inverse:   #0A0B0D;
+
+  /* ---- Borders & dividers (on dark) ----------------------------- */
+  --border-subtle:  #1F2229;
+  --border-default: #2A2E37;
+  --border-strong:  #3A3F4A;
+
+  /* ---- Brand (verified-green; scarcity rule applies) ------------ */
+  --brand-primary:         #3DDC97;
+  --brand-primary-hover:   #2EC585;
+  --brand-primary-pressed: #22A26D;
+  --brand-primary-subtle:  rgba(61, 220, 151, 0.12);
+  --brand-primary-on:      #0A0B0D;
+
+  /* ---- Severity (semantic; never decorative) -------------------- */
+  --severity-critical:    #FF4D5E;
+  --severity-critical-bg: rgba(255, 77, 94, 0.12);
+  --severity-warning:     #FFB02E;
+  --severity-warning-bg:  rgba(255, 176, 46, 0.12);
+  --severity-info:        #5B8AFF;
+  --severity-info-bg:     rgba(91, 138, 255, 0.12);
+  --severity-success:     #3DDC97;
+  --severity-success-bg:  rgba(61, 220, 151, 0.12);
+
+  /* ---- Type families -------------------------------------------- */
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace;
+
+  /* ---- Type scale (size / line-height) -------------------------- */
+  --text-xs:   12px;   --lh-xs:   16px;
+  --text-sm:   14px;   --lh-sm:   20px;
+  --text-base: 16px;   --lh-base: 24px;
+  --text-lg:   18px;   --lh-lg:   28px;
+  --text-xl:   20px;   --lh-xl:   28px;
+  --text-2xl:  24px;   --lh-2xl:  32px;
+  --text-3xl:  30px;   --lh-3xl:  38px;
+  --text-4xl:  36px;   --lh-4xl:  44px;
+  --text-5xl:  48px;   --lh-5xl:  56px;
+  --text-6xl:  60px;   --lh-6xl:  68px;
+
+  /* ---- Spacing (4px base) --------------------------------------- */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  20px;
+  --space-6:  24px;
+  --space-8:  32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+
+  /* ---- Radii ---------------------------------------------------- */
+  --radius-sm:   4px;
+  --radius-md:   8px;
+  --radius-lg:   12px;
+  --radius-xl:   16px;
+  --radius-full: 9999px;
+
+  /* ---- Elevation (subtle; no decorative shadows) ---------------- */
+  --shadow-sm:  0 1px 2px 0 rgba(0,0,0,0.4);
+  --shadow-md:  0 4px 12px -2px rgba(0,0,0,0.5);
+  --shadow-lg:  0 12px 32px -6px rgba(0,0,0,0.6);
+  --shadow-ring: 0 0 0 2px var(--bg-canvas), 0 0 0 4px var(--brand-primary);
+
+  /* ---- Motion --------------------------------------------------- */
+  --ease-out:    cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-fast:    120ms;
+  --dur-base:    200ms;
+  --dur-slow:    400ms;
+}
+
+/* ---- Light theme — for signed PDF report only ------------------- */
+:root[data-theme="light"],
+.theme-light {
+  --bg-canvas:    #FFFFFF;
+  --bg-surface:   #FAFAFB;
+  --bg-elevated:  #F4F5F7;
+  --bg-subtle:    #ECEEF1;
+  --bg-inset:     #F4F5F7;
+
+  --text-primary:   #0A0B0D;
+  --text-secondary: #4A5160;
+  --text-tertiary:  #6B7280;
+  --text-disabled:  #B5BAC2;
+  --text-inverse:   #FFFFFF;
+
+  --border-subtle:  #ECEEF1;
+  --border-default: #D8DCE2;
+  --border-strong:  #B5BAC2;
+
+  --brand-primary:         #18A968;
+  --brand-primary-hover:   #138552;
+  --brand-primary-pressed: #0E6D43;
+  --brand-primary-subtle:  rgba(24, 169, 104, 0.10);
+
+  --severity-critical:    #DC2839;
+  --severity-critical-bg: rgba(220, 40, 57, 0.08);
+  --severity-warning:     #C77A00;
+  --severity-warning-bg:  rgba(199, 122, 0, 0.10);
+  --severity-info:        #2E5BD9;
+  --severity-info-bg:     rgba(46, 91, 217, 0.08);
+  --severity-success:     #18A968;
+  --severity-success-bg:  rgba(24, 169, 104, 0.10);
+}
+
+/* ============================================================
+   Base + semantic styles. Apply by tagging elements with classes
+   below, or by using these as a foundation for your own CSS.
+   ============================================================ */
+
+* { box-sizing: border-box; }
+
+html, body {
+  background: var(--bg-canvas);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
+  line-height: var(--lh-base);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'cv11', 'ss01';
+}
+
+/* Headings — Inter 700, tighter tracking */
+h1, .h1 { font-size: var(--text-5xl); line-height: var(--lh-5xl); font-weight: 700; letter-spacing: -0.03em; }
+h2, .h2 { font-size: var(--text-4xl); line-height: var(--lh-4xl); font-weight: 700; letter-spacing: -0.02em; }
+h3, .h3 { font-size: var(--text-3xl); line-height: var(--lh-3xl); font-weight: 700; letter-spacing: -0.02em; }
+h4, .h4 { font-size: var(--text-2xl); line-height: var(--lh-2xl); font-weight: 600; letter-spacing: -0.01em; }
+h5, .h5 { font-size: var(--text-xl);  line-height: var(--lh-xl);  font-weight: 600; }
+h6, .h6 { font-size: var(--text-lg);  line-height: var(--lh-lg);  font-weight: 600; }
+
+p, .body { font-size: var(--text-base); line-height: var(--lh-base); color: var(--text-secondary); }
+.body-lg { font-size: var(--text-lg); line-height: var(--lh-lg); color: var(--text-secondary); }
+.body-sm { font-size: var(--text-sm); line-height: var(--lh-sm); color: var(--text-secondary); }
+.caption { font-size: var(--text-xs); line-height: var(--lh-xs); color: var(--text-tertiary); }
+
+/* Display — marketing hero only */
+.display { font-size: var(--text-6xl); line-height: var(--lh-6xl); font-weight: 700; letter-spacing: -0.04em; }
+
+/* Mono — the texture of trust. Use for file paths, line numbers,
+   commit hashes, finding snippets, DNS records, codes. */
+code, kbd, samp, pre, .mono {
+  font-family: var(--font-mono);
+  font-feature-settings: 'liga' 0;
+}
+.mono-sm { font-family: var(--font-mono); font-size: var(--text-sm); line-height: var(--lh-sm); }
+.mono-xs { font-family: var(--font-mono); font-size: var(--text-xs); line-height: var(--lh-xs); }
+
+/* Eyebrow — uppercase mono label above section titles */
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-tertiary);
+}
+
+/* Wordmark — Inter 700, all caps, tight tracking */
+.wordmark {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+/* Focus ring — applies to interactive elements */
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+/* Selection */
+::selection {
+  background: var(--brand-primary-subtle);
+  color: var(--text-primary);
+}

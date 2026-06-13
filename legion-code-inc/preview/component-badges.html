@@ -1,0 +1,56 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../colors_and_type.css"><style>
+html,body{margin:0;padding:0;background:var(--bg-canvas);color:var(--text-primary);font-family:var(--font-sans);}
+.card{padding:20px 24px;}
+.cap{font-family:var(--font-mono);font-size:11px;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-tertiary);margin-bottom:14px;}
+.btn{font-family:var(--font-sans);font-size:14px;font-weight:500;padding:8px 14px;border-radius:var(--radius-md);border:1px solid transparent;cursor:pointer;display:inline-flex;align-items:center;gap:8px;line-height:1;letter-spacing:-0.005em;}
+.btn-primary{background:var(--brand-primary);color:var(--brand-primary-on);}
+.btn-primary:hover{background:var(--brand-primary-hover);}
+.btn-default{background:var(--bg-elevated);color:var(--text-primary);border-color:var(--border-default);}
+.btn-default:hover{background:var(--bg-subtle);}
+.btn-ghost{background:transparent;color:var(--text-secondary);}
+.btn-ghost:hover{color:var(--text-primary);background:var(--bg-elevated);}
+.btn-danger{background:transparent;color:var(--severity-critical);border-color:var(--severity-critical);}
+.btn-danger:hover{background:var(--severity-critical-bg);}
+.btn-sm{padding:6px 10px;font-size:13px;}
+.btn-lg{padding:10px 18px;font-size:15px;}
+.input{font-family:var(--font-sans);font-size:14px;padding:9px 12px;border-radius:var(--radius-md);border:1px solid var(--border-default);background:var(--bg-elevated);color:var(--text-primary);width:100%;outline:none;}
+.input::placeholder{color:var(--text-tertiary);}
+.input:focus{border-color:var(--brand-primary);box-shadow:0 0 0 3px var(--brand-primary-subtle);}
+.badge{display:inline-flex;align-items:center;gap:5px;padding:3px 7px;border-radius:var(--radius-sm);font-family:var(--font-mono);font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:0.06em;line-height:1.2;}
+.b-crit{background:var(--severity-critical-bg);color:var(--severity-critical);}
+.b-warn{background:var(--severity-warning-bg);color:var(--severity-warning);}
+.b-info{background:var(--severity-info-bg);color:var(--severity-info);}
+.b-ok{background:var(--severity-success-bg);color:var(--severity-success);}
+.b-signed{background:var(--brand-primary-subtle);color:var(--brand-primary);padding:4px 8px;}
+.cb{width:16px;height:16px;border:1px solid var(--border-default);border-radius:var(--radius-sm);background:var(--bg-elevated);display:inline-flex;align-items:center;justify-content:center;}
+.cb-on{background:var(--brand-primary);border-color:var(--brand-primary);}
+.radio{width:16px;height:16px;border:1px solid var(--border-default);border-radius:50%;background:var(--bg-elevated);display:inline-flex;align-items:center;justify-content:center;}
+.radio-on{border-color:var(--brand-primary);}
+.radio-on::after{content:"";width:8px;height:8px;border-radius:50%;background:var(--brand-primary);}
+.switch{width:32px;height:18px;border-radius:9999px;background:var(--bg-subtle);border:1px solid var(--border-default);position:relative;}
+.switch::after{content:"";position:absolute;top:1px;left:1px;width:14px;height:14px;border-radius:50%;background:var(--text-secondary);}
+.switch.on{background:var(--brand-primary-subtle);border-color:var(--brand-primary);}
+.switch.on::after{left:15px;background:var(--brand-primary);}
+.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;}
+</style></head><body><div class="card">
+    <div class="cap">Badges · severity · signed pill</div>
+    <div class="row" style="margin-bottom:12px;">
+      <span class="badge b-crit">Critical</span>
+      <span class="badge b-warn">Warning</span>
+      <span class="badge b-info">Info</span>
+      <span class="badge b-ok">Verified</span>
+    </div>
+    <div class="row" style="margin-bottom:12px;">
+      <span class="badge b-signed">
+        <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M1 5.5 L4 8 L9 2" stroke="#3DDC97" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Signed
+      </span>
+      <span class="badge" style="background:var(--bg-elevated);color:var(--text-secondary);border:1px solid var(--border-default);">Quick Scan</span>
+      <span class="badge" style="background:var(--bg-elevated);color:var(--text-tertiary);font-family:var(--font-mono);">commit 3a7f1bc</span>
+    </div>
+    <div class="row">
+      <span class="badge" style="background:var(--bg-elevated);color:var(--text-secondary);border:1px solid var(--border-default);">12 files</span>
+      <span class="badge" style="background:var(--bg-elevated);color:var(--text-secondary);border:1px solid var(--border-default);">2 majors behind</span>
+      <span style="display:inline-flex;align-items:center;gap:6px;font-size:12px;color:var(--text-secondary);"><span style="width:6px;height:6px;border-radius:50%;background:var(--brand-primary);"></span>Live</span>
+    </div>
+  </div></body></html>
