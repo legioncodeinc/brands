@@ -6,7 +6,7 @@ osprey mark, type, color palette, export assets, and the live UI kit.
 
 OSPRY stands for: **Observe. Score. Profile. Reach. Yield.**
 
-Open **`brand-kit.html`** for the full interactive brand kit (logos, palette with hex,
+Open **`brand-guide.html`** for the full interactive brand kit (logos, palette with hex,
 examples of use, type, usage rules).
 
 OSPRY inherits the Legion design language and adds its own signature: the
