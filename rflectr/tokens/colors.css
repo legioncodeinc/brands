@@ -1,0 +1,152 @@
+/* rflectr color tokens. Green is reserved for the committed route (Route state / route lines). Never use it as a generic "healthy" color. */
+:root {
+  /* Brand */
+  --brand-ink: #0a0b0d;
+  --brand-paper: #f5f6f7;
+  --brand-route: #3ddc97; /* dark-surface route accent */
+  --brand-route-deep: #18a968; /* light-surface route accent */
+
+  /* Neutral scale (dark-first) */
+  --n-0: #07080a;
+  --n-1: #0a0b0d;
+  --n-2: #0f1114;
+  --n-3: #15181c;
+  --n-4: #1c2026;
+  --n-5: #262b33;
+  --n-6: #353c46;
+  --n-7: #4c5563;
+  --n-8: #6b7584;
+  --n-9: #8e98a6;
+  --n-10: #b6bec9;
+  --n-11: #dde1e6;
+  --n-12: #f5f6f7;
+
+  /* Route (green) scale */
+  --route-3: #0c3a28;
+  --route-5: #12784e;
+  --route-7: #18a968;
+  --route-9: #3ddc97;
+  --route-11: #a7f3d0;
+
+  /* Observe (slate-blue) — metadata capture without routing */
+  --observe-3: #14263a;
+  --observe-7: #3b82c4;
+  --observe-9: #7ab8f5;
+
+  /* Semantic states (never green) */
+  --warn-3: #3a2a0e;
+  --warn-7: #d08a1d;
+  --warn-9: #f5b84b;
+  --danger-3: #3e1616;
+  --danger-7: #d9483d;
+  --danger-9: #f97c72;
+
+  /* Surfaces */
+  --surface-app: var(--n-1);
+  --surface-sidebar: var(--n-0);
+  --surface-panel: var(--n-2);
+  --surface-card: var(--n-3);
+  --surface-raised: var(--n-4);
+  --surface-overlay: rgba(7, 8, 10, 0.72);
+  --surface-input: var(--n-2);
+  --surface-hover: rgba(245, 246, 247, 0.04);
+  --surface-active: rgba(245, 246, 247, 0.07);
+  --surface-selected: rgba(61, 220, 151, 0.08);
+
+  /* Borders */
+  --border-hairline: rgba(245, 246, 247, 0.07);
+  --border-subtle: rgba(245, 246, 247, 0.11);
+  --border-strong: rgba(245, 246, 247, 0.2);
+  --border-focus: var(--route-9);
+  --border-route: rgba(61, 220, 151, 0.35);
+
+  /* Text */
+  --text-primary: var(--n-12);
+  --text-secondary: var(--n-10);
+  --text-tertiary: var(--n-8);
+  --text-disabled: var(--n-7);
+  --text-inverse: var(--n-1);
+  --text-route: var(--route-9);
+  --text-observe: var(--observe-9);
+  --text-warn: var(--warn-9);
+  --text-danger: var(--danger-9);
+  --text-link: var(--n-12);
+  --text-link-hover: var(--route-9);
+
+  /* Harness mode / runtime states */
+  --state-off: var(--n-7);
+  --state-observe: var(--observe-9);
+  --state-route: var(--route-9);
+  --state-draining: var(--warn-9);
+  --state-failed: var(--danger-9);
+  --state-starting: var(--n-9);
+
+  /* Fills */
+  --fill-route: var(--route-9);
+  --fill-route-soft: rgba(61, 220, 151, 0.12);
+  --fill-observe-soft: rgba(122, 184, 245, 0.12);
+  --fill-warn-soft: rgba(245, 184, 75, 0.12);
+  --fill-danger-soft: rgba(249, 124, 114, 0.12);
+  --fill-neutral-soft: rgba(245, 246, 247, 0.06);
+
+  /* Buttons */
+  --btn-primary-bg: var(--n-12);
+  --btn-primary-fg: var(--n-1);
+  --btn-primary-hover: #ffffff;
+  --btn-route-bg: var(--route-9);
+  --btn-route-fg: var(--n-1);
+  --btn-route-hover: #5ce8ab;
+  --btn-danger-bg: var(--danger-7);
+  --btn-danger-fg: #ffffff;
+
+  /* Logo paint (themeable inline SVG) */
+  --rflectr-route-accent: var(--route-9);
+  color-scheme: dark;
+}
+[data-theme="light"] {
+  --surface-app: #ffffff;
+  --surface-sidebar: #f5f6f7;
+  --surface-panel: #fafbfc;
+  --surface-card: #ffffff;
+  --surface-raised: #f0f2f4;
+  --surface-overlay: rgba(10, 11, 13, 0.4);
+  --surface-input: #ffffff;
+  --surface-hover: rgba(10, 11, 13, 0.04);
+  --surface-active: rgba(10, 11, 13, 0.07);
+  --surface-selected: rgba(24, 169, 104, 0.08);
+  --border-hairline: rgba(10, 11, 13, 0.07);
+  --border-subtle: rgba(10, 11, 13, 0.12);
+  --border-strong: rgba(10, 11, 13, 0.24);
+  --border-focus: var(--route-7);
+  --border-route: rgba(24, 169, 104, 0.4);
+  --text-primary: #0a0b0d;
+  --text-secondary: #3b434f;
+  --text-tertiary: #6b7584;
+  --text-disabled: #a3acb8;
+  --text-inverse: #f5f6f7;
+  --text-route: var(--route-7);
+  --text-observe: #2b6cb0;
+  --text-warn: #9a6208;
+  --text-danger: #b93a30;
+  --text-link: #0a0b0d;
+  --text-link-hover: var(--route-7);
+  --state-off: #8e98a6;
+  --state-observe: #2b6cb0;
+  --state-route: var(--route-7);
+  --state-draining: #b9760f;
+  --state-failed: #b93a30;
+  --fill-route: var(--route-7);
+  --fill-route-soft: rgba(24, 169, 104, 0.12);
+  --fill-observe-soft: rgba(43, 108, 176, 0.1);
+  --fill-warn-soft: rgba(208, 138, 29, 0.14);
+  --fill-danger-soft: rgba(217, 72, 61, 0.12);
+  --fill-neutral-soft: rgba(10, 11, 13, 0.05);
+  --btn-primary-bg: #0a0b0d;
+  --btn-primary-fg: #f5f6f7;
+  --btn-primary-hover: #1c2026;
+  --btn-route-bg: var(--route-7);
+  --btn-route-fg: #ffffff;
+  --btn-route-hover: #12784e;
+  --rflectr-route-accent: var(--route-7);
+  color-scheme: light;
+}

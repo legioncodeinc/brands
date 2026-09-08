@@ -20,13 +20,13 @@ brand_kit/
 ├── SKILL.md                        Claude Skill manifest
 ├── brand-guide.html                HTML render of the parent brand guide
 ├── design-system.html              Visual design system showcase
-├── colors_and_type.css             Token stylesheet (CSS custom properties)
+├── tokens/colors_and_type.css             Token stylesheet (CSS custom properties)
 │
 ├── logos/                          19 canonical SVG mark variants
 │   ├── ico/                        16 ICO files (multi-resolution)
 │   └── png/                        247 PNGs across 13 sizes
 │
-├── fonts/                          Inter + JetBrains Mono
+├── assets/fonts/                          Inter + JetBrains Mono
 │   ├── Inter_18pt-*.ttf            (18pt: all weights + italic)
 │   ├── Inter_24pt-*.ttf            (24pt: all weights + italic)
 │   ├── Inter_28pt-*.ttf            (28pt: partial)
@@ -36,14 +36,14 @@ brand_kit/
 ├── graphic-assets/                 Social backgrounds, 4K renders, PSDs
 ├── social/                         Social-specific assets
 │
-├── preview/                        34 component preview HTML cards
+├── docs/preview/                        34 component preview HTML cards
 │   ├── colors-*.html               surfaces, text, borders, brand, severity, light
 │   ├── type-*.html                 scale, mono, eyebrow
 │   ├── spacing.html / radii.html / motion.html
 │   ├── logo-*.html                 lockups, symbols, icons
 │   └── component-*.html            buttons, inputs, forms, badges, cards, etc.
 │
-└── slides/
+└── docs/slides/
     └── signed-pdf-report.html      Slide render of signed PDF format
 ```
 
@@ -115,7 +115,7 @@ Legion's own component icons follow: 24x24 grid, 1.5px stroke, stroked (not fill
 
 ## Preview pages (component cards)
 
-All cards live in `preview/` and are organized by category. They are deliberately small and focused (one concept per card, ~700px wide). Five groups:
+All cards live in `docs/preview/` and are organized by category. They are deliberately small and focused (one concept per card, ~700px wide). Five groups:
 
 | Category | Cards |
 |---|---|
@@ -131,7 +131,7 @@ Open any `.html` file in a browser to see the visual specification. Or browse al
 
 ## Fonts
 
-The `fonts/` directory contains the complete Inter and JetBrains Mono families:
+The `assets/fonts/` directory contains the complete Inter and JetBrains Mono families:
 
 - **Inter** (18pt, 24pt, 28pt, plus variable) for UI, marketing, body, headings
 - **JetBrains Mono** (woff2) for code, file paths, hashes, coordinates
@@ -142,7 +142,7 @@ Both are open-source, free for commercial use. Load via `@font-face` or link to 
 
 ## Tokens (CSS)
 
-The single-file `colors_and_type.css` exposes every token as a CSS custom property:
+The single-file `tokens/colors_and_type.css` exposes every token as a CSS custom property:
 
 ```css
 :root {
@@ -173,4 +173,4 @@ Drop it into any Legion product to get the full token set.
 - [`../brand-preview.html`](../brand-preview.html) - Main brand portal
 - [`../assets.html`](../assets.html) - Visual asset browser
 - [`design-system.html`](./design-system.html) - Visual design system showcase
-- [`../ui_kits/`](../ui_kits/) - Property-specific UI kits
+- Property-specific UI kits: held in the private UI_Kit workspace outside this repo (`../../UI_Kit/`); the referenced `ui_kits/legion-portal/` was never in this repo

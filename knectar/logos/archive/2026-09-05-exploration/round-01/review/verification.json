@@ -1,0 +1,290 @@
+[
+  {
+    "file": "png/knectar-01-junction-ink-lockup.png",
+    "size": [
+      2000,
+      614
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-01-junction-ink-icon.png",
+    "size": [
+      512,
+      512
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-01-junction-white-lockup.png",
+    "size": [
+      2000,
+      614
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-01-junction-white-icon.png",
+    "size": [
+      512,
+      512
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-02-nectar-ink-lockup.png",
+    "size": [
+      2000,
+      614
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-02-nectar-ink-icon.png",
+    "size": [
+      512,
+      512
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-02-nectar-white-lockup.png",
+    "size": [
+      2000,
+      614
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-02-nectar-white-icon.png",
+    "size": [
+      512,
+      512
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-03-weave-ink-lockup.png",
+    "size": [
+      2000,
+      614
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-03-weave-ink-icon.png",
+    "size": [
+      512,
+      512
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-03-weave-white-lockup.png",
+    "size": [
+      2000,
+      614
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-03-weave-white-icon.png",
+    "size": [
+      512,
+      512
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-04-hummingbird-ink-lockup.png",
+    "size": [
+      2000,
+      614
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-04-hummingbird-ink-icon.png",
+    "size": [
+      512,
+      512
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-04-hummingbird-white-lockup.png",
+    "size": [
+      2000,
+      614
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-04-hummingbird-white-icon.png",
+    "size": [
+      512,
+      512
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-05-cell-ink-lockup.png",
+    "size": [
+      2000,
+      614
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-05-cell-ink-icon.png",
+    "size": [
+      512,
+      512
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-05-cell-white-lockup.png",
+    "size": [
+      2000,
+      614
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-05-cell-white-icon.png",
+    "size": [
+      512,
+      512
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-06-lens-ink-lockup.png",
+    "size": [
+      2000,
+      614
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-06-lens-ink-icon.png",
+    "size": [
+      512,
+      512
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-06-lens-white-lockup.png",
+    "size": [
+      2000,
+      614
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-06-lens-white-icon.png",
+    "size": [
+      512,
+      512
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  }
+]

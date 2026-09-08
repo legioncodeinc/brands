@@ -1,0 +1,21 @@
+<!-- @dsCard group="Components" viewport="700x420" name="Data: Card, MetricCard, UsageWindow, RouteLine, DataTable, Tabs, EmptyState" subtitle="Metrics with provenance, usage windows, animated route lines, dense tables" -->
+<!doctype html><html lang="en"><head><meta charset="utf-8"><link rel="stylesheet" href="../../styles.css">
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+<style>body{padding:16px;overflow:hidden}.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.col{display:flex;flex-direction:column;gap:12px}.lbl{font:var(--type-code);color:var(--text-tertiary);width:90px;flex:none}</style></head><body><div id="root"></div>
+<script type="text/babel">
+const DS=window.rflectrDesignSystem_c36c9e;const {Icon,Button,IconButton,Badge,Tooltip,Input,Select,Switch,Checkbox,ModeSegment,Card,MetricCard,UsageWindow,RouteLine,DataTable,Tabs,EmptyState,Dialog,Toast,ActionItem,NavItem,StatusDot}=DS;
+function App(){const [t,setT]=React.useState("Status");
+const cols=[{key:"time",label:"Time",mono:true},{key:"harness",label:"Harness"},{key:"route",label:"Route",render:r=><Badge size="sm" dot>{r.route}</Badge>},{key:"model",label:"Provider / model",mono:true},{key:"lat",label:"TTFT",align:"right",render:r=>r.lat+" ms"},{key:"tok",label:"Tokens",align:"right"},{key:"cost",label:"Cost",align:"right"}];
+const rows=[{id:1,time:"15:53:02",harness:"Cursor",route:"Routing",model:"openrouter/balanced",lat:412,tok:"4,434",cost:"$0.0142"},{id:2,time:"15:46:11",harness:"Codex CLI",route:"Observing",model:"openai/gpt-5",lat:689,tok:"~10,144",cost:"—"},{id:3,time:"15:39:40",harness:"Claude Code",route:"Failed",model:"anthropic/claude-sonnet-4",lat:"—",tok:"—",cost:"—"}];
+return <div className="col">
+<div style={{display:'grid',gridTemplateColumns:'repeat(4,1fr)',gap:10}}><MetricCard label="Routed requests" value="1,204" tone="route" meta="of 2,871 total"/><MetricCard label="Estimated API cost" value="$4.18" estimated source="API rate est."/><MetricCard label="Avg TTFT" value="412" unit="ms"/><MetricCard label="Provider tokens" value="128,904" source="Provider reported"/></div>
+<div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:10}}>
+<Card title="Usage windows" dense actions={<IconButton icon="refresh" label="Refresh" size="sm"/>}><div className="col"><UsageWindow name="5-hour window" account="Anthropic · Work" used={312} limit={500} resetAt={{label:"in 2h 14m",iso:"2026-09-03T19:00:00Z"}} confidence="High"/><UsageWindow name="Weekly" account="OpenAI · Personal" used={1840} limit={2000} unit="req" resetAt={{label:"Mon 04:00",iso:"2026-09-07T04:00:00Z"}} stale/><UsageWindow name="Usage" account="Local · Ollama" source="Locally observed"/></div></Card>
+<Card title="Routes" dense><div className="col"><RouteLine from="Claude Code" fromMeta="2.1.259" to="Anthropic · Work" toMeta="sonnet-4" state="Route"/><RouteLine from="Codex CLI" fromMeta="0.153.1" state="Observe"/><RouteLine from="Cursor" fromMeta="3.18.25" to="OpenRouter" state="Draining"/><RouteLine from="ZCode" state="Off"/></div></Card></div>
+<Card flush><Tabs items={["Status","Traffic classes",{id:"Activity",label:"Activity",count:42}]} value={t} onChange={setT} style={{padding:'0 8px'}}/><DataTable dense columns={cols} rows={rows} onRowClick={()=>{}} selectedKey={1}/></Card>
+</div>}
+ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
+</script></body></html>

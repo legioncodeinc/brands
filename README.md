@@ -12,11 +12,45 @@
 
 The single source of truth for every mark, color, font, and rule across Legion Code Inc. and its products. If an asset isn't in this repo, it isn't official. Don't pull logos from old decks, screenshots, or Slack. Pull them from here.
 
+---
+
+## The standard
+
+Every product folder follows one layout, and UI kits never live inside a product folder. To onboard or restructure a product, invoke the **brand-standardization** skill (`~/.zcode/skills/brand-standardization`; kept out of this repo via .gitignore, source folder lives on the maintainer's machine).
+
+```text
+<product>/
+├── SKILL.md          brand skill entry point
+├── brand-guide.md    the standardized brand summary (start here)
+├── readme.md         deep reference (when one exists)
+├── assets/           fonts, icons, social, hero images
+├── logos/            the production logo system (+ archive, source, scripts, review)
+├── tokens/           token CSS sheets
+├── components/       component library
+├── guidelines/       usage cards
+├── docs/             PDFs, slides, previews, screenshots
+└── system/           generated DS tooling and sync notes
+
+ui_kits/             gitignored drop zone; kits live outside the repo in ../UI_Kit/
+```
+
+## Products
+
 | Folder | Brand | What's inside |
 |---|---|---|
-| [`legion-code-inc/`](legion-code-inc/) | **Legion Code Inc.** (parent company) | Full brand kit: 19 SVG marks, 200+ PNGs, ICOs, Inter + JetBrains Mono fonts, CSS tokens, 34 component preview cards, interactive brand guide |
-| [`ospry/`](ospry/) | **OSPRY** (product) | Osprey mark in 5 SVG lockups, 186-file PNG export matrix, favicons, interactive brand guide, 10 public-facing PDFs |
+| [`legion-code-inc/`](legion-code-inc/) | **Legion Code Inc.** (parent) | Full brand kit: 19 SVG marks, 200+ PNGs, ICOs, Inter + JetBrains Mono, CSS tokens, 34 preview cards, interactive brand guide |
+| [`ospry/`](ospry/) | **OSPRY** (product) | Osprey mark in 5 SVG lockups, PNG export matrix, favicons, interactive brand guide, 10 public PDFs |
+| [`knectar/`](knectar/) | **knectar** (product) | Design system on the Legion language: tokens, 33 components, 20 guideline cards, hummingbird "Hover" logo system |
+| [`rflectr/`](rflectr/) | **rflectr** (product) | Echo-bat logo system, ink/route token layer, 22 components, 18 guideline cards, full voice spec |
+| [`shrke/`](shrke/) | **shrke** (product) | Lockup set (10 SVGs), wordmark, symbol; design inherited from rflectr |
+| [`whipt/`](whipt/) | **WHIPT** (product) | Whippet brand kit (Pursuit + Full Stride), token sheets, fonts; the demo app lives in the private UI_Kit workspace |
+| [`macsitna/`](macsitna/) | **MACSITNA** (product) | 64-file PNG logo matrix, brand hero; anti-scam spelled backwards |
+| [`llamaforce/`](llamaforce/) | **Llama Force** (sub-brand) | The operators behind MACSITNA: heroes, site page graphics, social assets |
 | [`myidentityprovider/`](myidentityprovider/) | **My Identity Provider** | Icon set (SVG + PNG) |
+
+## UI kits
+
+UI kits live outside this repo in the private **UI_Kit** workspace at `../UI_Kit/` (`knectar-app`, `shrke-desktop`, `whipt-demo`), ready to become the private UI_Kit repo. The in-repo [`ui_kits/`](ui_kits/) folder is a gitignored drop zone: anything placed there stays out of git, and only its README is tracked, documenting the move manifest. Each product's `brand-guide.md` points at its kit without containing it.
 
 ---
 
@@ -24,7 +58,7 @@ The single source of truth for every mark, color, font, and rule across Legion C
 
 The parent identity. Dark-native, modern dev-tool minimal, one electric-green accent reserved for verified and signed states. Every Legion product inherits this language.
 
-**Start here:** [`legion-code-inc/brand-guide.html`](legion-code-inc/brand-guide.html) (interactive guide) and [`legion-code-inc/README.md`](legion-code-inc/README.md) (markdown reference).
+**Start here:** [`legion-code-inc/brand-guide.md`](legion-code-inc/brand-guide.md) and [`legion-code-inc/brand-guide.html`](legion-code-inc/brand-guide.html) (interactive guide).
 
 ### Core palette
 
@@ -40,7 +74,7 @@ The parent identity. Dark-native, modern dev-tool minimal, one electric-green ac
 | `severity.warning` | `#FFB02E` | Warnings |
 | `severity.info` | `#5B8AFF` | Informational |
 
-Full token set ships as CSS custom properties in [`legion-code-inc/colors_and_type.css`](legion-code-inc/colors_and_type.css). Drop it into any Legion property and you have the whole system.
+Full token set ships as CSS custom properties in [`legion-code-inc/tokens/colors_and_type.css`](legion-code-inc/tokens/colors_and_type.css). Drop it into any Legion property and you have the whole system.
 
 **The scarcity rule.** `#3DDC97` appears no more than once per visible region. It's the only loud color in the system and it means one thing: verified. Overuse it and it stops meaning anything. This is the most-violated rule on new surfaces, so audit for it.
 
@@ -51,7 +85,7 @@ Full token set ships as CSS custom properties in [`legion-code-inc/colors_and_ty
 | **Inter** | UI, marketing, headings, body, the wordmark | 400 / 500 / 600 / 700 |
 | **JetBrains Mono** | Code, file paths, hashes, line numbers, coordinates | 400 / 500 / 600 |
 
-Both families ship in [`legion-code-inc/fonts/`](legion-code-inc/fonts/). Mono is the texture of trust: if it's evidence, it renders in JetBrains Mono. No exceptions.
+Both families ship in [`legion-code-inc/assets/fonts/`](legion-code-inc/assets/fonts/). Mono is the texture of trust: if it's evidence, it renders in JetBrains Mono. No exceptions.
 
 ### Logo quick picks
 
@@ -81,7 +115,7 @@ Minimums: symbol 24px, wordmark 80px wide, full lockup 120px wide. Clear space e
 
 OSPRY inherits the Legion design language and adds its own signature: verified-green `#3DDC97` on the bird's wing-tips and talons. The body is `currentColor` (white on dark, ink on light); the green is fixed and never recolored.
 
-**Start here:** [`ospry/brand-guide.html`](ospry/brand-guide.html) (interactive kit) and [`ospry/README.md`](ospry/README.md) (full palette and export matrix).
+**Start here:** [`ospry/brand-guide.md`](ospry/brand-guide.md), [`ospry/brand-guide.html`](ospry/brand-guide.html) (interactive kit), and [`ospry/readme.md`](ospry/readme.md) (full palette and export matrix).
 
 ### Signature accents
 
@@ -115,7 +149,7 @@ Shareable PDFs live in [`ospry/docs/`](ospry/docs/): product guide, one-pagers (
 
 ## My Identity Provider
 
-Icon assets only, in [`myidentityprovider/logos/`](myidentityprovider/logos/) (SVG plus PNG exports). No standalone brand guide yet; it follows the Legion design language.
+Icon assets only, in [`myidentityprovider/logos/`](myidentityprovider/logos/) (SVG plus PNG exports). See [`myidentityprovider/brand-guide.md`](myidentityprovider/brand-guide.md) for the gap list; it follows the Legion design language.
 
 ---
 

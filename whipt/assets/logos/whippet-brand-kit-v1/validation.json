@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "production_svg_files": 48,
+  "production_png_files": 276,
+  "multi_resolution_ico_files": 4,
+  "logo_svgs_checked": 44,
+  "main_png_exports_checked": 264,
+  "alpha_checks": 264,
+  "clear_edge_checks": 224,
+  "geometry_identical_across_colorways": true,
+  "shared_wordmark_identical_across_concepts": true,
+  "ico_sizes": [
+    16,
+    32,
+    48,
+    64,
+    128,
+    256
+  ],
+  "checks": [
+    "SVGs parse without raster embeds, live fonts or external resources",
+    "All PNGs have expected pixel dimensions",
+    "Transparent logos have real alpha; app tiles are fully opaque",
+    "Transparent artwork clears all canvas edges",
+    "Colorways share identical geometry",
+    "Shared wordmark raster pixels are identical across concepts"
+  ],
+  "errors": [],
+  "catalog_validation": {
+    "direction_treatment_states_checked": 8,
+    "resolved_local_references": 333,
+    "missing_local_references": 0,
+    "javascript_syntax": "passed"
+  }
+}

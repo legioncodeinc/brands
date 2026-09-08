@@ -1,0 +1,37 @@
+:root {
+  --font-sans: "Geist", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  /* Size scale — desktop density */
+  --fs-2xs: 10px;
+  --fs-xs: 11px;
+  --fs-sm: 12px;
+  --fs-md: 13px;
+  --fs-lg: 15px;
+  --fs-xl: 18px;
+  --fs-2xl: 22px;
+  --fs-3xl: 28px;
+  --fs-4xl: 36px;
+  --lh-tight: 1.15; /* @kind other */
+  --lh-snug: 1.3; /* @kind other */
+  --lh-normal: 1.5; /* @kind other */
+  --fw-regular: 400; /* @kind other */
+  --fw-medium: 500; /* @kind other */
+  --fw-semibold: 600; /* @kind other */
+  --fw-bold: 700; /* @kind other */
+  --ls-caps: 0.08em; /* @kind other */
+  --ls-tight: -0.01em; /* @kind other */
+  --ls-display: -0.02em; /* @kind other */
+
+  /* Semantic type */
+  --type-display: var(--fw-semibold) var(--fs-4xl) / var(--lh-tight) var(--font-sans);
+  --type-title: var(--fw-semibold) var(--fs-2xl) / var(--lh-tight) var(--font-sans);
+  --type-heading: var(--fw-semibold) var(--fs-lg) / var(--lh-snug) var(--font-sans);
+  --type-body: var(--fw-regular) var(--fs-md) / var(--lh-normal) var(--font-sans);
+  --type-body-strong: var(--fw-medium) var(--fs-md) / var(--lh-normal) var(--font-sans);
+  --type-caption: var(--fw-regular) var(--fs-sm) / var(--lh-normal) var(--font-sans);
+  --type-eyebrow: var(--fw-medium) var(--fs-xs) / var(--lh-snug) var(--font-sans);
+  --type-metric: var(--fw-medium) var(--fs-3xl) / var(--lh-tight) var(--font-mono);
+  --type-data: var(--fw-regular) var(--fs-sm) / var(--lh-normal) var(--font-mono);
+  --type-code: var(--fw-regular) var(--fs-xs) / var(--lh-normal) var(--font-mono);
+}

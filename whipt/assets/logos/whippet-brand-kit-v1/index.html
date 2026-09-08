@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>WHIPT — Brand asset library</title>
+  <style>
+    :root{--ink:#0a0b0d;--mint:#3ddc97;--paper:#f5f6f7;--muted:#68716d;--line:#dfe4df;--radius:18px}
+    *{box-sizing:border-box}
+    body{margin:0;background:#f2f4f1;color:var(--ink);font-family:Inter,"Segoe UI",Arial,sans-serif;font-size:15px;line-height:1.55}
+    button,select{font:inherit}
+    button,a,select{-webkit-tap-highlight-color:transparent}
+    a{color:inherit;text-underline-offset:3px}
+    button{cursor:pointer}
+    :focus-visible{outline:3px solid #0a7650;outline-offset:4px}
+    .skip{position:absolute;left:18px;top:-80px;background:white;padding:12px;z-index:5}
+    .skip:focus{top:12px}
+    .wrap{width:min(1240px,calc(100% - 64px));margin-inline:auto}
+    .masthead{background:var(--ink);color:var(--paper);padding:24px 0 48px;position:relative;overflow:hidden}
+    .masthead:after{content:"";position:absolute;inset:0 0 0 58%;background:repeating-linear-gradient(125deg,transparent 0,transparent 78px,#ffffff05 79px,#ffffff05 80px);pointer-events:none}
+    .topline{display:flex;justify-content:space-between;align-items:center;position:relative;z-index:1;gap:20px}
+    .brand{display:flex;align-items:center;gap:13px;text-decoration:none}
+    .brand img{width:100px;height:30px;object-fit:contain;object-position:left}
+    .brand span{border-left:1px solid #ffffff30;padding-left:14px;font-size:12px;color:#aeb7b0;letter-spacing:.06em}
+    .toplinks{display:flex;gap:24px;font-size:12px;color:#c6cec9}
+    .toplinks a{text-decoration:none}
+    .toplinks a:hover{color:var(--mint)}
+    .hero{margin-top:48px;position:relative;z-index:1;max-width:720px}
+    .eyebrow{font-size:11px;font-weight:650;letter-spacing:.18em;text-transform:uppercase;color:var(--mint);margin:0 0 14px}
+    h1{font-weight:570;font-size:clamp(36px,4.4vw,56px);line-height:1.08;letter-spacing:-.055em;margin:0 0 20px}
+    .hero p:last-child{max-width:585px;color:#b6beb9;font-size:16px;margin:0;line-height:1.65}
+    main{padding:32px 0 48px}
+    .direction-tabs{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:32px}
+    .direction-tab{display:flex;text-align:left;align-items:center;gap:18px;border:1px solid var(--line);border-radius:14px;background:#ffffffa0;padding:18px 22px;min-height:95px;transition:background .15s,border-color .15s}
+    .direction-tab:hover{background:white;border-color:#9eb3a7}
+    .direction-tab[aria-selected=true]{border-color:var(--ink);background:white;box-shadow:inset 0 0 0 1px var(--ink)}
+    .direction-tab .number{width:38px;height:38px;display:grid;place-items:center;background:#eaf0eb;border-radius:50%;font-size:12px;font-weight:700;flex-shrink:0}
+    .direction-tab[aria-selected=true] .number{background:var(--mint)}
+    .direction-tab strong{display:block;font-size:17px;font-weight:650;letter-spacing:-.02em}
+    .direction-tab small{display:block;font-size:12px;color:var(--muted);margin-top:2px}
+    .direction-tab .check{margin-left:auto;font-size:18px;opacity:0}
+    .direction-tab[aria-selected=true] .check{opacity:1}
+    .section-heading{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:18px}
+    h2{font-size:25px;letter-spacing:-.035em;font-weight:650;line-height:1.2;margin:0 0 5px}
+    .section-heading p{margin:0;color:var(--muted);font-size:13px}
+    .format-note{font-size:11px;white-space:nowrap;color:var(--muted);letter-spacing:.04em}
+    .toolbar{background:white;border:1px solid var(--line);border-radius:14px;padding:13px 16px;display:flex;align-items:center;justify-content:space-between;gap:18px;margin-bottom:20px}
+    .treatment-set{border:0;margin:0;padding:0;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+    .treatment-set legend{float:left;padding:8px 12px 8px 0;font-size:12px;font-weight:600}
+    .treatment-choice{position:relative;display:block;cursor:pointer}
+    .treatment-choice input{position:absolute;opacity:0;inset:0;cursor:pointer}
+    .treatment-choice span{display:flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:8px;padding:7px 11px;font-size:12px}
+    .treatment-choice input:checked+span{background:var(--ink);color:white;border-color:var(--ink)}
+    .treatment-choice input:focus-visible+span{outline:3px solid #0a7650;outline-offset:3px}
+    .dot{width:10px;height:10px;border-radius:50%;background:var(--swatch);border:1px solid #9aa39b;display:inline-block}
+    .treatment-note{font-size:11px;color:var(--muted);text-align:right;max-width:285px}
+    .asset-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+    .asset-card{background:white;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;min-width:0}
+    .asset-preview{height:218px;display:grid;place-items:center;padding:32px;position:relative;background:#fbfcfa;border-bottom:1px solid var(--line)}
+    .asset-preview.dark{background:#0a0b0d;border-bottom-color:#0a0b0d}
+    .asset-preview img{display:block;width:100%;height:100%;object-fit:contain}
+    .asset-preview.icon img{max-width:145px;max-height:145px}
+    .asset-preview.wordmark img{max-width:270px;max-height:82px}
+    .asset-preview.app-icon{background:#e9eee9}
+    .asset-preview.app-icon.dark{background:#1f2622}
+    .asset-preview.app-icon img{max-width:150px;max-height:150px;border-radius:24px;box-shadow:0 9px 20px #00000012}
+    .preview-badge{position:absolute;left:14px;top:11px;color:#7c877e;font-size:9px;text-transform:uppercase;letter-spacing:.14em}
+    .dark .preview-badge{color:#87968c}
+    .card-body{padding:18px}
+    .card-heading{display:flex;align-items:baseline;justify-content:space-between;gap:8px}
+    h3{font-size:15px;line-height:1.2;letter-spacing:-.015em;font-weight:650;margin:0}
+    .card-tag{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;white-space:nowrap}
+    .card-description{font-size:12px;color:var(--muted);margin:8px 0 18px;min-height:37px}
+    .downloads{display:flex;gap:8px;align-items:stretch}
+    .download{display:flex;align-items:center;justify-content:center;gap:8px;background:var(--ink);color:white;border:1px solid var(--ink);border-radius:8px;text-decoration:none;padding:8px 11px;font-size:11px;font-weight:650;white-space:nowrap}
+    .download:hover{background:#253c2e}
+    .download.secondary{background:white;color:var(--ink);border-color:var(--line)}
+    .download.secondary:hover{background:#edf6ee;border-color:#a2b7a8}
+    .download svg{width:12px;height:12px;flex-shrink:0}
+    .png-picker{display:flex;flex:1;min-width:0;gap:6px}
+    .png-picker select{width:100%;min-width:0;border:1px solid var(--line);border-radius:8px;background:#f9fbf8;padding:7px;font-size:11px;color:#48534c;cursor:pointer}
+    .utility-row{margin-top:22px;display:grid;grid-template-columns:1.1fr 1fr;gap:20px}
+    .utility{border:1px solid var(--line);border-radius:14px;padding:22px;background:#ffffff80;min-width:0}
+    .utility h3{margin-bottom:8px}
+    .utility p{font-size:12px;color:var(--muted);margin:0}
+    .favicon-row{display:flex;gap:16px;align-items:center;margin-top:20px}
+    .favicon-preview{width:52px;height:52px;padding:10px;border:1px solid var(--line);border-radius:11px;background:white;flex-shrink:0}
+    .favicon-preview.dark{background:var(--ink);border-color:var(--ink)}
+    .favicon-preview img{width:100%;height:100%;object-fit:contain}
+    .favicon-row .downloads{flex-wrap:wrap}
+    .platform-links{display:flex;gap:16px;flex-wrap:wrap;font-size:11px;margin-top:17px;color:#4d5d53}
+    .palette{display:flex;gap:16px;flex-wrap:wrap;margin-top:19px}
+    .color{font-size:10px;color:var(--muted);display:grid;grid-template-columns:22px auto;gap:1px 8px;align-items:center}
+    .color i{grid-row:1/3;display:block;width:22px;height:30px;border:1px solid #00000015;border-radius:5px;background:var(--swatch)}
+    .color strong{font-size:11px;color:var(--ink);font-weight:600}
+    .footnote{font-size:11px;color:var(--muted);margin:20px 2px 0;max-width:900px;line-height:1.7}
+    footer{border-top:1px solid var(--line);padding:22px 0 28px;color:var(--muted);font-size:11px}
+    footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+    footer nav{display:flex;gap:20px}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+    @media(max-width:1050px){.asset-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.toolbar{align-items:flex-start;flex-direction:column;gap:7px}.treatment-note{text-align:left;max-width:none}}
+    @media(max-width:650px){.wrap{width:calc(100% - 32px)}.masthead{padding-top:20px;padding-bottom:34px}.hero{margin-top:38px}.brand span{display:none}.toplinks{gap:16px}.hero p:last-child{font-size:14px}.direction-tabs{gap:10px;margin-bottom:28px}.direction-tab{padding:14px 12px;gap:10px;min-height:106px}.direction-tab .number{width:28px;height:28px;font-size:10px}.direction-tab strong{font-size:14px}.direction-tab small{font-size:10px}.direction-tab .check{display:none}.asset-grid,.utility-row{grid-template-columns:1fr}.section-heading{gap:10px}.format-note{font-size:9px}.treatment-set{gap:6px}.treatment-set legend{float:none;padding:0 0 8px}.treatment-choice span{padding:7px 9px;font-size:11px}.asset-preview{height:232px}.card-description{min-height:0}.card-body{padding:20px}.downloads{gap:10px}.download{font-size:12px;padding:10px 14px}.png-picker select{font-size:12px}.utility{padding:20px}main{padding-top:22px}footer nav{gap:14px}}
+    @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#assets">Skip to assets</a>
+  <header class="masthead">
+    <div class="wrap">
+      <div class="topline">
+        <a class="brand" href="index.html" aria-label="WHIPT brand asset library">
+          <img src="01-pursuit/svg/whipt-pursuit-wordmark-dark.svg" alt="WHIPT">
+          <span>BRAND ASSETS</span>
+        </a>
+        <nav class="toplinks" aria-label="Kit resources">
+          <a href="README.md">Usage guide ↗</a>
+          <a href="preview/overview.png">Overview ↗</a>
+        </nav>
+      </div>
+      <div class="hero">
+        <p class="eyebrow">Identity library / Version 01</p>
+        <h1>Whippet instinct.<br>WHIPT identity.</h1>
+        <p>Two distinct animal marks, one shared wordmark. Scalable vector artwork and transparent PNG exports, prepared for light and dark surfaces.</p>
+      </div>
+    </div>
+  </header>
+  <main class="wrap" id="assets">
+    <div class="direction-tabs" role="tablist" aria-label="Logo direction">
+      <button class="direction-tab" id="tab-pursuit" role="tab" aria-selected="true" aria-controls="asset-panel" data-direction="pursuit">
+        <span class="number" aria-hidden="true">01</span>
+        <span><strong>Pursuit</strong><small>Focused. Alert. Forward.</small></span>
+        <span class="check" aria-hidden="true">↗</span>
+      </button>
+      <button class="direction-tab" id="tab-full-stride" role="tab" aria-selected="false" aria-controls="asset-panel" data-direction="full-stride" tabindex="-1">
+        <span class="number" aria-hidden="true">02</span>
+        <span><strong>Full Stride</strong><small>Pure whippet momentum.</small></span>
+        <span class="check" aria-hidden="true">↗</span>
+      </button>
+    </div>
+    <section id="asset-panel" role="tabpanel" aria-labelledby="tab-pursuit">
+      <div class="section-heading">
+        <div><h2 id="direction-title">Pursuit</h2><p id="direction-description">A compact profile with a long muzzle and swept-back ear.</p></div>
+        <span class="format-note">SVG + PNG · PATH ARTWORK</span>
+      </div>
+      <div class="toolbar">
+        <fieldset class="treatment-set">
+          <legend>Color treatment</legend>
+          <label class="treatment-choice"><input type="radio" name="treatment" value="light" checked><span><i class="dot" style="--swatch:#0a0b0d" aria-hidden="true"></i>Light</span></label>
+          <label class="treatment-choice"><input type="radio" name="treatment" value="dark"><span><i class="dot" style="--swatch:#f5f6f7" aria-hidden="true"></i>Dark</span></label>
+          <label class="treatment-choice"><input type="radio" name="treatment" value="black"><span><i class="dot" style="--swatch:#000" aria-hidden="true"></i>Black</span></label>
+          <label class="treatment-choice"><input type="radio" name="treatment" value="white"><span><i class="dot" style="--swatch:#fff" aria-hidden="true"></i>White</span></label>
+        </fieldset>
+        <div id="treatment-note" class="treatment-note">Ink + mint artwork for a light background.</div>
+      </div>
+      <div class="asset-grid" id="asset-grid"></div>
+      <div class="utility-row">
+        <section class="utility" aria-labelledby="favicon-heading">
+          <h3 id="favicon-heading">Browser favicon</h3>
+          <p id="favicon-description">Light treatment. SVG and multi-resolution ICO.</p>
+          <div class="favicon-row">
+            <div class="favicon-preview" id="favicon-preview"><img id="favicon-image" src="01-pursuit/favicon/whipt-pursuit-favicon-light.svg" alt="Pursuit light favicon"></div>
+            <div class="downloads"><a class="download" id="favicon-svg" download href="01-pursuit/favicon/whipt-pursuit-favicon-light.svg">↓ SVG</a><a class="download secondary" id="favicon-ico" download href="01-pursuit/favicon/whipt-pursuit-favicon-light.ico">↓ ICO</a></div>
+          </div>
+          <nav class="platform-links" aria-label="Platform icon downloads"><a id="apple-icon" download href="01-pursuit/favicon/whipt-pursuit-apple-touch-icon-light.png">Apple 180 px ↓</a><a id="android-192" download href="01-pursuit/favicon/whipt-pursuit-android-chrome-192-light.png">Android 192 px ↓</a><a id="android-512" download href="01-pursuit/favicon/whipt-pursuit-android-chrome-512-light.png">Android 512 px ↓</a></nav>
+        </section>
+        <section class="utility" aria-labelledby="palette-heading">
+          <h3 id="palette-heading">Shared palette</h3>
+          <p>The family resemblance to OSPRY, across both WHIPT directions.</p>
+          <div class="palette">
+            <div class="color"><i style="--swatch:#0A0B0D" aria-hidden="true"></i><strong>Ink</strong><span>#0A0B0D</span></div>
+            <div class="color"><i style="--swatch:#3DDC97" aria-hidden="true"></i><strong>Mint</strong><span>#3DDC97</span></div>
+            <div class="color"><i style="--swatch:#F5F6F7" aria-hidden="true"></i><strong>Off-white</strong><span>#F5F6F7</span></div>
+          </div>
+        </section>
+      </div>
+      <p class="footnote">Light and dark describe the intended background. Artwork is transparent except for the app icon's opaque tile. App icons and favicons use the light or dark treatment only; monochrome selections show the corresponding color version for those formats. PNG sizes are pixel widths; icon and app icon exports are square. All lettering is outlined.</p>
+    </section>
+    <p id="live-status" class="sr-only" aria-live="polite" aria-atomic="true"></p>
+    <noscript><p>This catalog uses a small offline script to switch previews. Open the <a href="README.md">usage guide</a> for the complete folder structure and browse the SVG or PNG folders directly.</p></noscript>
+  </main>
+  <footer><div class="wrap"><span>WHIPT · Pursuit &amp; Full Stride · Brand kit v1</span><nav aria-label="Asset documentation"><a href="README.md">Usage guide</a><a href="manifest.json">Asset manifest</a><a href="palette.json">Palette</a></nav></div></footer>
+  <script>
+    "use strict";
+    const directions = {
+      "pursuit": { name: "Pursuit", folder: "01-pursuit", description: "A compact profile with a long muzzle and swept-back ear." },
+      "full-stride": { name: "Full Stride", folder: "02-full-stride", description: "The whippet fully extended in motion, with a clear sense of speed." }
+    };
+    const layouts = [
+      { key:"symbol", name:"Symbol", tag:"Natural proportions", description:"The animal mark alone, cropped to its artwork bounds.", sizes:[64,128,256,512,1024,2048,4096], defaultSize:2048 },
+      { key:"icon", name:"Square icon", tag:"Transparent", description:"A padded square composition for avatars and compact UI.", sizes:[32,64,128,256,512,1024,2048], defaultSize:512 },
+      { key:"wordmark", name:"Wordmark", tag:"Outlined lettering", description:"WHIPT lettering, shared by both logo directions.", sizes:[256,512,1024,2048,4096], defaultSize:2048 },
+      { key:"lockup-horizontal", name:"Horizontal lockup", tag:"Symbol + wordmark", description:"The complete identity for navigation, headers, and wide spaces.", sizes:[512,1024,2048,4096], defaultSize:2048 },
+      { key:"lockup-stacked", name:"Stacked lockup", tag:"Symbol + wordmark", description:"A centered composition for vertical and square placements.", sizes:[256,512,1024,2048,4096], defaultSize:2048 },
+      { key:"app-icon", name:"App icon", tag:"Opaque tile", description:"A square tile with built-in padding for app and launcher use.", sizes:[16,32,48,64,128,180,192,256,512,1024], defaultSize:512 }
+    ];
+    const treatments = {
+      light:"Ink + mint artwork for a light background.",
+      dark:"Off-white + mint artwork for a dark background.",
+      black:"Pure black artwork for single-color reproduction.",
+      white:"Pure white artwork for single-color reproduction."
+    };
+    let direction = "pursuit";
+    let treatment = "light";
+    const selectedSizes = Object.fromEntries(layouts.map(layout => [layout.key, layout.defaultSize]));
+    const grid = document.getElementById("asset-grid");
+    const downloadIcon = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M8 1v9m-3-3 3 3 3-3M2 11v3h12v-3"/></svg>';
+    const capitalized = text => text.charAt(0).toUpperCase() + text.slice(1);
+    const tileTreatment = () => treatment === "dark" || treatment === "white" ? "dark" : "light";
+    function assetPath(layout, actualTreatment, format, size) {
+      const base = `whipt-${direction}-${layout}-${actualTreatment}`;
+      return format === "svg"
+        ? `${directions[direction].folder}/svg/${base}.svg`
+        : `${directions[direction].folder}/png/${actualTreatment}/${base}-${size}.png`;
+    }
+    function render() {
+      const current = directions[direction];
+      document.getElementById("direction-title").textContent = current.name;
+      document.getElementById("direction-description").textContent = current.description;
+      document.getElementById("treatment-note").textContent = treatments[treatment];
+      document.getElementById("asset-panel").setAttribute("aria-labelledby", `tab-${direction}`);
+      grid.replaceChildren();
+      for (const layout of layouts) {
+        const actual = layout.key === "app-icon" ? tileTreatment() : treatment;
+        const dark = actual === "dark" || actual === "white";
+        const svgPath = assetPath(layout.key, actual, "svg");
+        const card = document.createElement("article");
+        card.className = "asset-card";
+        card.innerHTML = `
+          <div class="asset-preview ${layout.key}${dark ? " dark" : ""}">
+            <span class="preview-badge">${capitalized(actual)} treatment</span>
+            <img src="${svgPath}" alt="WHIPT ${current.name} ${layout.name.toLowerCase()}, ${actual} treatment" loading="eager">
+          </div>
+          <div class="card-body">
+            <div class="card-heading"><h3>${layout.name}</h3><span class="card-tag">${layout.tag}</span></div>
+            <p class="card-description">${layout.description}</p>
+            <div class="downloads">
+              <a class="download" href="${svgPath}" download aria-label="Download ${current.name} ${layout.name.toLowerCase()} ${actual} SVG">${downloadIcon} SVG</a>
+              <div class="png-picker">
+                <select aria-label="PNG pixel width for ${layout.name.toLowerCase()}">
+                  ${layout.sizes.map(size => `<option value="${size}"${selectedSizes[layout.key] === size ? " selected" : ""}>${size} px</option>`).join("")}
+                </select>
+                <a class="download secondary png-download" href="${assetPath(layout.key,actual,"png",selectedSizes[layout.key])}" download aria-label="Download ${current.name} ${layout.name.toLowerCase()} ${actual} PNG at ${selectedSizes[layout.key]} pixels wide">${downloadIcon} PNG</a>
+              </div>
+            </div>
+          </div>`;
+        card.querySelector("select").addEventListener("change", event => {
+          const size = Number(event.target.value);
+          selectedSizes[layout.key] = size;
+          const link = card.querySelector(".png-download");
+          link.href = assetPath(layout.key,actual,"png",size);
+          link.setAttribute("aria-label",`Download ${current.name} ${layout.name.toLowerCase()} ${actual} PNG at ${size} pixels wide`);
+        });
+        grid.append(card);
+      }
+      const faviconTreatment = tileTreatment();
+      const faviconBase = `${current.folder}/favicon/whipt-${direction}-favicon-${faviconTreatment}`;
+      document.getElementById("favicon-image").src = `${faviconBase}.svg`;
+      document.getElementById("favicon-image").alt = `${current.name} ${faviconTreatment} favicon`;
+      document.getElementById("favicon-preview").classList.toggle("dark",faviconTreatment === "dark");
+      document.getElementById("favicon-description").textContent = `${capitalized(faviconTreatment)} treatment. SVG and multi-resolution ICO.`;
+      document.getElementById("favicon-svg").href = `${faviconBase}.svg`;
+      document.getElementById("favicon-ico").href = `${faviconBase}.ico`;
+      const platformBase = `${current.folder}/favicon/whipt-${direction}`;
+      document.getElementById("apple-icon").href = `${platformBase}-apple-touch-icon-${faviconTreatment}.png`;
+      document.getElementById("android-192").href = `${platformBase}-android-chrome-192-${faviconTreatment}.png`;
+      document.getElementById("android-512").href = `${platformBase}-android-chrome-512-${faviconTreatment}.png`;
+      document.getElementById("live-status").textContent = `Showing ${current.name}, ${treatment} treatment. Six layouts available.`;
+    }
+    const tabs = [...document.querySelectorAll(".direction-tab")];
+    function chooseDirection(tab) {
+      direction = tab.dataset.direction;
+      for (const candidate of tabs) {
+        candidate.setAttribute("aria-selected",String(candidate === tab));
+        candidate.tabIndex = candidate === tab ? 0 : -1;
+      }
+      render();
+    }
+    tabs.forEach((tab,index) => {
+      tab.addEventListener("click",() => chooseDirection(tab));
+      tab.addEventListener("keydown",event => {
+        let next;
+        if (event.key === "ArrowRight") next = tabs[(index+1)%tabs.length];
+        else if (event.key === "ArrowLeft") next = tabs[(index+tabs.length-1)%tabs.length];
+        else if (event.key === "Home") next = tabs[0];
+        else if (event.key === "End") next = tabs[tabs.length-1];
+        if (next) { event.preventDefault();chooseDirection(next);next.focus(); }
+      });
+    });
+    document.querySelectorAll('input[name="treatment"]').forEach(input => input.addEventListener("change",event => {
+      treatment = event.target.value;
+      render();
+    }));
+    render();
+  </script>
+</body>
+</html>

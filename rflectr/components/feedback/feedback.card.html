@@ -1,0 +1,16 @@
+<!-- @dsCard group="Components" viewport="700x320" name="Feedback: Dialog, Toast, ActionItem" subtitle="Confirmations with exact scope, transient toasts, persistent action-center rows" -->
+<!doctype html><html lang="en"><head><meta charset="utf-8"><link rel="stylesheet" href="../../styles.css">
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+<style>body{padding:16px;overflow:hidden}.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.col{display:flex;flex-direction:column;gap:12px}.lbl{font:var(--type-code);color:var(--text-tertiary);width:90px;flex:none}</style></head><body><div id="root"></div>
+<script type="text/babel">
+const DS=window.rflectrDesignSystem_c36c9e;const {Icon,Button,IconButton,Badge,Tooltip,Input,Select,Switch,Checkbox,ModeSegment,Card,MetricCard,UsageWindow,RouteLine,DataTable,Tabs,EmptyState,Dialog,Toast,ActionItem,NavItem,StatusDot}=DS;
+function App(){return <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:12}}>
+<Dialog inline title="Turn Claude Code Off and drain" description="New eligible traffic returns to the native path. Credentials and sessions are unchanged." footer={<><Button variant="ghost">Cancel</Button><Button variant="primary">Turn Off &amp; drain</Button></>}><div className="col" style={{gap:8,font:'var(--type-caption)'}}><div><b>2 active streams</b> finish on Anthropic · Work</div><div><b>Configured intent</b> → Off</div><div style={{color:'var(--text-tertiary)'}}>Drain deadline 120 s</div></div></Dialog>
+<div className="col"><Toast title="Policy revision 15 saved" description="Applies at the next safe boundary." action="View"/><Toast tone="warn" title="Usage window at 84%" description="Anthropic · Work · 5-hour window"/><Toast tone="error" title="Export blocked" description="Secret-scan found a token-shaped value."/>
+<ActionItem severity="blocking" title="Compatibility evidence stale" source="Cursor 3.18.25" reason="COMPAT_STALE" effect="Route unavailable · intent preserved" time="2h ago" count={3} actions={<Button size="sm">Retest</Button>}/>
+<ActionItem severity="warning" title="Restart required after CA install" source="Codex CLI" reason="TRUST_RESTART" time="12m ago" actions={<Button size="sm" variant="ghost">Later</Button>}/></div></div>}
+ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
+</script></body></html>

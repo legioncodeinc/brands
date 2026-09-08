@@ -1,0 +1,28 @@
+*{box-sizing:border-box;border-color:var(--border)}
+html,body{margin:0;background:var(--background);color:var(--foreground);font-family:var(--font-sans);font-size:var(--text-base);line-height:var(--lh-base);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-feature-settings:'cv11','ss01';overscroll-behavior:none}
+h1,h2,h3,h4,h5,h6{margin:0;font-weight:var(--weight-semibold);letter-spacing:var(--tracking-tight);color:var(--text-primary)}
+p{margin:0}
+a{color:var(--brand-primary);text-decoration:none;text-underline-offset:4px}a:hover{text-decoration:underline;color:var(--brand-primary-hover)}
+code,kbd,samp,pre,.mono{font-family:var(--font-mono);font-feature-settings:'liga' 0}
+.eyebrow{font-family:var(--font-mono);font-size:var(--text-xs);text-transform:uppercase;letter-spacing:var(--tracking-eyebrow);color:var(--text-tertiary)}
+.nectar-text{background:var(--grad-nectar-text);-webkit-background-clip:text;background-clip:text;color:transparent}
+:focus-visible{outline:2px solid var(--ring);outline-offset:2px}
+::selection{background:var(--brand-primary-subtle);color:var(--text-primary)}
+.custom-scrollbar{scrollbar-width:thin;scrollbar-color:var(--border-strong) transparent}
+.custom-scrollbar::-webkit-scrollbar{width:8px;height:8px}.custom-scrollbar::-webkit-scrollbar-thumb{background:var(--border-strong);border-radius:8px}
+/* Shared motion vocabulary */
+@keyframes kn-spin{to{transform:rotate(360deg)}}
+@keyframes kn-pulse{50%{opacity:.4}}
+@keyframes kn-shimmer{from{background-position:200% 0}to{background-position:-200% 0}}
+@keyframes kn-route-in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@keyframes kn-row-in{0%{opacity:0;transform:translateX(-8px);background:var(--brand-primary-subtle)}40%{opacity:1;transform:none;background:var(--brand-primary-subtle)}100%{background:transparent}}
+@keyframes kn-stagger-in{from{opacity:0;transform:translateX(-6px)}to{opacity:1;transform:none}}
+@keyframes kn-grow-y{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+@keyframes kn-flutter{0%,100%{transform:translateY(0) rotate(0)}25%{transform:translateY(-2px) rotate(-3deg)}50%{transform:translateY(0) rotate(0)}75%{transform:translateY(-1px) rotate(3deg)}}
+@keyframes kn-hover-bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@keyframes kn-drift{0%{transform:translate(0,0) scale(1)}33%{transform:translate(4%,-6%) scale(1.08)}66%{transform:translate(-5%,4%) scale(.96)}100%{transform:translate(0,0) scale(1)}}
+@keyframes kn-ticker{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes kn-live-ring{0%{box-shadow:0 0 0 0 rgba(61,220,151,.45)}100%{box-shadow:0 0 0 8px rgba(61,220,151,0)}}
+.kn-flutter{animation:kn-flutter .5s ease-in-out infinite}
+.kn-bob:hover{animation:kn-hover-bob 1.2s var(--ease-in-out) infinite}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}

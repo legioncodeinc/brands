@@ -1,0 +1,9 @@
+# Personal tooling: the brand-standardization skill lives in ~/.zcode/skills,
+# not in the repo. Source folder kept local only.
+_standard/
+
+# UI kits live outside the repo in the private UI_Kit workspace (../UI_Kit).
+# The in-repo ui_kits/ folder is a drop zone: contents stay untracked,
+# only the pointer README is committed.
+ui_kits/*
+!ui_kits/README.md

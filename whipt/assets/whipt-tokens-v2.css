@@ -1,0 +1,153 @@
+/* ============================================================
+   WHIPT — Token Library v2 (premium layer)
+   Extends assets/whipt-tokens.css (fonts + core palette) with the
+   glass / aurora / vibe / capability / chart / motion tokens from the
+   WHIPT Code IDE kit. Load AFTER whipt-tokens.css.
+   Light theme: .theme-light (light-first product surfaces).
+   ============================================================ */
+
+:root {
+  /* Overlay + focus */
+  --bg-overlay: rgba(6, 7, 10, 0.72);
+  --border-focus: #3DDC97;
+  --text-link: #6FA8FF;
+
+  /* Brand glow */
+  --brand-primary-glow: rgba(61, 220, 151, 0.35);
+
+  /* Vibe accents */
+  --vibe-indigo:        #818CF8;
+  --vibe-indigo-subtle: rgba(129, 140, 248, 0.12);
+  --vibe-indigo-glow:   rgba(129, 140, 248, 0.30);
+  --vibe-violet:        #A78BFA;
+  --vibe-violet-subtle: rgba(167, 139, 250, 0.12);
+  --vibe-violet-glow:   rgba(167, 139, 250, 0.30);
+  --vibe-amber:         #FBBF24;
+  --vibe-amber-subtle:  rgba(251, 191, 36, 0.12);
+  --vibe-rose:          #FB7185;
+  --vibe-rose-subtle:   rgba(251, 113, 133, 0.12);
+
+  /* Capability accents (agent modes) — brand palette mapping */
+  --cap-browser:        var(--vibe-indigo);
+  --cap-browser-subtle: var(--vibe-indigo-subtle);
+  --cap-browser-glow:   var(--vibe-indigo-glow);
+  --cap-comms:          var(--vibe-violet);
+  --cap-comms-subtle:   var(--vibe-violet-subtle);
+  --cap-comms-glow:     var(--vibe-violet-glow);
+  --cap-code:           var(--brand-primary);
+  --cap-code-subtle:    var(--brand-primary-subtle);
+  --cap-code-glow:      var(--brand-primary-glow);
+  --cap-media:          var(--vibe-rose);
+  --cap-media-subtle:   var(--vibe-rose-subtle);
+  --cap-research:       var(--vibe-amber);
+  --cap-research-subtle: var(--vibe-amber-subtle);
+
+  /* Charts */
+  --chart-1: var(--brand-primary);
+  --chart-2: var(--vibe-indigo);
+  --chart-3: var(--vibe-violet);
+  --chart-4: var(--vibe-amber);
+  --chart-5: var(--vibe-rose);
+  --chart-6: var(--severity-info);
+
+  /* Shadows (layered, shadcn-ish) */
+  --shadow-sm:  0 1px 2px rgba(0, 0, 0, 0.40);
+  --shadow-md:  0 4px 12px rgba(0, 0, 0, 0.40), 0 1px 2px rgba(0, 0, 0, 0.20);
+  --shadow-lg:  0 12px 32px rgba(0, 0, 0, 0.50), 0 2px 4px rgba(0, 0, 0, 0.20);
+  --shadow-xl:  0 24px 64px rgba(0, 0, 0, 0.55), 0 4px 8px rgba(0, 0, 0, 0.25);
+  --shadow-glow-green:  0 0 0 1px var(--brand-primary-subtle), 0 8px 32px var(--brand-primary-glow);
+  --shadow-glow-indigo: 0 0 0 1px var(--vibe-indigo-subtle), 0 8px 32px var(--vibe-indigo-glow);
+
+  /* Glass surfaces */
+  --glass-bg:        rgba(28, 31, 38, 0.55);
+  --glass-bg-strong: rgba(19, 21, 26, 0.74);
+  --glass-bg-faint:  rgba(28, 31, 38, 0.38);
+  --glass-border:    rgba(255, 255, 255, 0.08);
+  --glass-hairline:  rgba(255, 255, 255, 0.06);
+  --glass-blur:      20px;
+  --glass-shadow:    0 1px 0 rgba(255,255,255,0.04) inset, 0 16px 48px rgba(0,0,0,0.45);
+
+  /* Ambient aurora */
+  --aurora:
+    radial-gradient(70% 55% at 12% 0%, rgba(61, 220, 151, 0.14), transparent 60%),
+    radial-gradient(60% 50% at 90% 8%, rgba(129, 140, 248, 0.14), transparent 60%),
+    radial-gradient(80% 60% at 50% 100%, rgba(167, 139, 250, 0.09), transparent 70%);
+
+  /* Radii extensions */
+  --radius-2xl: 20px;
+  --radius-3xl: 28px;
+}
+
+.theme-light,
+:root[data-theme="light"] {
+  --bg-canvas:    #EEF1F6;
+  --bg-surface:   #FFFFFF;
+  --bg-elevated:  #FFFFFF;
+  --bg-subtle:    #ECEFF4;
+  --bg-inset:     #F6F8FB;
+  --bg-overlay:   rgba(15, 18, 24, 0.32);
+
+  --text-primary:   #0B0D12;
+  --text-secondary: #44505F;
+  --text-tertiary:  #6B7480;
+  --text-disabled:  #A6AEBB;
+  --text-inverse:   #FFFFFF;
+  --text-link:      #2563EB;
+
+  --border-subtle:  #E4E8EF;
+  --border-default: #D5DBE4;
+  --border-strong:  #BFC7D2;
+  --border-focus:   #16B97D;
+
+  --brand-primary:         #16B97D;
+  --brand-primary-hover:   #119E6B;
+  --brand-primary-pressed: #0E8459;
+  --brand-primary-subtle:  rgba(22, 185, 125, 0.12);
+  --brand-primary-glow:    rgba(22, 185, 125, 0.28);
+  --brand-primary-on:      #FFFFFF;
+
+  --severity-critical:    #DC2839;
+  --severity-critical-bg: rgba(220, 40, 57, 0.08);
+  --severity-warning:     #C77A00;
+  --severity-warning-bg:  rgba(199, 122, 0, 0.10);
+  --severity-info:        #2E5BD9;
+  --severity-info-bg:     rgba(46, 91, 217, 0.08);
+  --severity-success:     #16B97D;
+  --severity-success-bg:  rgba(22, 185, 125, 0.10);
+
+  --vibe-indigo:        #5B63E0;
+  --vibe-indigo-subtle: rgba(91, 99, 224, 0.12);
+  --vibe-indigo-glow:   rgba(91, 99, 224, 0.24);
+  --vibe-violet:        #7C56D9;
+  --vibe-violet-subtle: rgba(124, 86, 217, 0.12);
+  --vibe-violet-glow:   rgba(124, 86, 217, 0.24);
+  --vibe-amber:         #C77D08;
+  --vibe-amber-subtle:  rgba(199, 125, 8, 0.14);
+  --vibe-rose:          #DB4C63;
+  --vibe-rose-subtle:   rgba(219, 76, 99, 0.12);
+
+  --glass-bg:        rgba(255, 255, 255, 0.62);
+  --glass-bg-strong: rgba(255, 255, 255, 0.82);
+  --glass-bg-faint:  rgba(255, 255, 255, 0.45);
+  --glass-border:    rgba(11, 13, 18, 0.07);
+  --glass-hairline:  rgba(11, 13, 18, 0.05);
+  --glass-shadow:    0 1px 0 rgba(255,255,255,0.6) inset, 0 16px 44px rgba(20,30,50,0.12);
+
+  --aurora:
+    radial-gradient(70% 55% at 12% 0%, rgba(22, 185, 125, 0.16), transparent 60%),
+    radial-gradient(60% 50% at 90% 8%, rgba(91, 99, 224, 0.16), transparent 60%),
+    radial-gradient(80% 60% at 50% 100%, rgba(124, 86, 217, 0.10), transparent 70%);
+
+  --shadow-sm:  0 1px 2px rgba(20, 30, 50, 0.08);
+  --shadow-md:  0 4px 12px rgba(20, 30, 50, 0.10), 0 1px 2px rgba(20, 30, 50, 0.06);
+  --shadow-lg:  0 12px 32px rgba(20, 30, 50, 0.12), 0 2px 4px rgba(20, 30, 50, 0.06);
+  --shadow-xl:  0 24px 64px rgba(20, 30, 50, 0.16), 0 4px 8px rgba(20, 30, 50, 0.08);
+}
+
+/* Motion primitives for the demo */
+@keyframes whipt-fade-up { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes whipt-fade-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes whipt-pop { from { opacity: 0; transform: scale(0.97); } to { opacity: 1; transform: scale(1); } }
+@keyframes whipt-pulse-glow { 0%, 100% { opacity: 1; } 50% { opacity: 0.45; } }
+@keyframes whipt-dash { to { stroke-dashoffset: 0; } }
+@keyframes whipt-cursor-v2 { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }

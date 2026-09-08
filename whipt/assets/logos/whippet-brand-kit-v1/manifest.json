@@ -1,0 +1,2066 @@
+{
+  "brand": "WHIPT",
+  "version": "1.0",
+  "created": "2026-09-02",
+  "concepts": [
+    "pursuit",
+    "full-stride"
+  ],
+  "notes": "All logo lettering is outlined. Light/dark SVGs and PNGs have identical geometry. Sizes describe pixel width; icon and app-icon are square.",
+  "svg_count": 44,
+  "png_count": 264,
+  "exports": [
+    {
+      "concept": "pursuit",
+      "layout": "symbol",
+      "treatment": "light",
+      "svg": "01-pursuit/svg/whipt-pursuit-symbol-light.svg",
+      "viewBox": [
+        0,
+        0,
+        1136.1,
+        988.1
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-symbol-light-64.png",
+          "width": 64,
+          "height": 56
+        },
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-symbol-light-128.png",
+          "width": 128,
+          "height": 111
+        },
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-symbol-light-256.png",
+          "width": 256,
+          "height": 223
+        },
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-symbol-light-512.png",
+          "width": 512,
+          "height": 445
+        },
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-symbol-light-1024.png",
+          "width": 1024,
+          "height": 891
+        },
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-symbol-light-2048.png",
+          "width": 2048,
+          "height": 1781
+        },
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-symbol-light-4096.png",
+          "width": 4096,
+          "height": 3562
+        }
+      ]
+    },
+    {
+      "concept": "pursuit",
+      "layout": "symbol",
+      "treatment": "dark",
+      "svg": "01-pursuit/svg/whipt-pursuit-symbol-dark.svg",
+      "viewBox": [
+        0,
+        0,
+        1136.1,
+        988.1
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-symbol-dark-64.png",
+          "width": 64,
+          "height": 56
+        },
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-symbol-dark-128.png",
+          "width": 128,
+          "height": 111
+        },
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-symbol-dark-256.png",
+          "width": 256,
+          "height": 223
+        },
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-symbol-dark-512.png",
+          "width": 512,
+          "height": 445
+        },
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-symbol-dark-1024.png",
+          "width": 1024,
+          "height": 891
+        },
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-symbol-dark-2048.png",
+          "width": 2048,
+          "height": 1781
+        },
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-symbol-dark-4096.png",
+          "width": 4096,
+          "height": 3562
+        }
+      ]
+    },
+    {
+      "concept": "pursuit",
+      "layout": "symbol",
+      "treatment": "black",
+      "svg": "01-pursuit/svg/whipt-pursuit-symbol-black.svg",
+      "viewBox": [
+        0,
+        0,
+        1136.1,
+        988.1
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "01-pursuit/png/black/whipt-pursuit-symbol-black-64.png",
+          "width": 64,
+          "height": 56
+        },
+        {
+          "path": "01-pursuit/png/black/whipt-pursuit-symbol-black-128.png",
+          "width": 128,
+          "height": 111
+        },
+        {
+          "path": "01-pursuit/png/black/whipt-pursuit-symbol-black-256.png",
+          "width": 256,
+          "height": 223
+        },
+        {
+          "path": "01-pursuit/png/black/whipt-pursuit-symbol-black-512.png",
+          "width": 512,
+          "height": 445
+        },
+        {
+          "path": "01-pursuit/png/black/whipt-pursuit-symbol-black-1024.png",
+          "width": 1024,
+          "height": 891
+        },
+        {
+          "path": "01-pursuit/png/black/whipt-pursuit-symbol-black-2048.png",
+          "width": 2048,
+          "height": 1781
+        },
+        {
+          "path": "01-pursuit/png/black/whipt-pursuit-symbol-black-4096.png",
+          "width": 4096,
+          "height": 3562
+        }
+      ]
+    },
+    {
+      "concept": "pursuit",
+      "layout": "symbol",
+      "treatment": "white",
+      "svg": "01-pursuit/svg/whipt-pursuit-symbol-white.svg",
+      "viewBox": [
+        0,
+        0,
+        1136.1,
+        988.1
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "01-pursuit/png/white/whipt-pursuit-symbol-white-64.png",
+          "width": 64,
+          "height": 56
+        },
+        {
+          "path": "01-pursuit/png/white/whipt-pursuit-symbol-white-128.png",
+          "width": 128,
+          "height": 111
+        },
+        {
+          "path": "01-pursuit/png/white/whipt-pursuit-symbol-white-256.png",
+          "width": 256,
+          "height": 223
+        },
+        {
+          "path": "01-pursuit/png/white/whipt-pursuit-symbol-white-512.png",
+          "width": 512,
+          "height": 445
+        },
+        {
+          "path": "01-pursuit/png/white/whipt-pursuit-symbol-white-1024.png",
+          "width": 1024,
+          "height": 891
+        },
+        {
+          "path": "01-pursuit/png/white/whipt-pursuit-symbol-white-2048.png",
+          "width": 2048,
+          "height": 1781
+        },
+        {
+          "path": "01-pursuit/png/white/whipt-pursuit-symbol-white-4096.png",
+          "width": 4096,
+          "height": 3562
+        }
+      ]
+    },
+    {
+      "concept": "pursuit",
+      "layout": "icon",
+      "treatment": "light",
+      "svg": "01-pursuit/svg/whipt-pursuit-icon-light.svg",
+      "viewBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-icon-light-32.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-icon-light-64.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-icon-light-128.png",
+          "width": 128,
+          "height": 128
+        },
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-icon-light-256.png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-icon-light-512.png",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-icon-light-1024.png",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-icon-light-2048.png",
+          "width": 2048,
+          "height": 2048
+        }
+      ]
+    },
+    {
+      "concept": "pursuit",
+      "layout": "icon",
+      "treatment": "dark",
+      "svg": "01-pursuit/svg/whipt-pursuit-icon-dark.svg",
+      "viewBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-icon-dark-32.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-icon-dark-64.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-icon-dark-128.png",
+          "width": 128,
+          "height": 128
+        },
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-icon-dark-256.png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-icon-dark-512.png",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-icon-dark-1024.png",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-icon-dark-2048.png",
+          "width": 2048,
+          "height": 2048
+        }
+      ]
+    },
+    {
+      "concept": "pursuit",
+      "layout": "icon",
+      "treatment": "black",
+      "svg": "01-pursuit/svg/whipt-pursuit-icon-black.svg",
+      "viewBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "01-pursuit/png/black/whipt-pursuit-icon-black-32.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "01-pursuit/png/black/whipt-pursuit-icon-black-64.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "01-pursuit/png/black/whipt-pursuit-icon-black-128.png",
+          "width": 128,
+          "height": 128
+        },
+        {
+          "path": "01-pursuit/png/black/whipt-pursuit-icon-black-256.png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "path": "01-pursuit/png/black/whipt-pursuit-icon-black-512.png",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "path": "01-pursuit/png/black/whipt-pursuit-icon-black-1024.png",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "01-pursuit/png/black/whipt-pursuit-icon-black-2048.png",
+          "width": 2048,
+          "height": 2048
+        }
+      ]
+    },
+    {
+      "concept": "pursuit",
+      "layout": "icon",
+      "treatment": "white",
+      "svg": "01-pursuit/svg/whipt-pursuit-icon-white.svg",
+      "viewBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "01-pursuit/png/white/whipt-pursuit-icon-white-32.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "01-pursuit/png/white/whipt-pursuit-icon-white-64.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "01-pursuit/png/white/whipt-pursuit-icon-white-128.png",
+          "width": 128,
+          "height": 128
+        },
+        {
+          "path": "01-pursuit/png/white/whipt-pursuit-icon-white-256.png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "path": "01-pursuit/png/white/whipt-pursuit-icon-white-512.png",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "path": "01-pursuit/png/white/whipt-pursuit-icon-white-1024.png",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "01-pursuit/png/white/whipt-pursuit-icon-white-2048.png",
+          "width": 2048,
+          "height": 2048
+        }
+      ]
+    },
+    {
+      "concept": "pursuit",
+      "layout": "wordmark",
+      "treatment": "light",
+      "svg": "01-pursuit/svg/whipt-pursuit-wordmark-light.svg",
+      "viewBox": [
+        0,
+        0,
+        426.0,
+        92.0
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-wordmark-light-256.png",
+          "width": 256,
+          "height": 55
+        },
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-wordmark-light-512.png",
+          "width": 512,
+          "height": 111
+        },
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-wordmark-light-1024.png",
+          "width": 1024,
+          "height": 221
+        },
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-wordmark-light-2048.png",
+          "width": 2048,
+          "height": 442
+        },
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-wordmark-light-4096.png",
+          "width": 4096,
+          "height": 885
+        }
+      ]
+    },
+    {
+      "concept": "pursuit",
+      "layout": "wordmark",
+      "treatment": "dark",
+      "svg": "01-pursuit/svg/whipt-pursuit-wordmark-dark.svg",
+      "viewBox": [
+        0,
+        0,
+        426.0,
+        92.0
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-wordmark-dark-256.png",
+          "width": 256,
+          "height": 55
+        },
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-wordmark-dark-512.png",
+          "width": 512,
+          "height": 111
+        },
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-wordmark-dark-1024.png",
+          "width": 1024,
+          "height": 221
+        },
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-wordmark-dark-2048.png",
+          "width": 2048,
+          "height": 442
+        },
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-wordmark-dark-4096.png",
+          "width": 4096,
+          "height": 885
+        }
+      ]
+    },
+    {
+      "concept": "pursuit",
+      "layout": "wordmark",
+      "treatment": "black",
+      "svg": "01-pursuit/svg/whipt-pursuit-wordmark-black.svg",
+      "viewBox": [
+        0,
+        0,
+        426.0,
+        92.0
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "01-pursuit/png/black/whipt-pursuit-wordmark-black-256.png",
+          "width": 256,
+          "height": 55
+        },
+        {
+          "path": "01-pursuit/png/black/whipt-pursuit-wordmark-black-512.png",
+          "width": 512,
+          "height": 111
+        },
+        {
+          "path": "01-pursuit/png/black/whipt-pursuit-wordmark-black-1024.png",
+          "width": 1024,
+          "height": 221
+        },
+        {
+          "path": "01-pursuit/png/black/whipt-pursuit-wordmark-black-2048.png",
+          "width": 2048,
+          "height": 442
+        },
+        {
+          "path": "01-pursuit/png/black/whipt-pursuit-wordmark-black-4096.png",
+          "width": 4096,
+          "height": 885
+        }
+      ]
+    },
+    {
+      "concept": "pursuit",
+      "layout": "wordmark",
+      "treatment": "white",
+      "svg": "01-pursuit/svg/whipt-pursuit-wordmark-white.svg",
+      "viewBox": [
+        0,
+        0,
+        426.0,
+        92.0
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "01-pursuit/png/white/whipt-pursuit-wordmark-white-256.png",
+          "width": 256,
+          "height": 55
+        },
+        {
+          "path": "01-pursuit/png/white/whipt-pursuit-wordmark-white-512.png",
+          "width": 512,
+          "height": 111
+        },
+        {
+          "path": "01-pursuit/png/white/whipt-pursuit-wordmark-white-1024.png",
+          "width": 1024,
+          "height": 221
+        },
+        {
+          "path": "01-pursuit/png/white/whipt-pursuit-wordmark-white-2048.png",
+          "width": 2048,
+          "height": 442
+        },
+        {
+          "path": "01-pursuit/png/white/whipt-pursuit-wordmark-white-4096.png",
+          "width": 4096,
+          "height": 885
+        }
+      ]
+    },
+    {
+      "concept": "pursuit",
+      "layout": "lockup-horizontal",
+      "treatment": "light",
+      "svg": "01-pursuit/svg/whipt-pursuit-lockup-horizontal-light.svg",
+      "viewBox": [
+        0,
+        0,
+        917.2835369693917,
+        254.0
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-lockup-horizontal-light-512.png",
+          "width": 512,
+          "height": 142
+        },
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-lockup-horizontal-light-1024.png",
+          "width": 1024,
+          "height": 284
+        },
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-lockup-horizontal-light-2048.png",
+          "width": 2048,
+          "height": 567
+        },
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-lockup-horizontal-light-4096.png",
+          "width": 4096,
+          "height": 1134
+        }
+      ]
+    },
+    {
+      "concept": "pursuit",
+      "layout": "lockup-horizontal",
+      "treatment": "dark",
+      "svg": "01-pursuit/svg/whipt-pursuit-lockup-horizontal-dark.svg",
+      "viewBox": [
+        0,
+        0,
+        917.2835369693917,
+        254.0
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-lockup-horizontal-dark-512.png",
+          "width": 512,
+          "height": 142
+        },
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-lockup-horizontal-dark-1024.png",
+          "width": 1024,
+          "height": 284
+        },
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-lockup-horizontal-dark-2048.png",
+          "width": 2048,
+          "height": 567
+        },
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-lockup-horizontal-dark-4096.png",
+          "width": 4096,
+          "height": 1134
+        }
+      ]
+    },
+    {
+      "concept": "pursuit",
+      "layout": "lockup-horizontal",
+      "treatment": "black",
+      "svg": "01-pursuit/svg/whipt-pursuit-lockup-horizontal-black.svg",
+      "viewBox": [
+        0,
+        0,
+        917.2835369693917,
+        254.0
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "01-pursuit/png/black/whipt-pursuit-lockup-horizontal-black-512.png",
+          "width": 512,
+          "height": 142
+        },
+        {
+          "path": "01-pursuit/png/black/whipt-pursuit-lockup-horizontal-black-1024.png",
+          "width": 1024,
+          "height": 284
+        },
+        {
+          "path": "01-pursuit/png/black/whipt-pursuit-lockup-horizontal-black-2048.png",
+          "width": 2048,
+          "height": 567
+        },
+        {
+          "path": "01-pursuit/png/black/whipt-pursuit-lockup-horizontal-black-4096.png",
+          "width": 4096,
+          "height": 1134
+        }
+      ]
+    },
+    {
+      "concept": "pursuit",
+      "layout": "lockup-horizontal",
+      "treatment": "white",
+      "svg": "01-pursuit/svg/whipt-pursuit-lockup-horizontal-white.svg",
+      "viewBox": [
+        0,
+        0,
+        917.2835369693917,
+        254.0
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "01-pursuit/png/white/whipt-pursuit-lockup-horizontal-white-512.png",
+          "width": 512,
+          "height": 142
+        },
+        {
+          "path": "01-pursuit/png/white/whipt-pursuit-lockup-horizontal-white-1024.png",
+          "width": 1024,
+          "height": 284
+        },
+        {
+          "path": "01-pursuit/png/white/whipt-pursuit-lockup-horizontal-white-2048.png",
+          "width": 2048,
+          "height": 567
+        },
+        {
+          "path": "01-pursuit/png/white/whipt-pursuit-lockup-horizontal-white-4096.png",
+          "width": 4096,
+          "height": 1134
+        }
+      ]
+    },
+    {
+      "concept": "pursuit",
+      "layout": "lockup-stacked",
+      "treatment": "light",
+      "svg": "01-pursuit/svg/whipt-pursuit-lockup-stacked-light.svg",
+      "viewBox": [
+        0,
+        0,
+        900,
+        826.9698825649939
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-lockup-stacked-light-256.png",
+          "width": 256,
+          "height": 235
+        },
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-lockup-stacked-light-512.png",
+          "width": 512,
+          "height": 470
+        },
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-lockup-stacked-light-1024.png",
+          "width": 1024,
+          "height": 941
+        },
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-lockup-stacked-light-2048.png",
+          "width": 2048,
+          "height": 1882
+        },
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-lockup-stacked-light-4096.png",
+          "width": 4096,
+          "height": 3764
+        }
+      ]
+    },
+    {
+      "concept": "pursuit",
+      "layout": "lockup-stacked",
+      "treatment": "dark",
+      "svg": "01-pursuit/svg/whipt-pursuit-lockup-stacked-dark.svg",
+      "viewBox": [
+        0,
+        0,
+        900,
+        826.9698825649939
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-lockup-stacked-dark-256.png",
+          "width": 256,
+          "height": 235
+        },
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-lockup-stacked-dark-512.png",
+          "width": 512,
+          "height": 470
+        },
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-lockup-stacked-dark-1024.png",
+          "width": 1024,
+          "height": 941
+        },
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-lockup-stacked-dark-2048.png",
+          "width": 2048,
+          "height": 1882
+        },
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-lockup-stacked-dark-4096.png",
+          "width": 4096,
+          "height": 3764
+        }
+      ]
+    },
+    {
+      "concept": "pursuit",
+      "layout": "lockup-stacked",
+      "treatment": "black",
+      "svg": "01-pursuit/svg/whipt-pursuit-lockup-stacked-black.svg",
+      "viewBox": [
+        0,
+        0,
+        900,
+        826.9698825649939
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "01-pursuit/png/black/whipt-pursuit-lockup-stacked-black-256.png",
+          "width": 256,
+          "height": 235
+        },
+        {
+          "path": "01-pursuit/png/black/whipt-pursuit-lockup-stacked-black-512.png",
+          "width": 512,
+          "height": 470
+        },
+        {
+          "path": "01-pursuit/png/black/whipt-pursuit-lockup-stacked-black-1024.png",
+          "width": 1024,
+          "height": 941
+        },
+        {
+          "path": "01-pursuit/png/black/whipt-pursuit-lockup-stacked-black-2048.png",
+          "width": 2048,
+          "height": 1882
+        },
+        {
+          "path": "01-pursuit/png/black/whipt-pursuit-lockup-stacked-black-4096.png",
+          "width": 4096,
+          "height": 3764
+        }
+      ]
+    },
+    {
+      "concept": "pursuit",
+      "layout": "lockup-stacked",
+      "treatment": "white",
+      "svg": "01-pursuit/svg/whipt-pursuit-lockup-stacked-white.svg",
+      "viewBox": [
+        0,
+        0,
+        900,
+        826.9698825649939
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "01-pursuit/png/white/whipt-pursuit-lockup-stacked-white-256.png",
+          "width": 256,
+          "height": 235
+        },
+        {
+          "path": "01-pursuit/png/white/whipt-pursuit-lockup-stacked-white-512.png",
+          "width": 512,
+          "height": 470
+        },
+        {
+          "path": "01-pursuit/png/white/whipt-pursuit-lockup-stacked-white-1024.png",
+          "width": 1024,
+          "height": 941
+        },
+        {
+          "path": "01-pursuit/png/white/whipt-pursuit-lockup-stacked-white-2048.png",
+          "width": 2048,
+          "height": 1882
+        },
+        {
+          "path": "01-pursuit/png/white/whipt-pursuit-lockup-stacked-white-4096.png",
+          "width": 4096,
+          "height": 3764
+        }
+      ]
+    },
+    {
+      "concept": "pursuit",
+      "layout": "app-icon",
+      "treatment": "light",
+      "svg": "01-pursuit/svg/whipt-pursuit-app-icon-light.svg",
+      "viewBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "transparent": false,
+      "png": [
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-app-icon-light-16.png",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-app-icon-light-32.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-app-icon-light-48.png",
+          "width": 48,
+          "height": 48
+        },
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-app-icon-light-64.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-app-icon-light-128.png",
+          "width": 128,
+          "height": 128
+        },
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-app-icon-light-180.png",
+          "width": 180,
+          "height": 180
+        },
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-app-icon-light-192.png",
+          "width": 192,
+          "height": 192
+        },
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-app-icon-light-256.png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-app-icon-light-512.png",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "path": "01-pursuit/png/light/whipt-pursuit-app-icon-light-1024.png",
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    },
+    {
+      "concept": "pursuit",
+      "layout": "app-icon",
+      "treatment": "dark",
+      "svg": "01-pursuit/svg/whipt-pursuit-app-icon-dark.svg",
+      "viewBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "transparent": false,
+      "png": [
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-app-icon-dark-16.png",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-app-icon-dark-32.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-app-icon-dark-48.png",
+          "width": 48,
+          "height": 48
+        },
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-app-icon-dark-64.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-app-icon-dark-128.png",
+          "width": 128,
+          "height": 128
+        },
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-app-icon-dark-180.png",
+          "width": 180,
+          "height": 180
+        },
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-app-icon-dark-192.png",
+          "width": 192,
+          "height": 192
+        },
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-app-icon-dark-256.png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-app-icon-dark-512.png",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "path": "01-pursuit/png/dark/whipt-pursuit-app-icon-dark-1024.png",
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    },
+    {
+      "concept": "full-stride",
+      "layout": "symbol",
+      "treatment": "light",
+      "svg": "02-full-stride/svg/whipt-full-stride-symbol-light.svg",
+      "viewBox": [
+        0,
+        0,
+        477.75104999999996,
+        203.67305
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-symbol-light-64.png",
+          "width": 64,
+          "height": 27
+        },
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-symbol-light-128.png",
+          "width": 128,
+          "height": 55
+        },
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-symbol-light-256.png",
+          "width": 256,
+          "height": 109
+        },
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-symbol-light-512.png",
+          "width": 512,
+          "height": 218
+        },
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-symbol-light-1024.png",
+          "width": 1024,
+          "height": 437
+        },
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-symbol-light-2048.png",
+          "width": 2048,
+          "height": 873
+        },
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-symbol-light-4096.png",
+          "width": 4096,
+          "height": 1746
+        }
+      ]
+    },
+    {
+      "concept": "full-stride",
+      "layout": "symbol",
+      "treatment": "dark",
+      "svg": "02-full-stride/svg/whipt-full-stride-symbol-dark.svg",
+      "viewBox": [
+        0,
+        0,
+        477.75104999999996,
+        203.67305
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-symbol-dark-64.png",
+          "width": 64,
+          "height": 27
+        },
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-symbol-dark-128.png",
+          "width": 128,
+          "height": 55
+        },
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-symbol-dark-256.png",
+          "width": 256,
+          "height": 109
+        },
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-symbol-dark-512.png",
+          "width": 512,
+          "height": 218
+        },
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-symbol-dark-1024.png",
+          "width": 1024,
+          "height": 437
+        },
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-symbol-dark-2048.png",
+          "width": 2048,
+          "height": 873
+        },
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-symbol-dark-4096.png",
+          "width": 4096,
+          "height": 1746
+        }
+      ]
+    },
+    {
+      "concept": "full-stride",
+      "layout": "symbol",
+      "treatment": "black",
+      "svg": "02-full-stride/svg/whipt-full-stride-symbol-black.svg",
+      "viewBox": [
+        0,
+        0,
+        477.75104999999996,
+        203.67305
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "02-full-stride/png/black/whipt-full-stride-symbol-black-64.png",
+          "width": 64,
+          "height": 27
+        },
+        {
+          "path": "02-full-stride/png/black/whipt-full-stride-symbol-black-128.png",
+          "width": 128,
+          "height": 55
+        },
+        {
+          "path": "02-full-stride/png/black/whipt-full-stride-symbol-black-256.png",
+          "width": 256,
+          "height": 109
+        },
+        {
+          "path": "02-full-stride/png/black/whipt-full-stride-symbol-black-512.png",
+          "width": 512,
+          "height": 218
+        },
+        {
+          "path": "02-full-stride/png/black/whipt-full-stride-symbol-black-1024.png",
+          "width": 1024,
+          "height": 437
+        },
+        {
+          "path": "02-full-stride/png/black/whipt-full-stride-symbol-black-2048.png",
+          "width": 2048,
+          "height": 873
+        },
+        {
+          "path": "02-full-stride/png/black/whipt-full-stride-symbol-black-4096.png",
+          "width": 4096,
+          "height": 1746
+        }
+      ]
+    },
+    {
+      "concept": "full-stride",
+      "layout": "symbol",
+      "treatment": "white",
+      "svg": "02-full-stride/svg/whipt-full-stride-symbol-white.svg",
+      "viewBox": [
+        0,
+        0,
+        477.75104999999996,
+        203.67305
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "02-full-stride/png/white/whipt-full-stride-symbol-white-64.png",
+          "width": 64,
+          "height": 27
+        },
+        {
+          "path": "02-full-stride/png/white/whipt-full-stride-symbol-white-128.png",
+          "width": 128,
+          "height": 55
+        },
+        {
+          "path": "02-full-stride/png/white/whipt-full-stride-symbol-white-256.png",
+          "width": 256,
+          "height": 109
+        },
+        {
+          "path": "02-full-stride/png/white/whipt-full-stride-symbol-white-512.png",
+          "width": 512,
+          "height": 218
+        },
+        {
+          "path": "02-full-stride/png/white/whipt-full-stride-symbol-white-1024.png",
+          "width": 1024,
+          "height": 437
+        },
+        {
+          "path": "02-full-stride/png/white/whipt-full-stride-symbol-white-2048.png",
+          "width": 2048,
+          "height": 873
+        },
+        {
+          "path": "02-full-stride/png/white/whipt-full-stride-symbol-white-4096.png",
+          "width": 4096,
+          "height": 1746
+        }
+      ]
+    },
+    {
+      "concept": "full-stride",
+      "layout": "icon",
+      "treatment": "light",
+      "svg": "02-full-stride/svg/whipt-full-stride-icon-light.svg",
+      "viewBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-icon-light-32.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-icon-light-64.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-icon-light-128.png",
+          "width": 128,
+          "height": 128
+        },
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-icon-light-256.png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-icon-light-512.png",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-icon-light-1024.png",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-icon-light-2048.png",
+          "width": 2048,
+          "height": 2048
+        }
+      ]
+    },
+    {
+      "concept": "full-stride",
+      "layout": "icon",
+      "treatment": "dark",
+      "svg": "02-full-stride/svg/whipt-full-stride-icon-dark.svg",
+      "viewBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-icon-dark-32.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-icon-dark-64.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-icon-dark-128.png",
+          "width": 128,
+          "height": 128
+        },
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-icon-dark-256.png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-icon-dark-512.png",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-icon-dark-1024.png",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-icon-dark-2048.png",
+          "width": 2048,
+          "height": 2048
+        }
+      ]
+    },
+    {
+      "concept": "full-stride",
+      "layout": "icon",
+      "treatment": "black",
+      "svg": "02-full-stride/svg/whipt-full-stride-icon-black.svg",
+      "viewBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "02-full-stride/png/black/whipt-full-stride-icon-black-32.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "02-full-stride/png/black/whipt-full-stride-icon-black-64.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "02-full-stride/png/black/whipt-full-stride-icon-black-128.png",
+          "width": 128,
+          "height": 128
+        },
+        {
+          "path": "02-full-stride/png/black/whipt-full-stride-icon-black-256.png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "path": "02-full-stride/png/black/whipt-full-stride-icon-black-512.png",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "path": "02-full-stride/png/black/whipt-full-stride-icon-black-1024.png",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "02-full-stride/png/black/whipt-full-stride-icon-black-2048.png",
+          "width": 2048,
+          "height": 2048
+        }
+      ]
+    },
+    {
+      "concept": "full-stride",
+      "layout": "icon",
+      "treatment": "white",
+      "svg": "02-full-stride/svg/whipt-full-stride-icon-white.svg",
+      "viewBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "02-full-stride/png/white/whipt-full-stride-icon-white-32.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "02-full-stride/png/white/whipt-full-stride-icon-white-64.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "02-full-stride/png/white/whipt-full-stride-icon-white-128.png",
+          "width": 128,
+          "height": 128
+        },
+        {
+          "path": "02-full-stride/png/white/whipt-full-stride-icon-white-256.png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "path": "02-full-stride/png/white/whipt-full-stride-icon-white-512.png",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "path": "02-full-stride/png/white/whipt-full-stride-icon-white-1024.png",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "02-full-stride/png/white/whipt-full-stride-icon-white-2048.png",
+          "width": 2048,
+          "height": 2048
+        }
+      ]
+    },
+    {
+      "concept": "full-stride",
+      "layout": "wordmark",
+      "treatment": "light",
+      "svg": "02-full-stride/svg/whipt-full-stride-wordmark-light.svg",
+      "viewBox": [
+        0,
+        0,
+        426.0,
+        92.0
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-wordmark-light-256.png",
+          "width": 256,
+          "height": 55
+        },
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-wordmark-light-512.png",
+          "width": 512,
+          "height": 111
+        },
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-wordmark-light-1024.png",
+          "width": 1024,
+          "height": 221
+        },
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-wordmark-light-2048.png",
+          "width": 2048,
+          "height": 442
+        },
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-wordmark-light-4096.png",
+          "width": 4096,
+          "height": 885
+        }
+      ]
+    },
+    {
+      "concept": "full-stride",
+      "layout": "wordmark",
+      "treatment": "dark",
+      "svg": "02-full-stride/svg/whipt-full-stride-wordmark-dark.svg",
+      "viewBox": [
+        0,
+        0,
+        426.0,
+        92.0
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-wordmark-dark-256.png",
+          "width": 256,
+          "height": 55
+        },
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-wordmark-dark-512.png",
+          "width": 512,
+          "height": 111
+        },
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-wordmark-dark-1024.png",
+          "width": 1024,
+          "height": 221
+        },
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-wordmark-dark-2048.png",
+          "width": 2048,
+          "height": 442
+        },
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-wordmark-dark-4096.png",
+          "width": 4096,
+          "height": 885
+        }
+      ]
+    },
+    {
+      "concept": "full-stride",
+      "layout": "wordmark",
+      "treatment": "black",
+      "svg": "02-full-stride/svg/whipt-full-stride-wordmark-black.svg",
+      "viewBox": [
+        0,
+        0,
+        426.0,
+        92.0
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "02-full-stride/png/black/whipt-full-stride-wordmark-black-256.png",
+          "width": 256,
+          "height": 55
+        },
+        {
+          "path": "02-full-stride/png/black/whipt-full-stride-wordmark-black-512.png",
+          "width": 512,
+          "height": 111
+        },
+        {
+          "path": "02-full-stride/png/black/whipt-full-stride-wordmark-black-1024.png",
+          "width": 1024,
+          "height": 221
+        },
+        {
+          "path": "02-full-stride/png/black/whipt-full-stride-wordmark-black-2048.png",
+          "width": 2048,
+          "height": 442
+        },
+        {
+          "path": "02-full-stride/png/black/whipt-full-stride-wordmark-black-4096.png",
+          "width": 4096,
+          "height": 885
+        }
+      ]
+    },
+    {
+      "concept": "full-stride",
+      "layout": "wordmark",
+      "treatment": "white",
+      "svg": "02-full-stride/svg/whipt-full-stride-wordmark-white.svg",
+      "viewBox": [
+        0,
+        0,
+        426.0,
+        92.0
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "02-full-stride/png/white/whipt-full-stride-wordmark-white-256.png",
+          "width": 256,
+          "height": 55
+        },
+        {
+          "path": "02-full-stride/png/white/whipt-full-stride-wordmark-white-512.png",
+          "width": 512,
+          "height": 111
+        },
+        {
+          "path": "02-full-stride/png/white/whipt-full-stride-wordmark-white-1024.png",
+          "width": 1024,
+          "height": 221
+        },
+        {
+          "path": "02-full-stride/png/white/whipt-full-stride-wordmark-white-2048.png",
+          "width": 2048,
+          "height": 442
+        },
+        {
+          "path": "02-full-stride/png/white/whipt-full-stride-wordmark-white-4096.png",
+          "width": 4096,
+          "height": 885
+        }
+      ]
+    },
+    {
+      "concept": "full-stride",
+      "layout": "lockup-horizontal",
+      "treatment": "light",
+      "svg": "02-full-stride/svg/whipt-full-stride-lockup-horizontal-light.svg",
+      "viewBox": [
+        0,
+        0,
+        997.1764705882354,
+        183.28962793488364
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-lockup-horizontal-light-512.png",
+          "width": 512,
+          "height": 94
+        },
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-lockup-horizontal-light-1024.png",
+          "width": 1024,
+          "height": 188
+        },
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-lockup-horizontal-light-2048.png",
+          "width": 2048,
+          "height": 376
+        },
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-lockup-horizontal-light-4096.png",
+          "width": 4096,
+          "height": 753
+        }
+      ]
+    },
+    {
+      "concept": "full-stride",
+      "layout": "lockup-horizontal",
+      "treatment": "dark",
+      "svg": "02-full-stride/svg/whipt-full-stride-lockup-horizontal-dark.svg",
+      "viewBox": [
+        0,
+        0,
+        997.1764705882354,
+        183.28962793488364
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-lockup-horizontal-dark-512.png",
+          "width": 512,
+          "height": 94
+        },
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-lockup-horizontal-dark-1024.png",
+          "width": 1024,
+          "height": 188
+        },
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-lockup-horizontal-dark-2048.png",
+          "width": 2048,
+          "height": 376
+        },
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-lockup-horizontal-dark-4096.png",
+          "width": 4096,
+          "height": 753
+        }
+      ]
+    },
+    {
+      "concept": "full-stride",
+      "layout": "lockup-horizontal",
+      "treatment": "black",
+      "svg": "02-full-stride/svg/whipt-full-stride-lockup-horizontal-black.svg",
+      "viewBox": [
+        0,
+        0,
+        997.1764705882354,
+        183.28962793488364
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "02-full-stride/png/black/whipt-full-stride-lockup-horizontal-black-512.png",
+          "width": 512,
+          "height": 94
+        },
+        {
+          "path": "02-full-stride/png/black/whipt-full-stride-lockup-horizontal-black-1024.png",
+          "width": 1024,
+          "height": 188
+        },
+        {
+          "path": "02-full-stride/png/black/whipt-full-stride-lockup-horizontal-black-2048.png",
+          "width": 2048,
+          "height": 376
+        },
+        {
+          "path": "02-full-stride/png/black/whipt-full-stride-lockup-horizontal-black-4096.png",
+          "width": 4096,
+          "height": 753
+        }
+      ]
+    },
+    {
+      "concept": "full-stride",
+      "layout": "lockup-horizontal",
+      "treatment": "white",
+      "svg": "02-full-stride/svg/whipt-full-stride-lockup-horizontal-white.svg",
+      "viewBox": [
+        0,
+        0,
+        997.1764705882354,
+        183.28962793488364
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "02-full-stride/png/white/whipt-full-stride-lockup-horizontal-white-512.png",
+          "width": 512,
+          "height": 94
+        },
+        {
+          "path": "02-full-stride/png/white/whipt-full-stride-lockup-horizontal-white-1024.png",
+          "width": 1024,
+          "height": 188
+        },
+        {
+          "path": "02-full-stride/png/white/whipt-full-stride-lockup-horizontal-white-2048.png",
+          "width": 2048,
+          "height": 376
+        },
+        {
+          "path": "02-full-stride/png/white/whipt-full-stride-lockup-horizontal-white-4096.png",
+          "width": 4096,
+          "height": 753
+        }
+      ]
+    },
+    {
+      "concept": "full-stride",
+      "layout": "lockup-stacked",
+      "treatment": "light",
+      "svg": "02-full-stride/svg/whipt-full-stride-lockup-stacked-light.svg",
+      "viewBox": [
+        0,
+        0,
+        900,
+        640.5373137608652
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-lockup-stacked-light-256.png",
+          "width": 256,
+          "height": 182
+        },
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-lockup-stacked-light-512.png",
+          "width": 512,
+          "height": 364
+        },
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-lockup-stacked-light-1024.png",
+          "width": 1024,
+          "height": 729
+        },
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-lockup-stacked-light-2048.png",
+          "width": 2048,
+          "height": 1458
+        },
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-lockup-stacked-light-4096.png",
+          "width": 4096,
+          "height": 2915
+        }
+      ]
+    },
+    {
+      "concept": "full-stride",
+      "layout": "lockup-stacked",
+      "treatment": "dark",
+      "svg": "02-full-stride/svg/whipt-full-stride-lockup-stacked-dark.svg",
+      "viewBox": [
+        0,
+        0,
+        900,
+        640.5373137608652
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-lockup-stacked-dark-256.png",
+          "width": 256,
+          "height": 182
+        },
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-lockup-stacked-dark-512.png",
+          "width": 512,
+          "height": 364
+        },
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-lockup-stacked-dark-1024.png",
+          "width": 1024,
+          "height": 729
+        },
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-lockup-stacked-dark-2048.png",
+          "width": 2048,
+          "height": 1458
+        },
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-lockup-stacked-dark-4096.png",
+          "width": 4096,
+          "height": 2915
+        }
+      ]
+    },
+    {
+      "concept": "full-stride",
+      "layout": "lockup-stacked",
+      "treatment": "black",
+      "svg": "02-full-stride/svg/whipt-full-stride-lockup-stacked-black.svg",
+      "viewBox": [
+        0,
+        0,
+        900,
+        640.5373137608652
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "02-full-stride/png/black/whipt-full-stride-lockup-stacked-black-256.png",
+          "width": 256,
+          "height": 182
+        },
+        {
+          "path": "02-full-stride/png/black/whipt-full-stride-lockup-stacked-black-512.png",
+          "width": 512,
+          "height": 364
+        },
+        {
+          "path": "02-full-stride/png/black/whipt-full-stride-lockup-stacked-black-1024.png",
+          "width": 1024,
+          "height": 729
+        },
+        {
+          "path": "02-full-stride/png/black/whipt-full-stride-lockup-stacked-black-2048.png",
+          "width": 2048,
+          "height": 1458
+        },
+        {
+          "path": "02-full-stride/png/black/whipt-full-stride-lockup-stacked-black-4096.png",
+          "width": 4096,
+          "height": 2915
+        }
+      ]
+    },
+    {
+      "concept": "full-stride",
+      "layout": "lockup-stacked",
+      "treatment": "white",
+      "svg": "02-full-stride/svg/whipt-full-stride-lockup-stacked-white.svg",
+      "viewBox": [
+        0,
+        0,
+        900,
+        640.5373137608652
+      ],
+      "transparent": true,
+      "png": [
+        {
+          "path": "02-full-stride/png/white/whipt-full-stride-lockup-stacked-white-256.png",
+          "width": 256,
+          "height": 182
+        },
+        {
+          "path": "02-full-stride/png/white/whipt-full-stride-lockup-stacked-white-512.png",
+          "width": 512,
+          "height": 364
+        },
+        {
+          "path": "02-full-stride/png/white/whipt-full-stride-lockup-stacked-white-1024.png",
+          "width": 1024,
+          "height": 729
+        },
+        {
+          "path": "02-full-stride/png/white/whipt-full-stride-lockup-stacked-white-2048.png",
+          "width": 2048,
+          "height": 1458
+        },
+        {
+          "path": "02-full-stride/png/white/whipt-full-stride-lockup-stacked-white-4096.png",
+          "width": 4096,
+          "height": 2915
+        }
+      ]
+    },
+    {
+      "concept": "full-stride",
+      "layout": "app-icon",
+      "treatment": "light",
+      "svg": "02-full-stride/svg/whipt-full-stride-app-icon-light.svg",
+      "viewBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "transparent": false,
+      "png": [
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-app-icon-light-16.png",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-app-icon-light-32.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-app-icon-light-48.png",
+          "width": 48,
+          "height": 48
+        },
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-app-icon-light-64.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-app-icon-light-128.png",
+          "width": 128,
+          "height": 128
+        },
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-app-icon-light-180.png",
+          "width": 180,
+          "height": 180
+        },
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-app-icon-light-192.png",
+          "width": 192,
+          "height": 192
+        },
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-app-icon-light-256.png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-app-icon-light-512.png",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "path": "02-full-stride/png/light/whipt-full-stride-app-icon-light-1024.png",
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    },
+    {
+      "concept": "full-stride",
+      "layout": "app-icon",
+      "treatment": "dark",
+      "svg": "02-full-stride/svg/whipt-full-stride-app-icon-dark.svg",
+      "viewBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "transparent": false,
+      "png": [
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-app-icon-dark-16.png",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-app-icon-dark-32.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-app-icon-dark-48.png",
+          "width": 48,
+          "height": 48
+        },
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-app-icon-dark-64.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-app-icon-dark-128.png",
+          "width": 128,
+          "height": 128
+        },
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-app-icon-dark-180.png",
+          "width": 180,
+          "height": 180
+        },
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-app-icon-dark-192.png",
+          "width": 192,
+          "height": 192
+        },
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-app-icon-dark-256.png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-app-icon-dark-512.png",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "path": "02-full-stride/png/dark/whipt-full-stride-app-icon-dark-1024.png",
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    }
+  ],
+  "favicon_svg_count": 4,
+  "ico_count": 4,
+  "ico_files": [
+    "01-pursuit/favicon/whipt-pursuit-favicon-light.ico",
+    "01-pursuit/favicon/whipt-pursuit-favicon-dark.ico",
+    "02-full-stride/favicon/whipt-full-stride-favicon-light.ico",
+    "02-full-stride/favicon/whipt-full-stride-favicon-dark.ico"
+  ],
+  "platform_png_aliases": [
+    {
+      "path": "01-pursuit/favicon/whipt-pursuit-apple-touch-icon-light.png",
+      "width": 180,
+      "height": 180
+    },
+    {
+      "path": "01-pursuit/favicon/whipt-pursuit-android-chrome-192-light.png",
+      "width": 192,
+      "height": 192
+    },
+    {
+      "path": "01-pursuit/favicon/whipt-pursuit-android-chrome-512-light.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "01-pursuit/favicon/whipt-pursuit-apple-touch-icon-dark.png",
+      "width": 180,
+      "height": 180
+    },
+    {
+      "path": "01-pursuit/favicon/whipt-pursuit-android-chrome-192-dark.png",
+      "width": 192,
+      "height": 192
+    },
+    {
+      "path": "01-pursuit/favicon/whipt-pursuit-android-chrome-512-dark.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "02-full-stride/favicon/whipt-full-stride-apple-touch-icon-light.png",
+      "width": 180,
+      "height": 180
+    },
+    {
+      "path": "02-full-stride/favicon/whipt-full-stride-android-chrome-192-light.png",
+      "width": 192,
+      "height": 192
+    },
+    {
+      "path": "02-full-stride/favicon/whipt-full-stride-android-chrome-512-light.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "02-full-stride/favicon/whipt-full-stride-apple-touch-icon-dark.png",
+      "width": 180,
+      "height": 180
+    },
+    {
+      "path": "02-full-stride/favicon/whipt-full-stride-android-chrome-192-dark.png",
+      "width": 192,
+      "height": 192
+    },
+    {
+      "path": "02-full-stride/favicon/whipt-full-stride-android-chrome-512-dark.png",
+      "width": 512,
+      "height": 512
+    }
+  ],
+  "production_svg_count": 48,
+  "production_png_count": 276
+}

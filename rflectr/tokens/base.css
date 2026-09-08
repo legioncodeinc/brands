@@ -1,0 +1,48 @@
+/* Minimal app resets shipped with the system */
+:root {
+  font: var(--type-body);
+  color: var(--text-primary);
+  background: var(--surface-app);
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings:
+    "tnum" 1,
+    "cv11" 1;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  background: inherit;
+}
+a {
+  color: var(--text-link);
+  text-decoration: underline;
+  text-decoration-color: var(--border-strong);
+  text-underline-offset: 2px;
+  transition: color var(--dur-fast) var(--ease-out);
+}
+a:hover {
+  color: var(--text-link-hover);
+  text-decoration-color: currentColor;
+}
+::selection {
+  background: rgba(61, 220, 151, 0.28);
+}
+.rflectr-eyebrow {
+  font: var(--type-eyebrow);
+  letter-spacing: var(--ls-caps);
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+}
+.rflectr-mono {
+  font-family: var(--font-mono);
+}
+.rflectr-est::before {
+  content: "~";
+  color: var(--text-tertiary);
+}

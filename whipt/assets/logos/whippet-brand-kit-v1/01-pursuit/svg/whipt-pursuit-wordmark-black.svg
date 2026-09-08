@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 426 92" width="426" height="92" role="img" aria-labelledby="whipt-pursuit-wordmark-black-title">
+  <title id="whipt-pursuit-wordmark-black-title">WHIPT Pursuit — wordmark — black</title>
+  <desc>Editable vector paths. OSPRY family palette. Transparent background.</desc>
+  <g transform="translate(12 12) scale(1) translate(-0 -0)">
+    <g fill="#000000">
+      <path d="M0 0H24V39L49 0H73V39L98 0H118L75 68H51V29L24 68H0Z" />
+      <path d="M125.5 0H149.5L140.86 24H168.86L177.5 0H201.5L177.02 68H153.02L161.66 44H133.66L125.02 68H101.02Z" />
+      <path d="M210.5 0H234.5L210.02 68H186.02Z" />
+      <path fill-rule="evenodd" d="M244.5 0H290C305.5 0 313.15 7.2 309.45 22C305.35 38.4 293.8 48 276.5 48H251.22L244.02 68H220.02ZM261.3 20L258.06 29H278.2C283.2 29 286.4 26.1 286.4 23.25C286.4 21.1 284.6 20 281.2 20Z" />
+      <path d="M319.5 0H374L366.8 20H353L335.72 68H311.72L329 20H312.3Z" />
+    </g>
+    <path fill="#000000" d="M374 0H402L366.8 20Z" />
+  </g>
+</svg>

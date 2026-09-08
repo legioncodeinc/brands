@@ -1,0 +1,19 @@
+Use case: logo-brand.
+Create a polished BRAND EXPLORATION comparison board for a developer desktop application named exactly "rflectr" (seven lowercase letters r f l e c t r). This is a new name for software formerly named SHRKE. Its function is to redirect AI inference requests while preserving the familiar native developer-tool experience. This is an exploratory visual presentation, not a finalized brand kit.
+
+Format: landscape 2048x1536, beautifully art-directed restrained Swiss identity presentation, four equally weighted quadrants with thin dividers, very generous whitespace, warm off-white #F5F6F7 background, black #0A0B0D silhouettes, a single small fixed mint green #3DDC97 accent within each logo. No gradients, no glow, no texture, no 3D. Premium crafted vector-like curves and negative space. The family identity uses elegant animal silhouettes with purposeful cutouts and one small green section, not cartoon characters, not esports mascots. Each quadrant has an original standalone symbol prominently above a clean lowercase medium-bold sans serif "rflectr" wordmark, and a small dark square showing a simplified white-and-green app-icon version. Keep wordmark spelling perfect throughout. Label each quadrant with the exact short label below.
+
+Top left: label "A / BIRD". A refined shrike songbird perched invisibly, in side profile looking right, long tapered tail flowing down-left, compact head, slightly hooked beak, one eye and flowing negative-space division through wing and chest, one very small green cheek/throat slash. Smooth organic forms, close to a nature silhouette reduced into an elegant software mark. This is the continuity direction.
+
+Top right: label "B / ECHO BAT". A very distinctive compact bat in a dynamic three-quarter upward banking flight, with one wing raised and the other curving outward. Small recognizable ears, beautifully shaped wing membranes with only two subtle scallops per wing. The animal should feel intelligent, precise, quick, sophisticated. One short green inner-wing sliver suggesting a returning signal. NOT a frontal symmetrical comic-book bat badge. No oval, shield, fangs, eyes glowing, or Halloween styling. The silhouette should be a compact strong app icon and visibly different from a bird.
+
+Bottom left: label "C / CUTTLEFISH". An elegant simplified cuttlefish in side/three-quarter view facing right: broad oval mantle, flowing fin edge, one eye, two or three short controlled tapering arm strokes. One narrow mint green fin strip. It should feel adaptive, fluid, technical; no cute face, no many thin tentacles, no round octopus mascot. Strong simple silhouette.
+
+Bottom right: label "D / REFLECTION". An abstract iconic mark made from two thick interlocking reflected curves forming a subtle lowercase r and a redirected path in the negative space. Two broad shapes with an offset central cut, and a single small green segment at the direction change. An original sophisticated identity symbol, balanced, compact, only 2-3 filled forms; not a refresh arrow, not a recycling symbol, not an infinity symbol, not a cube.
+
+Across the top add a small heading "rflectr / identity directions". Bottom small footer "Concept exploration". The board should look like a considered presentation by an excellent identity studio. Only these labels and the four exact rflectr wordmarks. Keep all artwork flat, clean, crisp, and readable.
+
+Generation method: built-in image-generation tool.
+Selection: Mario selected B / Echo bat with "The bat wins".
+Presentation correction: an image-generation edit changed the board background to opaque white and preserved the concept layout. The corrected board is the source retained in this kit.
+The subsequent standalone image-generation extraction clipped a wing and was rejected. The final vector uses the intact bat on the retained comparison board.

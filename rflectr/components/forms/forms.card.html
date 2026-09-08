@@ -1,0 +1,17 @@
+<!-- @dsCard group="Components" viewport="700x300" name="Forms: Input, Select, Switch, Checkbox, ModeSegment" subtitle="Text, secret entry, selects, toggles, and the Off/Observe/Route control" -->
+<!doctype html><html lang="en"><head><meta charset="utf-8"><link rel="stylesheet" href="../../styles.css">
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+<style>body{padding:16px;overflow:hidden}.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.col{display:flex;flex-direction:column;gap:12px}.lbl{font:var(--type-code);color:var(--text-tertiary);width:90px;flex:none}</style></head><body><div id="root"></div>
+<script type="text/babel">
+const DS=window.rflectrDesignSystem_c36c9e;const {Icon,Button,IconButton,Badge,Tooltip,Input,Select,Switch,Checkbox,ModeSegment,Card,MetricCard,UsageWindow,RouteLine,DataTable,Tabs,EmptyState,Dialog,Toast,ActionItem,NavItem,StatusDot}=DS;
+function App(){const [m,setM]=React.useState("Route");const [m2,setM2]=React.useState("Observe");return <div className="col">
+<div className="row" style={{alignItems:'flex-start'}}><Input label="Account label" placeholder="Anthropic · Work" style={{width:200}}/><Input label="API key" secret placeholder="sk-ant-…" hint="Stored in the OS secret service. Never shown again." style={{width:230}}/><Input label="Endpoint" mono defaultValue="http://127.0.0.1:11434/v1" error="TLS handshake failed" style={{width:200}}/></div>
+<div className="row"><Input icon="search" placeholder="Search request ID, provider, model" style={{width:260}}/><Select options={["Last 24 hours","Last 7 days","Last 30 days"]}/><Select size="sm" options={["All harnesses","Cursor","Codex","Claude Code"]}/><Select label="Primary target" options={["Anthropic · Work / claude-sonnet-4","OpenAI · Personal / gpt-5"]}/></div>
+<div className="row" style={{gap:24}}><Switch defaultChecked label="Quota-only fallback" description="One attempt, before first byte"/><Switch tone="neutral" label="Launch at login"/><Switch disabled label="Trust store (approval pending)"/><Checkbox defaultChecked label="Acknowledge routing boundary"/><Checkbox label="Estimate-based guard"/></div>
+<div className="row" style={{gap:24}}><ModeSegment value={m} onChange={setM}/><ModeSegment value={m2} onChange={setM2} routeDisabled routeDisabledReason="Compatibility: Inconclusive"/><ModeSegment size="sm" value="Off"/></div>
+</div>}
+ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
+</script></body></html>

@@ -1,0 +1,13 @@
+{
+  "assets": 130,
+  "counts": {
+    "svg": 35,
+    "png": 93,
+    "ico": 2
+  },
+  "all_hashes": "PASS",
+  "svg_safety_and_vector_content": "PASS",
+  "ico_frames": "PASS",
+  "preview_local_links": "PASS",
+  "zip_integrity_and_membership": "PASS"
+}

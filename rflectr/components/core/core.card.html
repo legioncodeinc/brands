@@ -1,0 +1,17 @@
+<!-- @dsCard group="Components" viewport="700x300" name="Core: Button, IconButton, Badge, Icon, Tooltip" subtitle="Variants, sizes, states" -->
+<!doctype html><html lang="en"><head><meta charset="utf-8"><link rel="stylesheet" href="../../styles.css">
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+<style>body{padding:16px;overflow:hidden}.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.col{display:flex;flex-direction:column;gap:12px}.lbl{font:var(--type-code);color:var(--text-tertiary);width:90px;flex:none}</style></head><body><div id="root"></div>
+<script type="text/babel">
+const DS=window.rflectrDesignSystem_c36c9e;const {Icon,Button,IconButton,Badge,Tooltip,Input,Select,Switch,Checkbox,ModeSegment,Card,MetricCard,UsageWindow,RouteLine,DataTable,Tabs,EmptyState,Dialog,Toast,ActionItem,NavItem,StatusDot}=DS;
+function App(){return <div className="col">
+<div className="row"><span className="lbl">variants</span><Button variant="primary">Save revision</Button><Button variant="route" icon="play">Launch in Route</Button><Button variant="secondary" icon="refresh">Rescan</Button><Button variant="ghost">Cancel</Button><Button variant="danger">Turn Off &amp; drain</Button></div>
+<div className="row"><span className="lbl">sizes/states</span><Button size="sm" variant="secondary">Small</Button><Button size="lg" variant="primary">Large</Button><Button loading variant="secondary">Testing…</Button><Button disabled variant="route">Route unavailable</Button><IconButton icon="refresh" label="Refresh"/><IconButton icon="more" label="More" variant="outline"/><IconButton icon="filter" label="Filter" active/></div>
+<div className="row"><span className="lbl">badges</span><Badge dot>Off</Badge><Badge dot>Observing</Badge><Badge dot>Routing</Badge><Badge dot live>Active</Badge><Badge dot>Draining</Badge><Badge dot>Failed</Badge><Badge>Supported</Badge><Badge>Stale</Badge><Badge>Inconclusive</Badge><Badge>Not tested</Badge><Badge mono>rev 14</Badge><Badge size="sm" tone="neutral">Native</Badge><Badge size="sm">Translated</Badge><Badge size="sm">Dropped with warning</Badge></div>
+<div className="row"><span className="lbl">icons</span>{Object.keys(DS.ICON_PATHS).slice(0,30).map(n=><Tooltip key={n} label={n}><Icon name={n} size={16} color="var(--text-secondary)"/></Tooltip>)}</div>
+</div>}
+ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
+</script></body></html>

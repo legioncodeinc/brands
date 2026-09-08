@@ -1,0 +1,3569 @@
+{
+  "brand": "knectar",
+  "selected_concept": "B / Hover",
+  "selected_date": "2026-09-05",
+  "transparent": true,
+  "svg_count": 48,
+  "png_count": 144,
+  "approved_horizontal_pixel_equivalence": "PASS at 2000px in both color appearances",
+  "sources": {
+    "knectar-b-hover-ink-icon.svg": "309778d3d34e432f50d79e16f572327db9a475f37afbb35fee82873b760fee49",
+    "knectar-b-hover-ink-lockup.svg": "edcc636f3812e0a6c135a1e9ad29e5cadea012e3586e0041f59ff844fbbf44a7",
+    "knectar-b-hover-white-icon.svg": "847695164a130eefbaba545a3f1696e085c9a32086de46b26a9e0ee654fb441c",
+    "knectar-b-hover-white-lockup.svg": "2ff9db7963fc616ed8a2cd68f85e4f8bd4aca776c3d633760db0d0e812823fba"
+  },
+  "assets": [
+    {
+      "file": "logos/svg/native/knectar-horizontal-color-on-light-native.svg",
+      "layout": "horizontal",
+      "appearance": "color-on-light",
+      "framing": "native",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        416.932,
+        128.0
+      ],
+      "sha256": "3dd758d8650668b8a4c3add8bf9122234c5fae752d39f25e26595b50d1b2bb9f"
+    },
+    {
+      "file": "logos/png/native/knectar-horizontal-color-on-light-native-512x158.png",
+      "layout": "horizontal",
+      "appearance": "color-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 512,
+      "height": 158,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        23,
+        11,
+        491,
+        138
+      ],
+      "sha256": "4194fb6b805e04a49b668fe3f6fa33d28ab0336aca8bdb41a73978f339f7fbca"
+    },
+    {
+      "file": "logos/png/native/knectar-horizontal-color-on-light-native-1024x315.png",
+      "layout": "horizontal",
+      "appearance": "color-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 1024,
+      "height": 315,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        46,
+        22,
+        981,
+        276
+      ],
+      "sha256": "0356a958e3b692f58152370182deff0b7b96d8f38ec33b631c84d45f814295a5"
+    },
+    {
+      "file": "logos/png/native/knectar-horizontal-color-on-light-native-2048x629.png",
+      "layout": "horizontal",
+      "appearance": "color-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 2048,
+      "height": 629,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        93,
+        44,
+        1962,
+        550
+      ],
+      "sha256": "329f07c2cf17b6b224253b455dfbdcf1086ac1d6542be8655e793cd854bad90f"
+    },
+    {
+      "file": "logos/svg/square-1x1/knectar-horizontal-color-on-light-square-1x1.svg",
+      "layout": "horizontal",
+      "appearance": "color-on-light",
+      "framing": "square-1x1",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "sha256": "e1af68f03dffe68adb277170eb78a8f83bad1d79982cf36a45eb67866e1b1d83"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-horizontal-color-on-light-square-1x1-512x512.png",
+      "layout": "horizontal",
+      "appearance": "color-on-light",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        60,
+        199,
+        453,
+        306
+      ],
+      "sha256": "22b28de7402c0f60a26af333c970ea6cdabb5b13b2d47bb9688a53fb1d5f7c25"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-horizontal-color-on-light-square-1x1-1024x1024.png",
+      "layout": "horizontal",
+      "appearance": "color-on-light",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 1024,
+      "height": 1024,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        121,
+        398,
+        906,
+        611
+      ],
+      "sha256": "c17bdc5c52c3d78197cbc59d409fb5231a58dfdec94f87f5477ac003d6b31fb0"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-horizontal-color-on-light-square-1x1-2048x2048.png",
+      "layout": "horizontal",
+      "appearance": "color-on-light",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        242,
+        797,
+        1812,
+        1222
+      ],
+      "sha256": "14fdb58a171d4b8bf4de6871b86b21b508f4ce909f9aa9a0fd89329185a98862"
+    },
+    {
+      "file": "logos/svg/landscape-16x9/knectar-horizontal-color-on-light-landscape-16x9.svg",
+      "layout": "horizontal",
+      "appearance": "color-on-light",
+      "framing": "landscape-16x9",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "sha256": "600788b118421b2d2a579f7095d0339807c5e04488466becc62d2c481fd05a17"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-horizontal-color-on-light-landscape-16x9-1280x720.png",
+      "layout": "horizontal",
+      "appearance": "color-on-light",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        151,
+        218,
+        1133,
+        484
+      ],
+      "sha256": "47631c4c54cebd37c3005d89f4ce201992c43f263b2194ef12b186e94e03f157"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-horizontal-color-on-light-landscape-16x9-1920x1080.png",
+      "layout": "horizontal",
+      "appearance": "color-on-light",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 1920,
+      "height": 1080,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        227,
+        327,
+        1699,
+        726
+      ],
+      "sha256": "ff3ce559664787e5b39a281df78a636bf2a49bafd5f852f84788e634141554f6"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-horizontal-color-on-light-landscape-16x9-3840x2160.png",
+      "layout": "horizontal",
+      "appearance": "color-on-light",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 3840,
+      "height": 2160,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        454,
+        654,
+        3397,
+        1452
+      ],
+      "sha256": "5522eb2705f59fcb6f7c55a9f9fcfa6208d872711b7765175ea99a8d6cf105d4"
+    },
+    {
+      "file": "logos/svg/native/knectar-horizontal-color-on-dark-native.svg",
+      "layout": "horizontal",
+      "appearance": "color-on-dark",
+      "framing": "native",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        416.932,
+        128.0
+      ],
+      "sha256": "a3f3bb6c162b3aa9f4d685b6ba461cee37008f6b974a465a53364fc938380036"
+    },
+    {
+      "file": "logos/png/native/knectar-horizontal-color-on-dark-native-512x158.png",
+      "layout": "horizontal",
+      "appearance": "color-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 512,
+      "height": 158,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        23,
+        11,
+        491,
+        138
+      ],
+      "sha256": "3592af7b14b97bd51e8729b4d911b4f86648622c0d2d5b17b13ad33fa212a55a"
+    },
+    {
+      "file": "logos/png/native/knectar-horizontal-color-on-dark-native-1024x315.png",
+      "layout": "horizontal",
+      "appearance": "color-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 1024,
+      "height": 315,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        46,
+        22,
+        981,
+        276
+      ],
+      "sha256": "c2b6f324ce573332dc01c54fd3e32a8386c392a3d0f757bfc25b4cddb90ee80e"
+    },
+    {
+      "file": "logos/png/native/knectar-horizontal-color-on-dark-native-2048x629.png",
+      "layout": "horizontal",
+      "appearance": "color-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 2048,
+      "height": 629,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        93,
+        44,
+        1962,
+        550
+      ],
+      "sha256": "19e1e7be770fa9060175b2224baa3829ca93252f5d143889bd6e5bba3967c9ed"
+    },
+    {
+      "file": "logos/svg/square-1x1/knectar-horizontal-color-on-dark-square-1x1.svg",
+      "layout": "horizontal",
+      "appearance": "color-on-dark",
+      "framing": "square-1x1",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "sha256": "aa737e252e66491fd31a29afe3b0ffd4f54a5ed81fa9d2a044ad244b4e02c1f6"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-horizontal-color-on-dark-square-1x1-512x512.png",
+      "layout": "horizontal",
+      "appearance": "color-on-dark",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        60,
+        199,
+        453,
+        306
+      ],
+      "sha256": "4c86f44111357ac0e01125fde170c391f111f2bf81394d049a0bd90047fba8dd"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-horizontal-color-on-dark-square-1x1-1024x1024.png",
+      "layout": "horizontal",
+      "appearance": "color-on-dark",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 1024,
+      "height": 1024,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        121,
+        398,
+        906,
+        611
+      ],
+      "sha256": "65fb9fdfa1c6a4fff26ac8dd20387ea3c9cb063907e5e99f9897b77245a4ad27"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-horizontal-color-on-dark-square-1x1-2048x2048.png",
+      "layout": "horizontal",
+      "appearance": "color-on-dark",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        242,
+        797,
+        1812,
+        1222
+      ],
+      "sha256": "dd9e5506918e1a53fd77ea18b056d34c1d75ec78a058975f3ca8061c694198ee"
+    },
+    {
+      "file": "logos/svg/landscape-16x9/knectar-horizontal-color-on-dark-landscape-16x9.svg",
+      "layout": "horizontal",
+      "appearance": "color-on-dark",
+      "framing": "landscape-16x9",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "sha256": "e62303cdfc2d49f7ff7178d8a65de4ca36a44405772dd389ced9cf63f80fe791"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-horizontal-color-on-dark-landscape-16x9-1280x720.png",
+      "layout": "horizontal",
+      "appearance": "color-on-dark",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        151,
+        218,
+        1133,
+        484
+      ],
+      "sha256": "730218ebdfca2ff5dcc43438ac70e357a33325e9d2f115f3634f3a5ca393fac7"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-horizontal-color-on-dark-landscape-16x9-1920x1080.png",
+      "layout": "horizontal",
+      "appearance": "color-on-dark",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 1920,
+      "height": 1080,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        227,
+        327,
+        1699,
+        726
+      ],
+      "sha256": "73ab6a0b6cb24678dc68b316ca0ee9db4bcc5f9dfa21d109809e882298cccaba"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-horizontal-color-on-dark-landscape-16x9-3840x2160.png",
+      "layout": "horizontal",
+      "appearance": "color-on-dark",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 3840,
+      "height": 2160,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        454,
+        654,
+        3397,
+        1452
+      ],
+      "sha256": "45ae1f5e0ece0813032aae587e8f3407a6696ea78e32e12e8513393e78ff242d"
+    },
+    {
+      "file": "logos/svg/native/knectar-horizontal-mono-on-light-native.svg",
+      "layout": "horizontal",
+      "appearance": "mono-on-light",
+      "framing": "native",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        416.932,
+        128.0
+      ],
+      "sha256": "17ad8f74f2100d4d293f1ecb6c4d609b91d39b171d573fac61387d34f9ab14ba"
+    },
+    {
+      "file": "logos/png/native/knectar-horizontal-mono-on-light-native-512x158.png",
+      "layout": "horizontal",
+      "appearance": "mono-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 512,
+      "height": 158,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        23,
+        11,
+        491,
+        138
+      ],
+      "sha256": "076f16cdc19acd8a5817518b9494839e3e1c435240d65b5123cc10b936fd2c1d"
+    },
+    {
+      "file": "logos/png/native/knectar-horizontal-mono-on-light-native-1024x315.png",
+      "layout": "horizontal",
+      "appearance": "mono-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 1024,
+      "height": 315,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        46,
+        22,
+        981,
+        276
+      ],
+      "sha256": "fb65c3f9f65312f06a4750005e77423f8b554fda3a1bb90b1097f73fc464a5dd"
+    },
+    {
+      "file": "logos/png/native/knectar-horizontal-mono-on-light-native-2048x629.png",
+      "layout": "horizontal",
+      "appearance": "mono-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 2048,
+      "height": 629,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        93,
+        44,
+        1962,
+        550
+      ],
+      "sha256": "c003f8428f9569e34287555bf59a999758766af9ab559e10a7de1147d1587ddd"
+    },
+    {
+      "file": "logos/svg/square-1x1/knectar-horizontal-mono-on-light-square-1x1.svg",
+      "layout": "horizontal",
+      "appearance": "mono-on-light",
+      "framing": "square-1x1",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "sha256": "ee6a91e61f66e2c4e12e6daae5e053450119a2ed1a98faf5e7114df970e50864"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-horizontal-mono-on-light-square-1x1-512x512.png",
+      "layout": "horizontal",
+      "appearance": "mono-on-light",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        60,
+        199,
+        453,
+        306
+      ],
+      "sha256": "4f035daa576b1026c343263c03e64f6fe1b1856a201fb15862aca9afc00fcc52"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-horizontal-mono-on-light-square-1x1-1024x1024.png",
+      "layout": "horizontal",
+      "appearance": "mono-on-light",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 1024,
+      "height": 1024,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        121,
+        398,
+        906,
+        611
+      ],
+      "sha256": "d40f58f26b20cbd4b72c32d8b9eb4e0e87a8e6a3547e4cf1a92ae88f651e0214"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-horizontal-mono-on-light-square-1x1-2048x2048.png",
+      "layout": "horizontal",
+      "appearance": "mono-on-light",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        242,
+        797,
+        1812,
+        1222
+      ],
+      "sha256": "d58ee34044cf4799d31da48631672601e5829539be0660bb419165caf5fdc9cb"
+    },
+    {
+      "file": "logos/svg/landscape-16x9/knectar-horizontal-mono-on-light-landscape-16x9.svg",
+      "layout": "horizontal",
+      "appearance": "mono-on-light",
+      "framing": "landscape-16x9",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "sha256": "4b14d3a65648929021a53f471fc42898ade1094f073ddfd45cb2d8691bc984d8"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-horizontal-mono-on-light-landscape-16x9-1280x720.png",
+      "layout": "horizontal",
+      "appearance": "mono-on-light",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        151,
+        218,
+        1133,
+        484
+      ],
+      "sha256": "c708d0a88b53541be2f5c2929970c5b00155a02dddd7aae1ac8fafa1cd7c9199"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-horizontal-mono-on-light-landscape-16x9-1920x1080.png",
+      "layout": "horizontal",
+      "appearance": "mono-on-light",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 1920,
+      "height": 1080,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        227,
+        327,
+        1699,
+        726
+      ],
+      "sha256": "c6f0ecba3a26d9caf465d32940b22525047824099f1dc857a2e98c8a1dc27de8"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-horizontal-mono-on-light-landscape-16x9-3840x2160.png",
+      "layout": "horizontal",
+      "appearance": "mono-on-light",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 3840,
+      "height": 2160,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        454,
+        654,
+        3397,
+        1452
+      ],
+      "sha256": "76539b85c590dde9309e856aa008730f10bc60a7b8b9f3765ec61476dcc73c49"
+    },
+    {
+      "file": "logos/svg/native/knectar-horizontal-mono-on-dark-native.svg",
+      "layout": "horizontal",
+      "appearance": "mono-on-dark",
+      "framing": "native",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        416.932,
+        128.0
+      ],
+      "sha256": "204f5ad926fc266d7ce7630eee9f8c2e04520a6381336b03c515e67c53202f9e"
+    },
+    {
+      "file": "logos/png/native/knectar-horizontal-mono-on-dark-native-512x158.png",
+      "layout": "horizontal",
+      "appearance": "mono-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 512,
+      "height": 158,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        23,
+        11,
+        491,
+        138
+      ],
+      "sha256": "c3eeed361a613f0abb7abae3e009d0b4c110b907e2b01c107050bb712098dc82"
+    },
+    {
+      "file": "logos/png/native/knectar-horizontal-mono-on-dark-native-1024x315.png",
+      "layout": "horizontal",
+      "appearance": "mono-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 1024,
+      "height": 315,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        46,
+        22,
+        981,
+        276
+      ],
+      "sha256": "31f81d04d2594cbd23e7e7d6cce14cd3532f9bda964e5675615627609f78a93a"
+    },
+    {
+      "file": "logos/png/native/knectar-horizontal-mono-on-dark-native-2048x629.png",
+      "layout": "horizontal",
+      "appearance": "mono-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 2048,
+      "height": 629,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        93,
+        44,
+        1962,
+        550
+      ],
+      "sha256": "b3f3dd774b3a49186c0710b9775961aab3ddd82fb47ff8b565f0958cc4a4d856"
+    },
+    {
+      "file": "logos/svg/square-1x1/knectar-horizontal-mono-on-dark-square-1x1.svg",
+      "layout": "horizontal",
+      "appearance": "mono-on-dark",
+      "framing": "square-1x1",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "sha256": "7766d53f5ff1156aa433dd5cbce0bce4d09b527798347f3bdc5ed2dc7cdf5397"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-horizontal-mono-on-dark-square-1x1-512x512.png",
+      "layout": "horizontal",
+      "appearance": "mono-on-dark",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        60,
+        199,
+        453,
+        306
+      ],
+      "sha256": "b949ac2ba8be0d127f7f1e26e51ae1297e98b2b4d8d230c3ae8741ffefa6c2cf"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-horizontal-mono-on-dark-square-1x1-1024x1024.png",
+      "layout": "horizontal",
+      "appearance": "mono-on-dark",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 1024,
+      "height": 1024,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        121,
+        398,
+        906,
+        611
+      ],
+      "sha256": "227fc6478ddacb2a5260dddc869c710e09ca935a569f7979d5951fac4d2d15b9"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-horizontal-mono-on-dark-square-1x1-2048x2048.png",
+      "layout": "horizontal",
+      "appearance": "mono-on-dark",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        242,
+        797,
+        1812,
+        1222
+      ],
+      "sha256": "a262c99c0ab6d608fd6a85aeaaff97f485eb2a50fbeb1a481a0fd6553e70dd2f"
+    },
+    {
+      "file": "logos/svg/landscape-16x9/knectar-horizontal-mono-on-dark-landscape-16x9.svg",
+      "layout": "horizontal",
+      "appearance": "mono-on-dark",
+      "framing": "landscape-16x9",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "sha256": "3955f4e7b309b43f3ef7012a19ef8f65faa9a2d8ecda924feddbe5594f8ce701"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-horizontal-mono-on-dark-landscape-16x9-1280x720.png",
+      "layout": "horizontal",
+      "appearance": "mono-on-dark",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        151,
+        218,
+        1133,
+        484
+      ],
+      "sha256": "132b4d35c67d28de08e63e00353f86e39cde48660045e404f7dbbf1c6e7d1e20"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-horizontal-mono-on-dark-landscape-16x9-1920x1080.png",
+      "layout": "horizontal",
+      "appearance": "mono-on-dark",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 1920,
+      "height": 1080,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        227,
+        327,
+        1699,
+        726
+      ],
+      "sha256": "6ce6c0f5c33043215e702aa9546086db16be3ae2071cbb1f5e02dbbe72eab694"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-horizontal-mono-on-dark-landscape-16x9-3840x2160.png",
+      "layout": "horizontal",
+      "appearance": "mono-on-dark",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 3840,
+      "height": 2160,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        454,
+        654,
+        3397,
+        1452
+      ],
+      "sha256": "895a561d5c086aee10d5a3b33bcccccb4ac8e785818e961f71392dee10e2824f"
+    },
+    {
+      "file": "logos/svg/native/knectar-stacked-color-on-light-native.svg",
+      "layout": "stacked",
+      "appearance": "color-on-light",
+      "framing": "native",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        288.04181339999997,
+        248.1913306
+      ],
+      "sha256": "ebdfd7c1cc20ab92e7763b5f88fe35e3eda70558afd289ae099ae295f65dc8f9"
+    },
+    {
+      "file": "logos/png/native/knectar-stacked-color-on-light-native-512x441.png",
+      "layout": "stacked",
+      "appearance": "color-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 512,
+      "height": 441,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        42,
+        40,
+        470,
+        399
+      ],
+      "sha256": "0fec2f02ed4700c713eedd8b0a5ceed3d604a827d57f463415a6b5bada8244ec"
+    },
+    {
+      "file": "logos/png/native/knectar-stacked-color-on-light-native-1024x882.png",
+      "layout": "stacked",
+      "appearance": "color-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 1024,
+      "height": 882,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        85,
+        81,
+        939,
+        798
+      ],
+      "sha256": "e2d08a0401541539012830b642c3b5dbb69e5b059a2f3938151ff8b22dd0f849"
+    },
+    {
+      "file": "logos/png/native/knectar-stacked-color-on-light-native-2048x1764.png",
+      "layout": "stacked",
+      "appearance": "color-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 2048,
+      "height": 1764,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        170,
+        162,
+        1878,
+        1595
+      ],
+      "sha256": "0861c6b7228547c9ca6dd75af1db5f96ab44bb747c23c22e0a1e73ee40a4ff6f"
+    },
+    {
+      "file": "logos/svg/square-1x1/knectar-stacked-color-on-light-square-1x1.svg",
+      "layout": "stacked",
+      "appearance": "color-on-light",
+      "framing": "square-1x1",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "sha256": "370dc744e9f3bb163fceb71c9ed2815b965ee89f690a5785d990079baae70042"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-stacked-color-on-light-square-1x1-512x512.png",
+      "layout": "stacked",
+      "appearance": "color-on-light",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        76,
+        104,
+        436,
+        406
+      ],
+      "sha256": "9f8aa0f38edda438cfa23abe11834d5dc92029e09c7d7610c93f97c8f506ac43"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-stacked-color-on-light-square-1x1-1024x1024.png",
+      "layout": "stacked",
+      "appearance": "color-on-light",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 1024,
+      "height": 1024,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        153,
+        209,
+        871,
+        811
+      ],
+      "sha256": "e774afa1cc36b42203cb20400d0ae562b2e12ab3c700176008345777f3126767"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-stacked-color-on-light-square-1x1-2048x2048.png",
+      "layout": "stacked",
+      "appearance": "color-on-light",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        307,
+        419,
+        1741,
+        1622
+      ],
+      "sha256": "10fed17cf87dda95bc2056bb10d658752c36f8232ecaf344c2fadb24eedbdb88"
+    },
+    {
+      "file": "logos/svg/landscape-16x9/knectar-stacked-color-on-light-landscape-16x9.svg",
+      "layout": "stacked",
+      "appearance": "color-on-light",
+      "framing": "landscape-16x9",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "sha256": "c64074a12c16c44e87abde4fc3777bcb4cec99a716da6fb3b405a89a103c75fd"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-stacked-color-on-light-landscape-16x9-1280x720.png",
+      "layout": "stacked",
+      "appearance": "color-on-light",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        361,
+        125,
+        919,
+        593
+      ],
+      "sha256": "7a2bfe8510a63d4a48883067d3697a395cf4d67822d0230f1ff13e0a3ca9963f"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-stacked-color-on-light-landscape-16x9-1920x1080.png",
+      "layout": "stacked",
+      "appearance": "color-on-light",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 1920,
+      "height": 1080,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        542,
+        187,
+        1378,
+        889
+      ],
+      "sha256": "b25dddb3ed772da4771acce2ec383d6d2fb6133232f4dec727d96688d544afb2"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-stacked-color-on-light-landscape-16x9-3840x2160.png",
+      "layout": "stacked",
+      "appearance": "color-on-light",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 3840,
+      "height": 2160,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        1084,
+        374,
+        2756,
+        1777
+      ],
+      "sha256": "dde4ddf71f42425fcabc5660bb31141e387f2d326197cdb10f8db2123280e3a4"
+    },
+    {
+      "file": "logos/svg/native/knectar-stacked-color-on-dark-native.svg",
+      "layout": "stacked",
+      "appearance": "color-on-dark",
+      "framing": "native",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        288.04181339999997,
+        248.1913306
+      ],
+      "sha256": "b60858ac3687170d83aaeb0d1e071390ca1857cec201339e1b2ca0ebca621888"
+    },
+    {
+      "file": "logos/png/native/knectar-stacked-color-on-dark-native-512x441.png",
+      "layout": "stacked",
+      "appearance": "color-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 512,
+      "height": 441,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        42,
+        40,
+        470,
+        399
+      ],
+      "sha256": "dabc778ba9e7ee1984e6bf659dfdea0d1668db6c84e9a9dcf2c59971acf643ca"
+    },
+    {
+      "file": "logos/png/native/knectar-stacked-color-on-dark-native-1024x882.png",
+      "layout": "stacked",
+      "appearance": "color-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 1024,
+      "height": 882,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        85,
+        81,
+        939,
+        798
+      ],
+      "sha256": "b227c164363e2a52e1b1235cd1f219fcff5914468d3c0f228b18a44a2bc29808"
+    },
+    {
+      "file": "logos/png/native/knectar-stacked-color-on-dark-native-2048x1764.png",
+      "layout": "stacked",
+      "appearance": "color-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 2048,
+      "height": 1764,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        170,
+        162,
+        1878,
+        1595
+      ],
+      "sha256": "4c3b9b9bb92f6392961f67bb7f7f75e6941acf817ab15511ad618fa06e96d781"
+    },
+    {
+      "file": "logos/svg/square-1x1/knectar-stacked-color-on-dark-square-1x1.svg",
+      "layout": "stacked",
+      "appearance": "color-on-dark",
+      "framing": "square-1x1",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "sha256": "7383fc901a696ead89bed7e65e282ed63be8bb3ad0b7442738ba3394dc979ffc"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-stacked-color-on-dark-square-1x1-512x512.png",
+      "layout": "stacked",
+      "appearance": "color-on-dark",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        76,
+        104,
+        436,
+        406
+      ],
+      "sha256": "278345b7a61578420253ee64e1c72a63caca2ef175dc7b296a43394761418379"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-stacked-color-on-dark-square-1x1-1024x1024.png",
+      "layout": "stacked",
+      "appearance": "color-on-dark",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 1024,
+      "height": 1024,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        153,
+        209,
+        871,
+        811
+      ],
+      "sha256": "40a382d6124eff7615ceb98838bc19fdfcf4ef6a4ff96389a568152b8527f0e4"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-stacked-color-on-dark-square-1x1-2048x2048.png",
+      "layout": "stacked",
+      "appearance": "color-on-dark",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        307,
+        419,
+        1741,
+        1622
+      ],
+      "sha256": "d96af10e202394a83d62029f9fb1d7ddbb01e43340ef9995e5eb297a034bf590"
+    },
+    {
+      "file": "logos/svg/landscape-16x9/knectar-stacked-color-on-dark-landscape-16x9.svg",
+      "layout": "stacked",
+      "appearance": "color-on-dark",
+      "framing": "landscape-16x9",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "sha256": "6c456c09b19793cbe92a119b5fe93b864a8677e0a0cc9fc2648a612ec6cdfdb1"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-stacked-color-on-dark-landscape-16x9-1280x720.png",
+      "layout": "stacked",
+      "appearance": "color-on-dark",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        361,
+        125,
+        919,
+        593
+      ],
+      "sha256": "462c382da30644209ed54bfc288f7825c6018019ba752aa7685c5d83557faf14"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-stacked-color-on-dark-landscape-16x9-1920x1080.png",
+      "layout": "stacked",
+      "appearance": "color-on-dark",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 1920,
+      "height": 1080,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        542,
+        187,
+        1378,
+        889
+      ],
+      "sha256": "2536980b35c9f348a402b7001ec7b8bd7e000f6a6e23884e160484d4ea48519c"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-stacked-color-on-dark-landscape-16x9-3840x2160.png",
+      "layout": "stacked",
+      "appearance": "color-on-dark",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 3840,
+      "height": 2160,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        1084,
+        374,
+        2756,
+        1777
+      ],
+      "sha256": "2a8d9717a96cb0b60a61846cd9bf36603753baff2aca55a55a91f06b5e9db63b"
+    },
+    {
+      "file": "logos/svg/native/knectar-stacked-mono-on-light-native.svg",
+      "layout": "stacked",
+      "appearance": "mono-on-light",
+      "framing": "native",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        288.04181339999997,
+        248.1913306
+      ],
+      "sha256": "9aa5f87aa4d2a227d97f75d2a64149a9071aae8c0757d3c66c56cdf34bba9664"
+    },
+    {
+      "file": "logos/png/native/knectar-stacked-mono-on-light-native-512x441.png",
+      "layout": "stacked",
+      "appearance": "mono-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 512,
+      "height": 441,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        42,
+        40,
+        470,
+        399
+      ],
+      "sha256": "24532de9f5298566cc9c87651e9e3234c280808c713dc076585c3acf5b339d3d"
+    },
+    {
+      "file": "logos/png/native/knectar-stacked-mono-on-light-native-1024x882.png",
+      "layout": "stacked",
+      "appearance": "mono-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 1024,
+      "height": 882,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        85,
+        81,
+        939,
+        798
+      ],
+      "sha256": "c3b4f45d9eca1cf57b53d804b3194223b37563a2f690653fe58ec98524790162"
+    },
+    {
+      "file": "logos/png/native/knectar-stacked-mono-on-light-native-2048x1764.png",
+      "layout": "stacked",
+      "appearance": "mono-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 2048,
+      "height": 1764,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        170,
+        162,
+        1878,
+        1595
+      ],
+      "sha256": "9b8cf4c8851e1611b87d996f49da86e20ee86ccb73ee2c82157f243e7abadb27"
+    },
+    {
+      "file": "logos/svg/square-1x1/knectar-stacked-mono-on-light-square-1x1.svg",
+      "layout": "stacked",
+      "appearance": "mono-on-light",
+      "framing": "square-1x1",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "sha256": "1befdcf66f19154d15a925b25b649c396d72a6682ddacc85b39729a9d46d6ea6"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-stacked-mono-on-light-square-1x1-512x512.png",
+      "layout": "stacked",
+      "appearance": "mono-on-light",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        76,
+        104,
+        436,
+        406
+      ],
+      "sha256": "b83779b59e8442caa2eb01df98f04193e09e839fdbff3f10ff53a1eb7d8ece3e"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-stacked-mono-on-light-square-1x1-1024x1024.png",
+      "layout": "stacked",
+      "appearance": "mono-on-light",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 1024,
+      "height": 1024,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        153,
+        209,
+        871,
+        811
+      ],
+      "sha256": "170190e92964b7e2d0dcb2ad2df2b095d6009009efbc1c24c14d2f8bc041b35a"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-stacked-mono-on-light-square-1x1-2048x2048.png",
+      "layout": "stacked",
+      "appearance": "mono-on-light",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        307,
+        419,
+        1741,
+        1622
+      ],
+      "sha256": "f6e4a326fef5641635a63655395dd11820437d4b93fd95563265acc17785862a"
+    },
+    {
+      "file": "logos/svg/landscape-16x9/knectar-stacked-mono-on-light-landscape-16x9.svg",
+      "layout": "stacked",
+      "appearance": "mono-on-light",
+      "framing": "landscape-16x9",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "sha256": "90de1c2861ae412c03eacfaf44abf094944cc2193ad280b858fab5d6bee6dfb4"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-stacked-mono-on-light-landscape-16x9-1280x720.png",
+      "layout": "stacked",
+      "appearance": "mono-on-light",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        361,
+        125,
+        919,
+        593
+      ],
+      "sha256": "c88987bf74fdefff65bb61f26fe0bc39957b9f38001d500a4e3382bdf158bffb"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-stacked-mono-on-light-landscape-16x9-1920x1080.png",
+      "layout": "stacked",
+      "appearance": "mono-on-light",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 1920,
+      "height": 1080,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        542,
+        187,
+        1378,
+        889
+      ],
+      "sha256": "f74daf0fa922b83f6d88d6ced44065e382cc84850d044f786bc6d40154c0fb4c"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-stacked-mono-on-light-landscape-16x9-3840x2160.png",
+      "layout": "stacked",
+      "appearance": "mono-on-light",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 3840,
+      "height": 2160,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        1084,
+        374,
+        2756,
+        1777
+      ],
+      "sha256": "4f2c0687b09ba5951871445a2e842e9d841fc57fc9b13d6c00b1abd7fd0c0ec1"
+    },
+    {
+      "file": "logos/svg/native/knectar-stacked-mono-on-dark-native.svg",
+      "layout": "stacked",
+      "appearance": "mono-on-dark",
+      "framing": "native",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        288.04181339999997,
+        248.1913306
+      ],
+      "sha256": "af8a9ecf3fdcc4bcdc1330ab91a4e8c51b83870482ba3790be743922da09c4be"
+    },
+    {
+      "file": "logos/png/native/knectar-stacked-mono-on-dark-native-512x441.png",
+      "layout": "stacked",
+      "appearance": "mono-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 512,
+      "height": 441,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        42,
+        40,
+        470,
+        399
+      ],
+      "sha256": "8c0dfea377b0e60a4de8687263e2a139732af92408c6f78e5d23fd14b4e7f8d1"
+    },
+    {
+      "file": "logos/png/native/knectar-stacked-mono-on-dark-native-1024x882.png",
+      "layout": "stacked",
+      "appearance": "mono-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 1024,
+      "height": 882,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        85,
+        81,
+        939,
+        798
+      ],
+      "sha256": "ffe4433472d6557734c15ecae167f4be18bb085246f4a9a225039b95e09d7853"
+    },
+    {
+      "file": "logos/png/native/knectar-stacked-mono-on-dark-native-2048x1764.png",
+      "layout": "stacked",
+      "appearance": "mono-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 2048,
+      "height": 1764,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        170,
+        162,
+        1878,
+        1595
+      ],
+      "sha256": "11bdcbe5b689abb315fd5de3c32614d44ab0195e6ccb7a368b3c9b369f1edd39"
+    },
+    {
+      "file": "logos/svg/square-1x1/knectar-stacked-mono-on-dark-square-1x1.svg",
+      "layout": "stacked",
+      "appearance": "mono-on-dark",
+      "framing": "square-1x1",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "sha256": "1b72647351d67b8f0885bd81442a3e02f4ce47a9a6b24a3e60c4ce5a553dabdd"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-stacked-mono-on-dark-square-1x1-512x512.png",
+      "layout": "stacked",
+      "appearance": "mono-on-dark",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        76,
+        104,
+        436,
+        406
+      ],
+      "sha256": "9b3db82e2d2bd17380d92674b950d114da1eb4b0f3552a38ba21036c3a560c9e"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-stacked-mono-on-dark-square-1x1-1024x1024.png",
+      "layout": "stacked",
+      "appearance": "mono-on-dark",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 1024,
+      "height": 1024,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        153,
+        209,
+        871,
+        811
+      ],
+      "sha256": "413dadbb8ae4871f3f0b43d5ea27e19d5f0cf6730b206257a3f9885a4dba44be"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-stacked-mono-on-dark-square-1x1-2048x2048.png",
+      "layout": "stacked",
+      "appearance": "mono-on-dark",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        307,
+        419,
+        1741,
+        1622
+      ],
+      "sha256": "7c6316f434ec8977e7674efaba8f553677718ba5520ce56fe5fa33bfc2370cb1"
+    },
+    {
+      "file": "logos/svg/landscape-16x9/knectar-stacked-mono-on-dark-landscape-16x9.svg",
+      "layout": "stacked",
+      "appearance": "mono-on-dark",
+      "framing": "landscape-16x9",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "sha256": "882bb439b6a2b6f6de3f5849a86f5a6e59c0e35d8d095dae2527445022141da0"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-stacked-mono-on-dark-landscape-16x9-1280x720.png",
+      "layout": "stacked",
+      "appearance": "mono-on-dark",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        361,
+        125,
+        919,
+        593
+      ],
+      "sha256": "4bcce170f556a724479c2e4d48c4602e2b796c9c651924ac4445a70554b010f4"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-stacked-mono-on-dark-landscape-16x9-1920x1080.png",
+      "layout": "stacked",
+      "appearance": "mono-on-dark",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 1920,
+      "height": 1080,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        542,
+        187,
+        1378,
+        889
+      ],
+      "sha256": "13c7da70e207ad0e87d1cad611aafb28b77c342157d97f29bfa1538ae2600b7f"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-stacked-mono-on-dark-landscape-16x9-3840x2160.png",
+      "layout": "stacked",
+      "appearance": "mono-on-dark",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 3840,
+      "height": 2160,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        1084,
+        374,
+        2756,
+        1777
+      ],
+      "sha256": "8a6ba792ffff352d52d22e72282a628cecdb0bc2fb55a53535b4f2a5955832ea"
+    },
+    {
+      "file": "logos/svg/native/knectar-mark-color-on-light-native.svg",
+      "layout": "mark",
+      "appearance": "color-on-light",
+      "framing": "native",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "sha256": "062f91586a56eef1c49083e8afbb7e37b8add5aa056e9c0b4da17d8bfb18e8cb"
+    },
+    {
+      "file": "logos/png/native/knectar-mark-color-on-light-native-512x512.png",
+      "layout": "mark",
+      "appearance": "color-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        76,
+        36,
+        496,
+        448
+      ],
+      "sha256": "280cd2452ae3f0eb785c1c53012b060c3e462eb66ed6eccfd25072232867f865"
+    },
+    {
+      "file": "logos/png/native/knectar-mark-color-on-light-native-1024x1024.png",
+      "layout": "mark",
+      "appearance": "color-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 1024,
+      "height": 1024,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        152,
+        72,
+        992,
+        896
+      ],
+      "sha256": "094d416cdc0041e9e20366e94b0fa40bbc140a87ae4d56d0eb0d40ac56bfee1c"
+    },
+    {
+      "file": "logos/png/native/knectar-mark-color-on-light-native-2048x2048.png",
+      "layout": "mark",
+      "appearance": "color-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        304,
+        144,
+        1984,
+        1792
+      ],
+      "sha256": "80d350981dd257ee37e32db25afe80903504174771690f1a75c7411d57da81f7"
+    },
+    {
+      "file": "logos/svg/square-1x1/knectar-mark-color-on-light-square-1x1.svg",
+      "layout": "mark",
+      "appearance": "color-on-light",
+      "framing": "square-1x1",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "sha256": "6bbf6fb44aae5cc678ac583ed72164a4aa5878d392e5df87ff38a4297f555002"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-mark-color-on-light-square-1x1-512x512.png",
+      "layout": "mark",
+      "appearance": "color-on-light",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        112,
+        80,
+        448,
+        410
+      ],
+      "sha256": "9c72f5b0af6555c966f06ca54b8be446462661dea11abf2d3578b7216d27f948"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-mark-color-on-light-square-1x1-1024x1024.png",
+      "layout": "mark",
+      "appearance": "color-on-light",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 1024,
+      "height": 1024,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        224,
+        160,
+        896,
+        819
+      ],
+      "sha256": "9b3981b16d2444ba043f99b1d2bef025a11b4322ceb3db83a7690866cb5b1663"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-mark-color-on-light-square-1x1-2048x2048.png",
+      "layout": "mark",
+      "appearance": "color-on-light",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        448,
+        320,
+        1792,
+        1639
+      ],
+      "sha256": "290004f121c6e458c1b02d490d44c7ac8610225db69cd5ba34c3b607b1ba29fe"
+    },
+    {
+      "file": "logos/svg/landscape-16x9/knectar-mark-color-on-light-landscape-16x9.svg",
+      "layout": "mark",
+      "appearance": "color-on-light",
+      "framing": "landscape-16x9",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "sha256": "beca10acc47950366758b37e62930110377d184a8dd4021c645984e6718a4ed7"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-mark-color-on-light-landscape-16x9-1280x720.png",
+      "layout": "mark",
+      "appearance": "color-on-light",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        437,
+        112,
+        910,
+        576
+      ],
+      "sha256": "4e0949b4d4435ba7998c13ca02038560cbdc1ec0ef02d60796bc5d24a0df7c1f"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-mark-color-on-light-landscape-16x9-1920x1080.png",
+      "layout": "mark",
+      "appearance": "color-on-light",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 1920,
+      "height": 1080,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        656,
+        168,
+        1365,
+        864
+      ],
+      "sha256": "ba6f601a573da8a27b5216bab3e366e28befd706d395073c97acb208be4ed21d"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-mark-color-on-light-landscape-16x9-3840x2160.png",
+      "layout": "mark",
+      "appearance": "color-on-light",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 3840,
+      "height": 2160,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        1312,
+        337,
+        2730,
+        1728
+      ],
+      "sha256": "816ce34c1d09491826993c59dde39cb1234ce74573fedd44b8d01f6371232752"
+    },
+    {
+      "file": "logos/svg/native/knectar-mark-color-on-dark-native.svg",
+      "layout": "mark",
+      "appearance": "color-on-dark",
+      "framing": "native",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "sha256": "7815899cbcb3da61a27ac9e4a002749589b862ca103eb3ae4b85f3eceb1e29ec"
+    },
+    {
+      "file": "logos/png/native/knectar-mark-color-on-dark-native-512x512.png",
+      "layout": "mark",
+      "appearance": "color-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        76,
+        36,
+        496,
+        448
+      ],
+      "sha256": "be9a85050624b3034e95092c78faa267386aec7419671ec64ce44005287d8998"
+    },
+    {
+      "file": "logos/png/native/knectar-mark-color-on-dark-native-1024x1024.png",
+      "layout": "mark",
+      "appearance": "color-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 1024,
+      "height": 1024,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        152,
+        72,
+        992,
+        896
+      ],
+      "sha256": "e904a169b7d24fea964ddc1fa2d106acc47232bcc6d44eebd920811485eeea1c"
+    },
+    {
+      "file": "logos/png/native/knectar-mark-color-on-dark-native-2048x2048.png",
+      "layout": "mark",
+      "appearance": "color-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        304,
+        144,
+        1984,
+        1792
+      ],
+      "sha256": "c60ea7f5c09427a01e133171ec5333934bd87bcd3cc31c107af228630b4ae4ec"
+    },
+    {
+      "file": "logos/svg/square-1x1/knectar-mark-color-on-dark-square-1x1.svg",
+      "layout": "mark",
+      "appearance": "color-on-dark",
+      "framing": "square-1x1",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "sha256": "8935051c19f0c19c83caadcb4364158b807eb710d1834e262ea2c1ed8264bdb2"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-mark-color-on-dark-square-1x1-512x512.png",
+      "layout": "mark",
+      "appearance": "color-on-dark",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        112,
+        80,
+        448,
+        410
+      ],
+      "sha256": "5b458abc5905e3be6f029633c879da70bc7581c3b575fedac96a75634bbf3511"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-mark-color-on-dark-square-1x1-1024x1024.png",
+      "layout": "mark",
+      "appearance": "color-on-dark",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 1024,
+      "height": 1024,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        224,
+        160,
+        896,
+        819
+      ],
+      "sha256": "3ba263484547ff69af196b149406f48f7480de22ede84399c086f4cbbe53b385"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-mark-color-on-dark-square-1x1-2048x2048.png",
+      "layout": "mark",
+      "appearance": "color-on-dark",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        448,
+        320,
+        1792,
+        1639
+      ],
+      "sha256": "b2ccb189bd4c29aeb92a34175cdf1584f546c8be4690958c0a9a64fdbf487903"
+    },
+    {
+      "file": "logos/svg/landscape-16x9/knectar-mark-color-on-dark-landscape-16x9.svg",
+      "layout": "mark",
+      "appearance": "color-on-dark",
+      "framing": "landscape-16x9",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "sha256": "1b2794dd7b113492f847aab874510a1d2867bb2a254adbb720ecc9254b6d6778"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-mark-color-on-dark-landscape-16x9-1280x720.png",
+      "layout": "mark",
+      "appearance": "color-on-dark",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        437,
+        112,
+        910,
+        576
+      ],
+      "sha256": "55b69e4d32ee44b66672fc18ce79b35dfa77aa1fc01c81073b8c2cb0e86a9a2e"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-mark-color-on-dark-landscape-16x9-1920x1080.png",
+      "layout": "mark",
+      "appearance": "color-on-dark",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 1920,
+      "height": 1080,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        656,
+        168,
+        1365,
+        864
+      ],
+      "sha256": "07e85e3120624586bdf2cd2ce0d1167a7c3edfb0977788c88d98113893b1a071"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-mark-color-on-dark-landscape-16x9-3840x2160.png",
+      "layout": "mark",
+      "appearance": "color-on-dark",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 3840,
+      "height": 2160,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        1312,
+        337,
+        2730,
+        1728
+      ],
+      "sha256": "0ddb1a147ad130686396d6998783ec41ba49dab75eca50424bab861ee4fe1e72"
+    },
+    {
+      "file": "logos/svg/native/knectar-mark-mono-on-light-native.svg",
+      "layout": "mark",
+      "appearance": "mono-on-light",
+      "framing": "native",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "sha256": "06a00e003a481a8a8874c8a904b6fa878f525f0a148ab70a7ac5a1b9a1cf48d7"
+    },
+    {
+      "file": "logos/png/native/knectar-mark-mono-on-light-native-512x512.png",
+      "layout": "mark",
+      "appearance": "mono-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        76,
+        36,
+        496,
+        448
+      ],
+      "sha256": "c3990ac0860447e3653c1acb34be9928f6db438046668c36ba6d64725bc68434"
+    },
+    {
+      "file": "logos/png/native/knectar-mark-mono-on-light-native-1024x1024.png",
+      "layout": "mark",
+      "appearance": "mono-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 1024,
+      "height": 1024,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        152,
+        72,
+        992,
+        896
+      ],
+      "sha256": "ce7ba98fcdd95d9fe207eb7dc20b49be5b3b297f9d9f66f9f5ec138e82b22450"
+    },
+    {
+      "file": "logos/png/native/knectar-mark-mono-on-light-native-2048x2048.png",
+      "layout": "mark",
+      "appearance": "mono-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        304,
+        144,
+        1984,
+        1792
+      ],
+      "sha256": "8c2c3aae2c06ee5a907ff98c35f84fdb983bd53d86a1521e05066768ff531139"
+    },
+    {
+      "file": "logos/svg/square-1x1/knectar-mark-mono-on-light-square-1x1.svg",
+      "layout": "mark",
+      "appearance": "mono-on-light",
+      "framing": "square-1x1",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "sha256": "26fd8d54d6ced1fac9576b23202de31ed6c62c26aa3fae56b7f9080b82fcc443"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-mark-mono-on-light-square-1x1-512x512.png",
+      "layout": "mark",
+      "appearance": "mono-on-light",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        112,
+        80,
+        448,
+        410
+      ],
+      "sha256": "cf950c328731bd01be5ea0b4da88e271a929c9e43a369516c6e67569f931b9db"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-mark-mono-on-light-square-1x1-1024x1024.png",
+      "layout": "mark",
+      "appearance": "mono-on-light",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 1024,
+      "height": 1024,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        224,
+        160,
+        896,
+        819
+      ],
+      "sha256": "0bd1d6686bf8c24022b2b5357e156449b45c0cedf50c60130c84a021cdf1b8e3"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-mark-mono-on-light-square-1x1-2048x2048.png",
+      "layout": "mark",
+      "appearance": "mono-on-light",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        448,
+        320,
+        1792,
+        1639
+      ],
+      "sha256": "0db53dfccc38172dfad3e8f50f8749fb7bca41089fd47ce78016e89b129d0906"
+    },
+    {
+      "file": "logos/svg/landscape-16x9/knectar-mark-mono-on-light-landscape-16x9.svg",
+      "layout": "mark",
+      "appearance": "mono-on-light",
+      "framing": "landscape-16x9",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "sha256": "d3841bf1b5a3e93d68ec311be9bfff842dc5d98533437305a93c8c66d60a13ac"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-mark-mono-on-light-landscape-16x9-1280x720.png",
+      "layout": "mark",
+      "appearance": "mono-on-light",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        437,
+        112,
+        910,
+        576
+      ],
+      "sha256": "2cbd20fd6f1c5f445834aad7528911944ccc9b0d14b7afa2a3551e5b56b51e0e"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-mark-mono-on-light-landscape-16x9-1920x1080.png",
+      "layout": "mark",
+      "appearance": "mono-on-light",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 1920,
+      "height": 1080,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        656,
+        168,
+        1365,
+        864
+      ],
+      "sha256": "439280f7e6c06e9411f411a78ad29e5c3d07c02d15fc0e42fa0fda20cd57a431"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-mark-mono-on-light-landscape-16x9-3840x2160.png",
+      "layout": "mark",
+      "appearance": "mono-on-light",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 3840,
+      "height": 2160,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        1312,
+        337,
+        2730,
+        1728
+      ],
+      "sha256": "0eed31ca3910026daeee326547dc25d83b127fa486f910a8d1141b27411b3548"
+    },
+    {
+      "file": "logos/svg/native/knectar-mark-mono-on-dark-native.svg",
+      "layout": "mark",
+      "appearance": "mono-on-dark",
+      "framing": "native",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "sha256": "81f5ba4e5a34a575301520d7b7a4587f045b4da9beb3cd1c2dd84dd3a4d31266"
+    },
+    {
+      "file": "logos/png/native/knectar-mark-mono-on-dark-native-512x512.png",
+      "layout": "mark",
+      "appearance": "mono-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        76,
+        36,
+        496,
+        448
+      ],
+      "sha256": "c424bcb947e00e0cbddb56fac6037fb1fa1a2d8ee7b17bbb0b1285f335948f91"
+    },
+    {
+      "file": "logos/png/native/knectar-mark-mono-on-dark-native-1024x1024.png",
+      "layout": "mark",
+      "appearance": "mono-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 1024,
+      "height": 1024,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        152,
+        72,
+        992,
+        896
+      ],
+      "sha256": "c928ba772072e0d5ae4502aca3b4b46c61ca137fa564b40d95bf4366e4597d73"
+    },
+    {
+      "file": "logos/png/native/knectar-mark-mono-on-dark-native-2048x2048.png",
+      "layout": "mark",
+      "appearance": "mono-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        304,
+        144,
+        1984,
+        1792
+      ],
+      "sha256": "c2884910f6c9335ff389d3d420de23868adda1a7c093052d1b41f9019ebdeca2"
+    },
+    {
+      "file": "logos/svg/square-1x1/knectar-mark-mono-on-dark-square-1x1.svg",
+      "layout": "mark",
+      "appearance": "mono-on-dark",
+      "framing": "square-1x1",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "sha256": "5b0cc7b3e9021c50e13446ee901cca10d87ed0f4af92e5a43aa203f5ed9415c1"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-mark-mono-on-dark-square-1x1-512x512.png",
+      "layout": "mark",
+      "appearance": "mono-on-dark",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        112,
+        80,
+        448,
+        410
+      ],
+      "sha256": "2fd96d85777c203c32f97d2b322bd1c048145346c09873a2420b617a4f566287"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-mark-mono-on-dark-square-1x1-1024x1024.png",
+      "layout": "mark",
+      "appearance": "mono-on-dark",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 1024,
+      "height": 1024,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        224,
+        160,
+        896,
+        819
+      ],
+      "sha256": "8d2d8b12fd48679bd8b44451467c09330b9b8830839ab14574c4461e88565ff9"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-mark-mono-on-dark-square-1x1-2048x2048.png",
+      "layout": "mark",
+      "appearance": "mono-on-dark",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        448,
+        320,
+        1792,
+        1639
+      ],
+      "sha256": "058ffa640b3e3188469c650d5fd95a9d6128f45eb52ef27e1848b2f750907cc1"
+    },
+    {
+      "file": "logos/svg/landscape-16x9/knectar-mark-mono-on-dark-landscape-16x9.svg",
+      "layout": "mark",
+      "appearance": "mono-on-dark",
+      "framing": "landscape-16x9",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "sha256": "95ed4190f8a6425152caa5aa6754c0127b91f5677a148e06e780b160e4303139"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-mark-mono-on-dark-landscape-16x9-1280x720.png",
+      "layout": "mark",
+      "appearance": "mono-on-dark",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        437,
+        112,
+        910,
+        576
+      ],
+      "sha256": "74c981fecdd7431d3b3d5c17445f754c0d791b414ae8f1ef371019ef573660e4"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-mark-mono-on-dark-landscape-16x9-1920x1080.png",
+      "layout": "mark",
+      "appearance": "mono-on-dark",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 1920,
+      "height": 1080,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        656,
+        168,
+        1365,
+        864
+      ],
+      "sha256": "4304dc181a3f8d2626fa90f0f2c9a776e022005795ad8922361b66e4652d9656"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-mark-mono-on-dark-landscape-16x9-3840x2160.png",
+      "layout": "mark",
+      "appearance": "mono-on-dark",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 3840,
+      "height": 2160,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        1312,
+        337,
+        2730,
+        1728
+      ],
+      "sha256": "4a58710a3ba49e1d40f90aeb696270eac4fe4725700997bbf3452198cbfdfe69"
+    },
+    {
+      "file": "logos/svg/native/knectar-wordmark-color-on-light-native.svg",
+      "layout": "wordmark",
+      "appearance": "color-on-light",
+      "framing": "native",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        272.04181339999997,
+        85.19133059999999
+      ],
+      "sha256": "8b886dffd47589113be75633783904e364cb6c1210d713ec2424c48dec2b2141"
+    },
+    {
+      "file": "logos/png/native/knectar-wordmark-color-on-light-native-512x160.png",
+      "layout": "wordmark",
+      "appearance": "color-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 512,
+      "height": 160,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        30,
+        30,
+        482,
+        131
+      ],
+      "sha256": "646b9ba1d2f5d8db41dbe68d98c9de8d56254a254f59b85e93c0078e564fc916"
+    },
+    {
+      "file": "logos/png/native/knectar-wordmark-color-on-light-native-1024x320.png",
+      "layout": "wordmark",
+      "appearance": "color-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 1024,
+      "height": 320,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        60,
+        60,
+        964,
+        261
+      ],
+      "sha256": "03a4c6215de26680759e133e6fb93a7613bc8eff12a82fbb9a540c60790e6d99"
+    },
+    {
+      "file": "logos/png/native/knectar-wordmark-color-on-light-native-2048x640.png",
+      "layout": "wordmark",
+      "appearance": "color-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 2048,
+      "height": 640,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        120,
+        120,
+        1928,
+        521
+      ],
+      "sha256": "cbceb342d0fca7b24ffbbed58c4f1956aea35bc312fd2fd000158e975d9ad3d8"
+    },
+    {
+      "file": "logos/svg/square-1x1/knectar-wordmark-color-on-light-square-1x1.svg",
+      "layout": "wordmark",
+      "appearance": "color-on-light",
+      "framing": "square-1x1",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "sha256": "d7b4881d807d0cab021089f6cde16b0c72b6b063f6f8bf6567ec263bd934a614"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-wordmark-color-on-light-square-1x1-512x512.png",
+      "layout": "wordmark",
+      "appearance": "color-on-light",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        66,
+        214,
+        446,
+        298
+      ],
+      "sha256": "93402f939432ff35f80893fb078944fd3cd8ac9f1fcbb34ff4834474472b488d"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-wordmark-color-on-light-square-1x1-1024x1024.png",
+      "layout": "wordmark",
+      "appearance": "color-on-light",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 1024,
+      "height": 1024,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        132,
+        428,
+        892,
+        596
+      ],
+      "sha256": "e3ecb9f45061842dfb41b1bb37350395c7f2192e8d38c3eade82c68ef135cd62"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-wordmark-color-on-light-square-1x1-2048x2048.png",
+      "layout": "wordmark",
+      "appearance": "color-on-light",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        265,
+        855,
+        1783,
+        1193
+      ],
+      "sha256": "e6144c253ff2dfd8103af3371183632e5794f38f59fdfb00bda4a6cb72a384ab"
+    },
+    {
+      "file": "logos/svg/landscape-16x9/knectar-wordmark-color-on-light-landscape-16x9.svg",
+      "layout": "wordmark",
+      "appearance": "color-on-light",
+      "framing": "landscape-16x9",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "sha256": "169a4a9d210057668de40e5100b723135f45dc795055e81ebb8af6769103f0f6"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-wordmark-color-on-light-landscape-16x9-1280x720.png",
+      "layout": "wordmark",
+      "appearance": "color-on-light",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        165,
+        255,
+        1115,
+        465
+      ],
+      "sha256": "fc6c5322d3f381f224f3a8a7392d9a6411250c3ce421b165946e8c97cd83806c"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-wordmark-color-on-light-landscape-16x9-1920x1080.png",
+      "layout": "wordmark",
+      "appearance": "color-on-light",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 1920,
+      "height": 1080,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        248,
+        382,
+        1672,
+        698
+      ],
+      "sha256": "009d1774c357711a0d94108c97383b23d1c8b50e55fb629e0a1128eb44534104"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-wordmark-color-on-light-landscape-16x9-3840x2160.png",
+      "layout": "wordmark",
+      "appearance": "color-on-light",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 3840,
+      "height": 2160,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        497,
+        764,
+        3343,
+        1396
+      ],
+      "sha256": "d0daaa327f6c43d36ea4148cc071da733dc61ab1869da613003a34afe9f65bbb"
+    },
+    {
+      "file": "logos/svg/native/knectar-wordmark-color-on-dark-native.svg",
+      "layout": "wordmark",
+      "appearance": "color-on-dark",
+      "framing": "native",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        272.04181339999997,
+        85.19133059999999
+      ],
+      "sha256": "be5e5b40f9b969b4972f2086eabf23bda596f7be9ac62f575ef7f3d6e0cb1595"
+    },
+    {
+      "file": "logos/png/native/knectar-wordmark-color-on-dark-native-512x160.png",
+      "layout": "wordmark",
+      "appearance": "color-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 512,
+      "height": 160,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        30,
+        30,
+        482,
+        131
+      ],
+      "sha256": "9a80e16be6d4362e80f5cf4da12cebe7c4f532a3417be99b83862701e07d6dd6"
+    },
+    {
+      "file": "logos/png/native/knectar-wordmark-color-on-dark-native-1024x320.png",
+      "layout": "wordmark",
+      "appearance": "color-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 1024,
+      "height": 320,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        60,
+        60,
+        964,
+        261
+      ],
+      "sha256": "100aa7da5b82a29ef012c00c9bfa0ae049db57a344e0ad91ac2b74e168b1c33b"
+    },
+    {
+      "file": "logos/png/native/knectar-wordmark-color-on-dark-native-2048x640.png",
+      "layout": "wordmark",
+      "appearance": "color-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 2048,
+      "height": 640,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        120,
+        120,
+        1928,
+        521
+      ],
+      "sha256": "ceb18e0107de1b59321315f66497de822ae1977e995ebbec2efdc630b2878d25"
+    },
+    {
+      "file": "logos/svg/square-1x1/knectar-wordmark-color-on-dark-square-1x1.svg",
+      "layout": "wordmark",
+      "appearance": "color-on-dark",
+      "framing": "square-1x1",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "sha256": "6a816734dca1a4ad6291829f6f408888a366c0aa3cd1e76457026da7e26b2cb8"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-wordmark-color-on-dark-square-1x1-512x512.png",
+      "layout": "wordmark",
+      "appearance": "color-on-dark",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        66,
+        214,
+        446,
+        298
+      ],
+      "sha256": "f01b45537099170ef2d04e54bc427f647d3937e433800f29b1d609e69fdeaa1b"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-wordmark-color-on-dark-square-1x1-1024x1024.png",
+      "layout": "wordmark",
+      "appearance": "color-on-dark",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 1024,
+      "height": 1024,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        132,
+        428,
+        892,
+        596
+      ],
+      "sha256": "966f444fe6ffe3d06185516aba01f1d16d75765f99f0fb2b98325366c9767cf0"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-wordmark-color-on-dark-square-1x1-2048x2048.png",
+      "layout": "wordmark",
+      "appearance": "color-on-dark",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        265,
+        855,
+        1783,
+        1193
+      ],
+      "sha256": "79cf69b217ddaf6cb6a6b772f3a2bfab75b00d712c9a244369acf662725cff04"
+    },
+    {
+      "file": "logos/svg/landscape-16x9/knectar-wordmark-color-on-dark-landscape-16x9.svg",
+      "layout": "wordmark",
+      "appearance": "color-on-dark",
+      "framing": "landscape-16x9",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "sha256": "1eb7f25209789b62740e6ccdcab4db6086a3a4e0f6f0e85f361fe470b23ef7cc"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-wordmark-color-on-dark-landscape-16x9-1280x720.png",
+      "layout": "wordmark",
+      "appearance": "color-on-dark",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        165,
+        255,
+        1115,
+        465
+      ],
+      "sha256": "5451c532dc0af11483a5742964ded7b06018ddf02ae55ff4aea55f1c2858cc23"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-wordmark-color-on-dark-landscape-16x9-1920x1080.png",
+      "layout": "wordmark",
+      "appearance": "color-on-dark",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 1920,
+      "height": 1080,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        248,
+        382,
+        1672,
+        698
+      ],
+      "sha256": "b2641819e607af7e6583e69e20ef91948be5f18eb56690ff4c75bb94aaac3b22"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-wordmark-color-on-dark-landscape-16x9-3840x2160.png",
+      "layout": "wordmark",
+      "appearance": "color-on-dark",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 3840,
+      "height": 2160,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        497,
+        764,
+        3343,
+        1396
+      ],
+      "sha256": "35c773f0593c68589a27fd91a2014512e1812413f950195e1eb0fd0a35a27f70"
+    },
+    {
+      "file": "logos/svg/native/knectar-wordmark-mono-on-light-native.svg",
+      "layout": "wordmark",
+      "appearance": "mono-on-light",
+      "framing": "native",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        272.04181339999997,
+        85.19133059999999
+      ],
+      "sha256": "f40898a041268e3b598c1b8fb5e35e0ee8cf4a0ff658f858ed22d395d1ceea66"
+    },
+    {
+      "file": "logos/png/native/knectar-wordmark-mono-on-light-native-512x160.png",
+      "layout": "wordmark",
+      "appearance": "mono-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 512,
+      "height": 160,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        30,
+        30,
+        482,
+        131
+      ],
+      "sha256": "d4e0cb36e8cd2675e7275efaad8a3fc1043f339efa4076961c3741b0f153f384"
+    },
+    {
+      "file": "logos/png/native/knectar-wordmark-mono-on-light-native-1024x320.png",
+      "layout": "wordmark",
+      "appearance": "mono-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 1024,
+      "height": 320,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        60,
+        60,
+        964,
+        261
+      ],
+      "sha256": "91e0f1f514e48bc3ca38b912f5d563799e1c06dda5c37a9a8d45dc987a36e92b"
+    },
+    {
+      "file": "logos/png/native/knectar-wordmark-mono-on-light-native-2048x640.png",
+      "layout": "wordmark",
+      "appearance": "mono-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 2048,
+      "height": 640,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        120,
+        120,
+        1928,
+        521
+      ],
+      "sha256": "141684b8c968a6a53305e9e7687fdfe0817bf93f099d10bd20cd987fdd37ab83"
+    },
+    {
+      "file": "logos/svg/square-1x1/knectar-wordmark-mono-on-light-square-1x1.svg",
+      "layout": "wordmark",
+      "appearance": "mono-on-light",
+      "framing": "square-1x1",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "sha256": "19f656845ac2478ebe91d2677ddb1089c4283e8e313a5f98199d84f118417484"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-wordmark-mono-on-light-square-1x1-512x512.png",
+      "layout": "wordmark",
+      "appearance": "mono-on-light",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        66,
+        214,
+        446,
+        298
+      ],
+      "sha256": "e69133be2f02cb5e89d6be1db16bd08fb5f6edb1aec382c9ab692413b30f6724"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-wordmark-mono-on-light-square-1x1-1024x1024.png",
+      "layout": "wordmark",
+      "appearance": "mono-on-light",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 1024,
+      "height": 1024,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        132,
+        428,
+        892,
+        596
+      ],
+      "sha256": "102a285813cb712b852bd4325c0030583be5746a293d4d2596695507651fb169"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-wordmark-mono-on-light-square-1x1-2048x2048.png",
+      "layout": "wordmark",
+      "appearance": "mono-on-light",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        265,
+        855,
+        1783,
+        1193
+      ],
+      "sha256": "da65d5dc87992e7b13626359833f5a507124e21c6ed3a540474207a424845698"
+    },
+    {
+      "file": "logos/svg/landscape-16x9/knectar-wordmark-mono-on-light-landscape-16x9.svg",
+      "layout": "wordmark",
+      "appearance": "mono-on-light",
+      "framing": "landscape-16x9",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "sha256": "f00f3385f03b4a31ec012862f9d8d2dc553b05665b894501562b38cf0d834f09"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-wordmark-mono-on-light-landscape-16x9-1280x720.png",
+      "layout": "wordmark",
+      "appearance": "mono-on-light",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        165,
+        255,
+        1115,
+        465
+      ],
+      "sha256": "242d4ece5db2a2f6923e9977ba239cec738a5b6065226d0051642a91e601e933"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-wordmark-mono-on-light-landscape-16x9-1920x1080.png",
+      "layout": "wordmark",
+      "appearance": "mono-on-light",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 1920,
+      "height": 1080,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        248,
+        382,
+        1672,
+        698
+      ],
+      "sha256": "d9a62f5acc344aca2c2ae586de9b494087d6d46623fb39c3b39b3304e78284dd"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-wordmark-mono-on-light-landscape-16x9-3840x2160.png",
+      "layout": "wordmark",
+      "appearance": "mono-on-light",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 3840,
+      "height": 2160,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        497,
+        764,
+        3343,
+        1396
+      ],
+      "sha256": "06c0bb6e36f39302eb2d22eb25c2d3e9007df23bba4e34b04c0b03a3e396219d"
+    },
+    {
+      "file": "logos/svg/native/knectar-wordmark-mono-on-dark-native.svg",
+      "layout": "wordmark",
+      "appearance": "mono-on-dark",
+      "framing": "native",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        272.04181339999997,
+        85.19133059999999
+      ],
+      "sha256": "fe8ccdda6a34e1b6ce5b3c24bbdf68001db4857ff86ae6a95bff08e4dfd6f40f"
+    },
+    {
+      "file": "logos/png/native/knectar-wordmark-mono-on-dark-native-512x160.png",
+      "layout": "wordmark",
+      "appearance": "mono-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 512,
+      "height": 160,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        30,
+        30,
+        482,
+        131
+      ],
+      "sha256": "337fd92451408d22183dcb8dc33d47f7bb588761cabbc42655556ad838eeb58b"
+    },
+    {
+      "file": "logos/png/native/knectar-wordmark-mono-on-dark-native-1024x320.png",
+      "layout": "wordmark",
+      "appearance": "mono-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 1024,
+      "height": 320,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        60,
+        60,
+        964,
+        261
+      ],
+      "sha256": "1a3acb04fa665aaf8e96779decc469d9c2220137e991b38a191f58579d49790b"
+    },
+    {
+      "file": "logos/png/native/knectar-wordmark-mono-on-dark-native-2048x640.png",
+      "layout": "wordmark",
+      "appearance": "mono-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 2048,
+      "height": 640,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        120,
+        120,
+        1928,
+        521
+      ],
+      "sha256": "1cf47c88f05725356544d658c3c8ea4b5a1d2d060219305425a416b68f7cca1d"
+    },
+    {
+      "file": "logos/svg/square-1x1/knectar-wordmark-mono-on-dark-square-1x1.svg",
+      "layout": "wordmark",
+      "appearance": "mono-on-dark",
+      "framing": "square-1x1",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "sha256": "13a60718bc3850d4fa884efafab561e9a3900cd00d29b13944d51a4352ca18e7"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-wordmark-mono-on-dark-square-1x1-512x512.png",
+      "layout": "wordmark",
+      "appearance": "mono-on-dark",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        66,
+        214,
+        446,
+        298
+      ],
+      "sha256": "d901cf8441a0091a267af30654e29ce3fb7fa951be3adf4bce24cfab16dc0251"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-wordmark-mono-on-dark-square-1x1-1024x1024.png",
+      "layout": "wordmark",
+      "appearance": "mono-on-dark",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 1024,
+      "height": 1024,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        132,
+        428,
+        892,
+        596
+      ],
+      "sha256": "98b5cd0775af226cfdd0686b90be2faf49500e333cb6f44373ea6b1f20240c25"
+    },
+    {
+      "file": "logos/png/square-1x1/knectar-wordmark-mono-on-dark-square-1x1-2048x2048.png",
+      "layout": "wordmark",
+      "appearance": "mono-on-dark",
+      "framing": "square-1x1",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        265,
+        855,
+        1783,
+        1193
+      ],
+      "sha256": "fa5b6772beb46d9adf933f85240563a1db7854e361ceb4fa93b4862e195cfae2"
+    },
+    {
+      "file": "logos/svg/landscape-16x9/knectar-wordmark-mono-on-dark-landscape-16x9.svg",
+      "layout": "wordmark",
+      "appearance": "mono-on-dark",
+      "framing": "landscape-16x9",
+      "format": "svg",
+      "viewBox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "sha256": "d8a376d5e3bba240e05ab30be0d851b4b27ec4cac160e677bf62201e5243f39e"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-wordmark-mono-on-dark-landscape-16x9-1280x720.png",
+      "layout": "wordmark",
+      "appearance": "mono-on-dark",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        165,
+        255,
+        1115,
+        465
+      ],
+      "sha256": "c8402d636d535327bc2aa84d7310bc0c105c03ec176c6c4e5a71b5114b829681"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-wordmark-mono-on-dark-landscape-16x9-1920x1080.png",
+      "layout": "wordmark",
+      "appearance": "mono-on-dark",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 1920,
+      "height": 1080,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        248,
+        382,
+        1672,
+        698
+      ],
+      "sha256": "7321609c68dc02a0dc7922f1ce10465a8968aac75ef4f60bdc6df2b7e6b93e41"
+    },
+    {
+      "file": "logos/png/landscape-16x9/knectar-wordmark-mono-on-dark-landscape-16x9-3840x2160.png",
+      "layout": "wordmark",
+      "appearance": "mono-on-dark",
+      "framing": "landscape-16x9",
+      "format": "png",
+      "width": 3840,
+      "height": 2160,
+      "alpha": [
+        0,
+        255
+      ],
+      "content_bounds": [
+        497,
+        764,
+        3343,
+        1396
+      ],
+      "sha256": "fd3ed7a9cb1d5ba5951141497a384fd8c637a3ddb848e1a47cb5da403f09282b"
+    }
+  ]
+}

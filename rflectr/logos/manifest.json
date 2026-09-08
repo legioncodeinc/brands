@@ -1,0 +1,1270 @@
+{
+  "brand": "rflectr",
+  "direction": "B / Echo bat",
+  "selected_date": "2026-09-05",
+  "status": "Selected direction; prepared artwork for review",
+  "provenance": {
+    "source_region_xyxy": [
+      844,
+      90,
+      1208,
+      381
+    ],
+    "silhouette_iou": 0.95884,
+    "fraction_outside_2px_boundary": 0.0,
+    "method": "Thresholded selected board region vs rendered vector alpha at source resolution",
+    "scope": "Silhouette similarity only. Vector smoothing, exact palette normalization, and new wordmark are production adaptations."
+  },
+  "source_files": {
+    "concept-prompt.txt": "a7bcad77b8ec2420f430138cab5e5b96d0db0c5c42f507b2dab069b736b00eba",
+    "rflectr-echo-bat-master.svg": "7385708d6912011c9bc72adcf8a725a654c5b376e095071cede7cdaa04e47594",
+    "rflectr-wordmark-master.svg": "96d9a7393efe85d002c74d3f1fd304f5b49a8bdc6bacb60a39154e014ac5af10",
+    "selected-concept-board.png": "c3308b87d12e6469c37410db5f5259cd95fdfd3bb620c5f4f2822aa8932bbab5",
+    "wordmark-provenance.json": "00b8307f3e108ce7d734e58dca3f90b094a9b15fdf6379b8dc11e231b85828f0"
+  },
+  "validation": {
+    "true_vector_paths": true,
+    "outlined_lettering": true,
+    "logo_transparency": true,
+    "no_clipped_logo_exports": true,
+    "application_state": "Static; never recolor or animate logo to represent runtime state",
+    "native_app_integration": "Not performed"
+  },
+  "asset_count": 130,
+  "assets": [
+    {
+      "file": "logos/svg/native/rflectr-horizontal-color-on-light-native.svg",
+      "sha256": "a249926282546b271ec44137ed4dec33364d1b36171d336e5256a4df7bb3c2e2",
+      "composition": "horizontal",
+      "appearance": "color-on-light",
+      "framing": "native",
+      "format": "svg",
+      "transparent": true
+    },
+    {
+      "file": "logos/png/native/rflectr-horizontal-color-on-light-native-512x174.png",
+      "sha256": "be66239fda43c73cbb64d4e31e091af77182cb106b997872941dff2dd6dc21f1",
+      "composition": "horizontal",
+      "appearance": "color-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 512,
+      "height": 174,
+      "transparent": true
+    },
+    {
+      "file": "logos/png/native/rflectr-horizontal-color-on-light-native-2048x696.png",
+      "sha256": "4c9729943e9616a6ed0ae8ac0a080f3d57af386f5567806153589b9bdf75df7c",
+      "composition": "horizontal",
+      "appearance": "color-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 2048,
+      "height": 696,
+      "transparent": true
+    },
+    {
+      "file": "logos/svg/square/rflectr-horizontal-color-on-light-square.svg",
+      "sha256": "d4d66ede762f52190d07cfe7d34abce76ac4f540b5604725a561000d24839071",
+      "composition": "horizontal",
+      "appearance": "color-on-light",
+      "framing": "square",
+      "format": "svg",
+      "transparent": true
+    },
+    {
+      "file": "logos/png/square/rflectr-horizontal-color-on-light-square-512x512.png",
+      "sha256": "3cd38663f674c5199123aeb31e422df717f5d787341a0b70d53f8248a7cea6cd",
+      "composition": "horizontal",
+      "appearance": "color-on-light",
+      "framing": "square",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "transparent": true
+    },
+    {
+      "file": "logos/png/square/rflectr-horizontal-color-on-light-square-2048x2048.png",
+      "sha256": "bb8c2e44a16dad22f82806ba70f8ed738d8dc8daae567715ddac355964f3ab53",
+      "composition": "horizontal",
+      "appearance": "color-on-light",
+      "framing": "square",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "transparent": true
+    },
+    {
+      "file": "logos/svg/native/rflectr-horizontal-color-on-dark-native.svg",
+      "sha256": "723bd867571166935756be18b7c8e8cae5f8ece4ecf2bec98095c28ecfa09c56",
+      "composition": "horizontal",
+      "appearance": "color-on-dark",
+      "framing": "native",
+      "format": "svg",
+      "transparent": true
+    },
+    {
+      "file": "logos/png/native/rflectr-horizontal-color-on-dark-native-512x174.png",
+      "sha256": "49c0a760097a281ce727a07bf6451e9cb86590fc56fb239bdf5ad0dff9382acd",
+      "composition": "horizontal",
+      "appearance": "color-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 512,
+      "height": 174,
+      "transparent": true
+    },
+    {
+      "file": "logos/png/native/rflectr-horizontal-color-on-dark-native-2048x696.png",
+      "sha256": "4c200815c107ab509a9129edf2770c7823fd7a0dc8464e3075d385d791c7020b",
+      "composition": "horizontal",
+      "appearance": "color-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 2048,
+      "height": 696,
+      "transparent": true
+    },
+    {
+      "file": "logos/svg/square/rflectr-horizontal-color-on-dark-square.svg",
+      "sha256": "b4215ec88b52adddc7b69d15bb70bbf99358c4b8274048ae0198a52bc939846f",
+      "composition": "horizontal",
+      "appearance": "color-on-dark",
+      "framing": "square",
+      "format": "svg",
+      "transparent": true
+    },
+    {
+      "file": "logos/png/square/rflectr-horizontal-color-on-dark-square-512x512.png",
+      "sha256": "bcab4c10c5209c0e88baeb4a6d2d8068e30db3ab235b40fce9bcdf52baa530a6",
+      "composition": "horizontal",
+      "appearance": "color-on-dark",
+      "framing": "square",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "transparent": true
+    },
+    {
+      "file": "logos/png/square/rflectr-horizontal-color-on-dark-square-2048x2048.png",
+      "sha256": "8cbdd867b6eeeff9a7e3fb2843d80a160e28a6216217854a41bb297db253efb3",
+      "composition": "horizontal",
+      "appearance": "color-on-dark",
+      "framing": "square",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "transparent": true
+    },
+    {
+      "file": "logos/svg/native/rflectr-horizontal-mono-on-light-native.svg",
+      "sha256": "3eb32138a41dac7d6789f4994132dcc4b85ab7f3a81a81d0e893976c3aa2327f",
+      "composition": "horizontal",
+      "appearance": "mono-on-light",
+      "framing": "native",
+      "format": "svg",
+      "transparent": true
+    },
+    {
+      "file": "logos/png/native/rflectr-horizontal-mono-on-light-native-512x174.png",
+      "sha256": "0377832d4c5b12d3b8ba49224efeee007e87c67f8c7a21c50dbe9b11d91c229b",
+      "composition": "horizontal",
+      "appearance": "mono-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 512,
+      "height": 174,
+      "transparent": true
+    },
+    {
+      "file": "logos/png/native/rflectr-horizontal-mono-on-light-native-2048x696.png",
+      "sha256": "fc42355b3ba0d79bfa71f37559e4baf407ff16a0b6e85bba765b602092643135",
+      "composition": "horizontal",
+      "appearance": "mono-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 2048,
+      "height": 696,
+      "transparent": true
+    },
+    {
+      "file": "logos/svg/square/rflectr-horizontal-mono-on-light-square.svg",
+      "sha256": "e12ffb609517a02faadc652e5361a9a9ba74b8504685bd848506e69d05be2b1e",
+      "composition": "horizontal",
+      "appearance": "mono-on-light",
+      "framing": "square",
+      "format": "svg",
+      "transparent": true
+    },
+    {
+      "file": "logos/png/square/rflectr-horizontal-mono-on-light-square-512x512.png",
+      "sha256": "427c841e1023f3dc192f6b89e1ee4ac1da669eeb12823fbbb01ecb10156d41ee",
+      "composition": "horizontal",
+      "appearance": "mono-on-light",
+      "framing": "square",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "transparent": true
+    },
+    {
+      "file": "logos/png/square/rflectr-horizontal-mono-on-light-square-2048x2048.png",
+      "sha256": "a8264acd0211cce9a9db447ba7350cc32dc51418c76619fc4c7c503bc66f4c63",
+      "composition": "horizontal",
+      "appearance": "mono-on-light",
+      "framing": "square",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "transparent": true
+    },
+    {
+      "file": "logos/svg/native/rflectr-horizontal-mono-on-dark-native.svg",
+      "sha256": "976f20e1adcd350c5172de3ae1596c5d76d309df6de7a7eebea2c2fa1fda3bec",
+      "composition": "horizontal",
+      "appearance": "mono-on-dark",
+      "framing": "native",
+      "format": "svg",
+      "transparent": true
+    },
+    {
+      "file": "logos/png/native/rflectr-horizontal-mono-on-dark-native-512x174.png",
+      "sha256": "57d54f5e91707152cd9ce4b58a5918e06ca91febc39283d8f8ddd19f0e47b42c",
+      "composition": "horizontal",
+      "appearance": "mono-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 512,
+      "height": 174,
+      "transparent": true
+    },
+    {
+      "file": "logos/png/native/rflectr-horizontal-mono-on-dark-native-2048x696.png",
+      "sha256": "12a440a19713305c09ee98bdcbc68bfe9081a5ed30e0047e150da0cc99a09e0c",
+      "composition": "horizontal",
+      "appearance": "mono-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 2048,
+      "height": 696,
+      "transparent": true
+    },
+    {
+      "file": "logos/svg/square/rflectr-horizontal-mono-on-dark-square.svg",
+      "sha256": "a093dcd50bb0ab322998cfbaf07662a63ab07e584524277f3da6183a9124c911",
+      "composition": "horizontal",
+      "appearance": "mono-on-dark",
+      "framing": "square",
+      "format": "svg",
+      "transparent": true
+    },
+    {
+      "file": "logos/png/square/rflectr-horizontal-mono-on-dark-square-512x512.png",
+      "sha256": "be456e9fe611502dfd8977e36df1b8c077097ae936b7df371d682264557e0ba7",
+      "composition": "horizontal",
+      "appearance": "mono-on-dark",
+      "framing": "square",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "transparent": true
+    },
+    {
+      "file": "logos/png/square/rflectr-horizontal-mono-on-dark-square-2048x2048.png",
+      "sha256": "6a5354cf21d8f5c6278d42d6122f1ecec6d3ff01278704265952b95bff48661a",
+      "composition": "horizontal",
+      "appearance": "mono-on-dark",
+      "framing": "square",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "transparent": true
+    },
+    {
+      "file": "logos/svg/native/rflectr-stacked-color-on-light-native.svg",
+      "sha256": "c1a3c1495468477831eed98d39b1a7a82079e5680cce031e89e9b08c175f2f10",
+      "composition": "stacked",
+      "appearance": "color-on-light",
+      "framing": "native",
+      "format": "svg",
+      "transparent": true
+    },
+    {
+      "file": "logos/png/native/rflectr-stacked-color-on-light-native-512x578.png",
+      "sha256": "9c47a5f20372791a8f291fb81307abc8f20207a787f785cab5ebbce269419d21",
+      "composition": "stacked",
+      "appearance": "color-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 512,
+      "height": 578,
+      "transparent": true
+    },
+    {
+      "file": "logos/png/native/rflectr-stacked-color-on-light-native-2048x2312.png",
+      "sha256": "376e3b90abbd6374ba7409abdb1aea4ef33f747d5d71959420478d3fc499a57f",
+      "composition": "stacked",
+      "appearance": "color-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 2048,
+      "height": 2312,
+      "transparent": true
+    },
+    {
+      "file": "logos/svg/square/rflectr-stacked-color-on-light-square.svg",
+      "sha256": "25466ac2b721e4d171f86f3bd2e4ef8ea12bf0b4dddea29ddfee7f6c6043cc24",
+      "composition": "stacked",
+      "appearance": "color-on-light",
+      "framing": "square",
+      "format": "svg",
+      "transparent": true
+    },
+    {
+      "file": "logos/png/square/rflectr-stacked-color-on-light-square-512x512.png",
+      "sha256": "6e99af4c7dc4877201a7d11b6570f8f1ebd3a09a93f2d7568cf11a46bb71c6b5",
+      "composition": "stacked",
+      "appearance": "color-on-light",
+      "framing": "square",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "transparent": true
+    },
+    {
+      "file": "logos/png/square/rflectr-stacked-color-on-light-square-2048x2048.png",
+      "sha256": "72e2ab302d33eec574fd2355d8d6b846cf622faec8ea6c23a3ca1d6e11634dbc",
+      "composition": "stacked",
+      "appearance": "color-on-light",
+      "framing": "square",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "transparent": true
+    },
+    {
+      "file": "logos/svg/native/rflectr-stacked-color-on-dark-native.svg",
+      "sha256": "75e93344c3f7d7f2cddfacceff70a54c9aefe5c8b53a304573a5afda72fba51f",
+      "composition": "stacked",
+      "appearance": "color-on-dark",
+      "framing": "native",
+      "format": "svg",
+      "transparent": true
+    },
+    {
+      "file": "logos/png/native/rflectr-stacked-color-on-dark-native-512x578.png",
+      "sha256": "0cc99070a9cae0f7a339810c3504d9bbcc2d4d9391837c4ddb7da5f0c448abe8",
+      "composition": "stacked",
+      "appearance": "color-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 512,
+      "height": 578,
+      "transparent": true
+    },
+    {
+      "file": "logos/png/native/rflectr-stacked-color-on-dark-native-2048x2312.png",
+      "sha256": "581678fac72bfc5184a28721687b098ca925df1aa4a1e90a19f1c695d5d08fd5",
+      "composition": "stacked",
+      "appearance": "color-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 2048,
+      "height": 2312,
+      "transparent": true
+    },
+    {
+      "file": "logos/svg/square/rflectr-stacked-color-on-dark-square.svg",
+      "sha256": "ed9898cb00a5d351d383f77695fda7e4dd6ab735ffe81b9612c43820900f6b75",
+      "composition": "stacked",
+      "appearance": "color-on-dark",
+      "framing": "square",
+      "format": "svg",
+      "transparent": true
+    },
+    {
+      "file": "logos/png/square/rflectr-stacked-color-on-dark-square-512x512.png",
+      "sha256": "538c597752211cf1e1d8fbf13773e86b7edd1c46db700e5a287b85dca09776e0",
+      "composition": "stacked",
+      "appearance": "color-on-dark",
+      "framing": "square",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "transparent": true
+    },
+    {
+      "file": "logos/png/square/rflectr-stacked-color-on-dark-square-2048x2048.png",
+      "sha256": "762f57eeaea715cd82136b55e1ff9c0b3f044db067fd9aaa1a740722ab81410d",
+      "composition": "stacked",
+      "appearance": "color-on-dark",
+      "framing": "square",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "transparent": true
+    },
+    {
+      "file": "logos/svg/native/rflectr-stacked-mono-on-light-native.svg",
+      "sha256": "6f1e8dda9ac290148cf2ad9c894886dee32a5c9ff41e3a4cf3de8e0299cb774c",
+      "composition": "stacked",
+      "appearance": "mono-on-light",
+      "framing": "native",
+      "format": "svg",
+      "transparent": true
+    },
+    {
+      "file": "logos/png/native/rflectr-stacked-mono-on-light-native-512x578.png",
+      "sha256": "517d37d76410160d32a78b46641089df5379ff48cae9f348179a77638d1a867a",
+      "composition": "stacked",
+      "appearance": "mono-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 512,
+      "height": 578,
+      "transparent": true
+    },
+    {
+      "file": "logos/png/native/rflectr-stacked-mono-on-light-native-2048x2312.png",
+      "sha256": "2e635376862e27bb5b5dcf793e6ffbfa8490ee27ddb9817d6446d7591b8f51e2",
+      "composition": "stacked",
+      "appearance": "mono-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 2048,
+      "height": 2312,
+      "transparent": true
+    },
+    {
+      "file": "logos/svg/square/rflectr-stacked-mono-on-light-square.svg",
+      "sha256": "2a8bcf2a9194dd55fee4ba5d5bc69e302ae7166757770a46a9b0b9156ac99653",
+      "composition": "stacked",
+      "appearance": "mono-on-light",
+      "framing": "square",
+      "format": "svg",
+      "transparent": true
+    },
+    {
+      "file": "logos/png/square/rflectr-stacked-mono-on-light-square-512x512.png",
+      "sha256": "4dcbc73744a1658b8916159fa05739856eabfb3228333793174de76f89719f27",
+      "composition": "stacked",
+      "appearance": "mono-on-light",
+      "framing": "square",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "transparent": true
+    },
+    {
+      "file": "logos/png/square/rflectr-stacked-mono-on-light-square-2048x2048.png",
+      "sha256": "b8360a5fe10157fb18cc8bab0757b1d951644be4b786b2a187844ef8167ccc1d",
+      "composition": "stacked",
+      "appearance": "mono-on-light",
+      "framing": "square",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "transparent": true
+    },
+    {
+      "file": "logos/svg/native/rflectr-stacked-mono-on-dark-native.svg",
+      "sha256": "7efaf4f3daf61264faa922774ea1d54cdd049330c11a16d3fa6615e58065da65",
+      "composition": "stacked",
+      "appearance": "mono-on-dark",
+      "framing": "native",
+      "format": "svg",
+      "transparent": true
+    },
+    {
+      "file": "logos/png/native/rflectr-stacked-mono-on-dark-native-512x578.png",
+      "sha256": "b1b72d224bc6b837a68a0eb912d62d1f7ae3216e7b06aee6671a2f1810c17b44",
+      "composition": "stacked",
+      "appearance": "mono-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 512,
+      "height": 578,
+      "transparent": true
+    },
+    {
+      "file": "logos/png/native/rflectr-stacked-mono-on-dark-native-2048x2312.png",
+      "sha256": "f316ad1ec6b8caef402c6d0350141e138171adb01401bc27a26b56457a53b10d",
+      "composition": "stacked",
+      "appearance": "mono-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 2048,
+      "height": 2312,
+      "transparent": true
+    },
+    {
+      "file": "logos/svg/square/rflectr-stacked-mono-on-dark-square.svg",
+      "sha256": "9a9cd09a4e19c3a7f5a5d66e78261ca0b94aa0d2f2992dc6ed24a0f0a6d720c7",
+      "composition": "stacked",
+      "appearance": "mono-on-dark",
+      "framing": "square",
+      "format": "svg",
+      "transparent": true
+    },
+    {
+      "file": "logos/png/square/rflectr-stacked-mono-on-dark-square-512x512.png",
+      "sha256": "942567b0e3c1d0235b26aa80e410d21539c5ccf6bfb5443abbc945ffdd330ccd",
+      "composition": "stacked",
+      "appearance": "mono-on-dark",
+      "framing": "square",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "transparent": true
+    },
+    {
+      "file": "logos/png/square/rflectr-stacked-mono-on-dark-square-2048x2048.png",
+      "sha256": "f31f67a4ef0a79f5186d4f79413704c2b4a01de9b74ce6f2768da2eb81110ec8",
+      "composition": "stacked",
+      "appearance": "mono-on-dark",
+      "framing": "square",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "transparent": true
+    },
+    {
+      "file": "logos/svg/native/rflectr-mark-color-on-light-native.svg",
+      "sha256": "1e8e7db3d9d569b178a2b3d33533a91c18fea32ad131394395bccb3bc5c9dffa",
+      "composition": "mark",
+      "appearance": "color-on-light",
+      "framing": "native",
+      "format": "svg",
+      "transparent": true
+    },
+    {
+      "file": "logos/png/native/rflectr-mark-color-on-light-native-512x420.png",
+      "sha256": "19f95b135d1f83762c74105364a606a848e2e3bfcdce64992ce3de574f48231d",
+      "composition": "mark",
+      "appearance": "color-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 512,
+      "height": 420,
+      "transparent": true
+    },
+    {
+      "file": "logos/png/native/rflectr-mark-color-on-light-native-2048x1678.png",
+      "sha256": "0a71a50b8d751ca3ebf2cd0aeba707e187c979594db5056eee908b79dc206637",
+      "composition": "mark",
+      "appearance": "color-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 2048,
+      "height": 1678,
+      "transparent": true
+    },
+    {
+      "file": "logos/svg/square/rflectr-mark-color-on-light-square.svg",
+      "sha256": "4ff164ecdac4f4f04f51b3d0b18d0200975112d7d49f3d024d9e9c6011ef2fc5",
+      "composition": "mark",
+      "appearance": "color-on-light",
+      "framing": "square",
+      "format": "svg",
+      "transparent": true
+    },
+    {
+      "file": "logos/png/square/rflectr-mark-color-on-light-square-512x512.png",
+      "sha256": "3d2e3831bcaef883a3412506674f4d9e653276e4fa04050385a6c007f79944fd",
+      "composition": "mark",
+      "appearance": "color-on-light",
+      "framing": "square",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "transparent": true
+    },
+    {
+      "file": "logos/png/square/rflectr-mark-color-on-light-square-2048x2048.png",
+      "sha256": "f965218d8d11bbfdad311557abc12a0af39a4f40b0a61eff81e66aa6de9049b3",
+      "composition": "mark",
+      "appearance": "color-on-light",
+      "framing": "square",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "transparent": true
+    },
+    {
+      "file": "logos/svg/native/rflectr-mark-color-on-dark-native.svg",
+      "sha256": "e088c7de219bc0713eb353b9335cdc3897a4818cc2b8ea38ec6f8c5a4373d73a",
+      "composition": "mark",
+      "appearance": "color-on-dark",
+      "framing": "native",
+      "format": "svg",
+      "transparent": true
+    },
+    {
+      "file": "logos/png/native/rflectr-mark-color-on-dark-native-512x420.png",
+      "sha256": "f248e5687e4c847b3079a4590842e277c842a96175009c479853abfbce3a0802",
+      "composition": "mark",
+      "appearance": "color-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 512,
+      "height": 420,
+      "transparent": true
+    },
+    {
+      "file": "logos/png/native/rflectr-mark-color-on-dark-native-2048x1678.png",
+      "sha256": "367c40da007f58d3f023798ad594e66ce73162f215ec92c880ce7409f2b9241e",
+      "composition": "mark",
+      "appearance": "color-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 2048,
+      "height": 1678,
+      "transparent": true
+    },
+    {
+      "file": "logos/svg/square/rflectr-mark-color-on-dark-square.svg",
+      "sha256": "60c86dcda67fc1ab582a0deac133875acfae938b04e6ca67f707a631b351167c",
+      "composition": "mark",
+      "appearance": "color-on-dark",
+      "framing": "square",
+      "format": "svg",
+      "transparent": true
+    },
+    {
+      "file": "logos/png/square/rflectr-mark-color-on-dark-square-512x512.png",
+      "sha256": "629ea4f2b3adbe1db531f177b1391590c4053e3a20074994005cf135b245f0a3",
+      "composition": "mark",
+      "appearance": "color-on-dark",
+      "framing": "square",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "transparent": true
+    },
+    {
+      "file": "logos/png/square/rflectr-mark-color-on-dark-square-2048x2048.png",
+      "sha256": "03ceeee001af612af76d24efe59637d78d5a7a994d56dd57d374bfd62d999c1c",
+      "composition": "mark",
+      "appearance": "color-on-dark",
+      "framing": "square",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "transparent": true
+    },
+    {
+      "file": "logos/svg/native/rflectr-mark-mono-on-light-native.svg",
+      "sha256": "be1d25fa0424158166c8c0f4318e1afaf16bc05754e68adb5afbd40b0c135ab8",
+      "composition": "mark",
+      "appearance": "mono-on-light",
+      "framing": "native",
+      "format": "svg",
+      "transparent": true
+    },
+    {
+      "file": "logos/png/native/rflectr-mark-mono-on-light-native-512x420.png",
+      "sha256": "e790103541923dd3352f8d7ff27ad83e8ede2b4df95f8bf62a9ea15e7366bef1",
+      "composition": "mark",
+      "appearance": "mono-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 512,
+      "height": 420,
+      "transparent": true
+    },
+    {
+      "file": "logos/png/native/rflectr-mark-mono-on-light-native-2048x1678.png",
+      "sha256": "43f4f528a2aeaa0a408e11b072f4725e5c9b8b6f14ada4a8256d912e0ce37a5a",
+      "composition": "mark",
+      "appearance": "mono-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 2048,
+      "height": 1678,
+      "transparent": true
+    },
+    {
+      "file": "logos/svg/square/rflectr-mark-mono-on-light-square.svg",
+      "sha256": "dc577d72f89f14fb17227e70504f060dc476827065be2f86584d1f7b0ead01e1",
+      "composition": "mark",
+      "appearance": "mono-on-light",
+      "framing": "square",
+      "format": "svg",
+      "transparent": true
+    },
+    {
+      "file": "logos/png/square/rflectr-mark-mono-on-light-square-512x512.png",
+      "sha256": "ff99c1d5dfe4e45d465bd8b7513e1810ffa845b2209f3961c5750f92ab95da53",
+      "composition": "mark",
+      "appearance": "mono-on-light",
+      "framing": "square",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "transparent": true
+    },
+    {
+      "file": "logos/png/square/rflectr-mark-mono-on-light-square-2048x2048.png",
+      "sha256": "c23cfdc1756b6c9c1550c6b85c52b063f60f9958acf85a4b801db90c9562b98a",
+      "composition": "mark",
+      "appearance": "mono-on-light",
+      "framing": "square",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "transparent": true
+    },
+    {
+      "file": "logos/svg/native/rflectr-mark-mono-on-dark-native.svg",
+      "sha256": "fe4c0f31d402c3060f2df61ae9317be5a834b423e6fa76fd7d137e12a836250d",
+      "composition": "mark",
+      "appearance": "mono-on-dark",
+      "framing": "native",
+      "format": "svg",
+      "transparent": true
+    },
+    {
+      "file": "logos/png/native/rflectr-mark-mono-on-dark-native-512x420.png",
+      "sha256": "34e24e57b0a97b2892e25043a563c0fa74ee837ffbc95dc73deb5e870a34e917",
+      "composition": "mark",
+      "appearance": "mono-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 512,
+      "height": 420,
+      "transparent": true
+    },
+    {
+      "file": "logos/png/native/rflectr-mark-mono-on-dark-native-2048x1678.png",
+      "sha256": "3c3f15eb1c98b34ab1c308da436f7f1f3d2f9a77f47aef63dab362056f171c33",
+      "composition": "mark",
+      "appearance": "mono-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 2048,
+      "height": 1678,
+      "transparent": true
+    },
+    {
+      "file": "logos/svg/square/rflectr-mark-mono-on-dark-square.svg",
+      "sha256": "e3da91eba2ebb6f983d8f0d46754d18e1b86ca415155ff46d5ce97b252a79e1d",
+      "composition": "mark",
+      "appearance": "mono-on-dark",
+      "framing": "square",
+      "format": "svg",
+      "transparent": true
+    },
+    {
+      "file": "logos/png/square/rflectr-mark-mono-on-dark-square-512x512.png",
+      "sha256": "c5d2a63de569770a77dba250fa010f6ef355c1074134fe1fb3b1860f4eb4f09e",
+      "composition": "mark",
+      "appearance": "mono-on-dark",
+      "framing": "square",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "transparent": true
+    },
+    {
+      "file": "logos/png/square/rflectr-mark-mono-on-dark-square-2048x2048.png",
+      "sha256": "606a7fe279f0200cc8aa990d9dd0b30cee4a501ed0ba2a59973b900f22ec109c",
+      "composition": "mark",
+      "appearance": "mono-on-dark",
+      "framing": "square",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "transparent": true
+    },
+    {
+      "file": "logos/svg/native/rflectr-wordmark-color-on-light-native.svg",
+      "sha256": "fc6cf8b044bb4503da1e11b0d9f020b5545fb411e2da0eac56290b76a11c6144",
+      "composition": "wordmark",
+      "appearance": "color-on-light",
+      "framing": "native",
+      "format": "svg",
+      "transparent": true
+    },
+    {
+      "file": "logos/png/native/rflectr-wordmark-color-on-light-native-512x190.png",
+      "sha256": "ec00fb8ca9ca77c431ad2cb2839d7aaa2347a24d373041aed72795cc3175a1ed",
+      "composition": "wordmark",
+      "appearance": "color-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 512,
+      "height": 190,
+      "transparent": true
+    },
+    {
+      "file": "logos/png/native/rflectr-wordmark-color-on-light-native-2048x758.png",
+      "sha256": "57e56001a1c94a3cd76de92bc5ccaf2d18482599ef8bbd7722688c6854742d77",
+      "composition": "wordmark",
+      "appearance": "color-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 2048,
+      "height": 758,
+      "transparent": true
+    },
+    {
+      "file": "logos/svg/square/rflectr-wordmark-color-on-light-square.svg",
+      "sha256": "ffdfedc8ba95e0183acbe1e8678544370d1b805f78b809f67187121f9ccb287e",
+      "composition": "wordmark",
+      "appearance": "color-on-light",
+      "framing": "square",
+      "format": "svg",
+      "transparent": true
+    },
+    {
+      "file": "logos/png/square/rflectr-wordmark-color-on-light-square-512x512.png",
+      "sha256": "f2cc2ee06f51a6cc2bce3a7d5d8c6328dc57256612a909bc9aedb343acea9df0",
+      "composition": "wordmark",
+      "appearance": "color-on-light",
+      "framing": "square",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "transparent": true
+    },
+    {
+      "file": "logos/png/square/rflectr-wordmark-color-on-light-square-2048x2048.png",
+      "sha256": "aae9cb2c8aece87d35be16a0bd74b64f8202de50a436c1d6f9d0866881516fbe",
+      "composition": "wordmark",
+      "appearance": "color-on-light",
+      "framing": "square",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "transparent": true
+    },
+    {
+      "file": "logos/svg/native/rflectr-wordmark-color-on-dark-native.svg",
+      "sha256": "d3f6c5d17f81e5f485d7e713d63788f42881b09d20112d9ef7f08125c412f11d",
+      "composition": "wordmark",
+      "appearance": "color-on-dark",
+      "framing": "native",
+      "format": "svg",
+      "transparent": true
+    },
+    {
+      "file": "logos/png/native/rflectr-wordmark-color-on-dark-native-512x190.png",
+      "sha256": "bde2da9b2df4932e610fbcaa4f7c0ad84f9451919912a3e4d447286910759c9e",
+      "composition": "wordmark",
+      "appearance": "color-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 512,
+      "height": 190,
+      "transparent": true
+    },
+    {
+      "file": "logos/png/native/rflectr-wordmark-color-on-dark-native-2048x758.png",
+      "sha256": "7f26c0223db068d7d38678bc0126f78c8ba3be1951b5a65d4ec6a12b26c065e9",
+      "composition": "wordmark",
+      "appearance": "color-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 2048,
+      "height": 758,
+      "transparent": true
+    },
+    {
+      "file": "logos/svg/square/rflectr-wordmark-color-on-dark-square.svg",
+      "sha256": "3511ac31c3eb66ae30b95c01215f8223e7d3a0f43de7be7089792f1fc541b87a",
+      "composition": "wordmark",
+      "appearance": "color-on-dark",
+      "framing": "square",
+      "format": "svg",
+      "transparent": true
+    },
+    {
+      "file": "logos/png/square/rflectr-wordmark-color-on-dark-square-512x512.png",
+      "sha256": "b474c9ba30812c080f52c921c55ba8e524f8f77443ec5469b7981e8f7cff4ae4",
+      "composition": "wordmark",
+      "appearance": "color-on-dark",
+      "framing": "square",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "transparent": true
+    },
+    {
+      "file": "logos/png/square/rflectr-wordmark-color-on-dark-square-2048x2048.png",
+      "sha256": "5195ad298c75a62aab62ebb943bcc40bde64c2716f07b13c21324db0f0313118",
+      "composition": "wordmark",
+      "appearance": "color-on-dark",
+      "framing": "square",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "transparent": true
+    },
+    {
+      "file": "logos/svg/native/rflectr-wordmark-mono-on-light-native.svg",
+      "sha256": "8793562e8198068f75cc42eec53663169f83567e7117363c7cc897002bf86b95",
+      "composition": "wordmark",
+      "appearance": "mono-on-light",
+      "framing": "native",
+      "format": "svg",
+      "transparent": true
+    },
+    {
+      "file": "logos/png/native/rflectr-wordmark-mono-on-light-native-512x190.png",
+      "sha256": "5db0d75260704e66c69740fec318646807d9e2aa4a461aff192ab93c3e53375a",
+      "composition": "wordmark",
+      "appearance": "mono-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 512,
+      "height": 190,
+      "transparent": true
+    },
+    {
+      "file": "logos/png/native/rflectr-wordmark-mono-on-light-native-2048x758.png",
+      "sha256": "c08b357bd33804222b10ef4b3817d6224788583c066d124e4e0ba988f869e6c0",
+      "composition": "wordmark",
+      "appearance": "mono-on-light",
+      "framing": "native",
+      "format": "png",
+      "width": 2048,
+      "height": 758,
+      "transparent": true
+    },
+    {
+      "file": "logos/svg/square/rflectr-wordmark-mono-on-light-square.svg",
+      "sha256": "b62b46df720ecd4e30cb6a287c8df372c59b771847aa7b0562b6c711d02d5153",
+      "composition": "wordmark",
+      "appearance": "mono-on-light",
+      "framing": "square",
+      "format": "svg",
+      "transparent": true
+    },
+    {
+      "file": "logos/png/square/rflectr-wordmark-mono-on-light-square-512x512.png",
+      "sha256": "813f03a6aa059cc314b1be9741105dd200c6b381f745df0900e9636660b644d2",
+      "composition": "wordmark",
+      "appearance": "mono-on-light",
+      "framing": "square",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "transparent": true
+    },
+    {
+      "file": "logos/png/square/rflectr-wordmark-mono-on-light-square-2048x2048.png",
+      "sha256": "ee717841da43dcc6c78b2fa903f05f39e97a1d0a84fab923075926c09855e0c2",
+      "composition": "wordmark",
+      "appearance": "mono-on-light",
+      "framing": "square",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "transparent": true
+    },
+    {
+      "file": "logos/svg/native/rflectr-wordmark-mono-on-dark-native.svg",
+      "sha256": "572ae06c3b9c63bd1c35e49220a17362cf0354078d78808e5f886c2f9e1aee3e",
+      "composition": "wordmark",
+      "appearance": "mono-on-dark",
+      "framing": "native",
+      "format": "svg",
+      "transparent": true
+    },
+    {
+      "file": "logos/png/native/rflectr-wordmark-mono-on-dark-native-512x190.png",
+      "sha256": "d988071362d13266429418dfcd47da832d4d9565410dc5b966f70425146a0f89",
+      "composition": "wordmark",
+      "appearance": "mono-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 512,
+      "height": 190,
+      "transparent": true
+    },
+    {
+      "file": "logos/png/native/rflectr-wordmark-mono-on-dark-native-2048x758.png",
+      "sha256": "34654f7726fb465ef3b29740f96f10ccc8ecaf307c19031c5fb3934845af588c",
+      "composition": "wordmark",
+      "appearance": "mono-on-dark",
+      "framing": "native",
+      "format": "png",
+      "width": 2048,
+      "height": 758,
+      "transparent": true
+    },
+    {
+      "file": "logos/svg/square/rflectr-wordmark-mono-on-dark-square.svg",
+      "sha256": "929033930ad7808ca04c1d157948fae81c171c497c41e83c2014eec37c5a175b",
+      "composition": "wordmark",
+      "appearance": "mono-on-dark",
+      "framing": "square",
+      "format": "svg",
+      "transparent": true
+    },
+    {
+      "file": "logos/png/square/rflectr-wordmark-mono-on-dark-square-512x512.png",
+      "sha256": "b783affc697e479e986afd100cb167b039cd900eb947f61604e05a434a139dab",
+      "composition": "wordmark",
+      "appearance": "mono-on-dark",
+      "framing": "square",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "transparent": true
+    },
+    {
+      "file": "logos/png/square/rflectr-wordmark-mono-on-dark-square-2048x2048.png",
+      "sha256": "812bfefeda21e7101fe0f63013a04af962273deb8136ca15b79fda72b4b5b973",
+      "composition": "wordmark",
+      "appearance": "mono-on-dark",
+      "framing": "square",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "transparent": true
+    },
+    {
+      "file": "application/rflectr-app-light.svg",
+      "sha256": "e6881d5adcfc794415bb72df35d0deefd63bbd5e5fda2d1d7419a59a0bc02375",
+      "format": "svg",
+      "transparent_corners": true
+    },
+    {
+      "file": "application/rflectr-app-light-16.png",
+      "sha256": "690f0199a35a531614303350c9c2be8a1676d3ab453dd3425a234edd9205bac0",
+      "format": "png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "file": "application/rflectr-app-light-24.png",
+      "sha256": "831aca1e5a85b918fc4f830c211cb69b233c17b4eb578fba553a358f8fcc6985",
+      "format": "png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "file": "application/rflectr-app-light-32.png",
+      "sha256": "66550d68644fc0b1e81d1506bb07cdb6a5c68504cb81f81007a20bcf4cd4f874",
+      "format": "png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "file": "application/rflectr-app-light-48.png",
+      "sha256": "f73246063e94cea631706635e765ae95b3be6063267d56b282547a9d1b6b50f4",
+      "format": "png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "file": "application/rflectr-app-light-64.png",
+      "sha256": "fd9ac2a9e7ed3709a0f84a27b30db1c688969901467cfe10ee86036e0cd4fd9f",
+      "format": "png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "file": "application/rflectr-app-light-128.png",
+      "sha256": "c0d2e3285ec5da8117b34fac254f45075e9aa1af8935170ff826146029ac5398",
+      "format": "png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "file": "application/rflectr-app-light-256.png",
+      "sha256": "6455e66c4d2fab64cd83a8ce0775bb7d15716955122f98ca9dae5fec11b016db",
+      "format": "png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "file": "application/rflectr-app-light-512.png",
+      "sha256": "88d5cc8251288fafe49ac8fcfcaf3141ba8e7eda1298d712759b2c4b2fc806fb",
+      "format": "png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "file": "application/rflectr-app-light-1024.png",
+      "sha256": "d6713ccccd547900fab69342aeee4ba0f01b254440edc19691578f519828d0df",
+      "format": "png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "application/rflectr-app-light.ico",
+      "sha256": "57db77c00c0984ecec6f2eee72a4107adf892642c8335a6d8e40a08dfe94344d",
+      "format": "ico"
+    },
+    {
+      "file": "application/rflectr-app-dark.svg",
+      "sha256": "c18fefac5e5817b50426ae349c8605c7c3269263b0ad4c4facf74b086262c248",
+      "format": "svg",
+      "transparent_corners": true
+    },
+    {
+      "file": "application/rflectr-app-dark-16.png",
+      "sha256": "5cc413f4e0443b1ac2ea284b46bd494ee405253a403db9b8476de50b0872f392",
+      "format": "png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "file": "application/rflectr-app-dark-24.png",
+      "sha256": "7dff236793df76d216a7ade223f2de123045afa92de2c7f71b8464bf86552120",
+      "format": "png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "file": "application/rflectr-app-dark-32.png",
+      "sha256": "47f35145d7d0368e6534a6aa805606676219b6efcb90b5b45b10b30ec9b64755",
+      "format": "png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "file": "application/rflectr-app-dark-48.png",
+      "sha256": "d80706da617d1847ec0b0177d48cd8980cd1f015a40697f0f08f0668a7a3bc17",
+      "format": "png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "file": "application/rflectr-app-dark-64.png",
+      "sha256": "3df5926b207c484ab5d73da55d578cc4bf6c35826ad3968b13971b0e0ccfdee6",
+      "format": "png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "file": "application/rflectr-app-dark-128.png",
+      "sha256": "aae0cd6b60d83efbfe69c4e392a90c7477338fbe9aa4cba6d77235229a11a873",
+      "format": "png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "file": "application/rflectr-app-dark-256.png",
+      "sha256": "8ce6f298a7d14d20b79d23eb76307fa265ddf7e692e87ae4f1e5fa3607b23e82",
+      "format": "png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "file": "application/rflectr-app-dark-512.png",
+      "sha256": "76cf602bb8a7ba678c957a24635dfa3f0cfcf431794d6f4c03456d9e5c446b89",
+      "format": "png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "file": "application/rflectr-app-dark-1024.png",
+      "sha256": "8b570e82b9aa9adbbeefc345d0497e7fbe2707795a4dbebce41be965eea935ad",
+      "format": "png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "application/rflectr-app-dark.ico",
+      "sha256": "b48e0f1a302852cc984403c2d5eb34977d8b4ae08ff3c12647d5b12d7927bf89",
+      "format": "ico"
+    },
+    {
+      "file": "application/rflectr-template.svg",
+      "sha256": "655c6b4152d3f088f6c2b75b554bd92772a507c368e359dcc0e9e012e6dbf599",
+      "format": "svg",
+      "transparent": true
+    },
+    {
+      "file": "application/rflectr-template-16.png",
+      "sha256": "a9cc5ba2e3651ceab5318e4622e4298057871f21c80c196e46c9ee7529a96e1a",
+      "format": "png",
+      "width": 16,
+      "height": 16,
+      "transparent": true
+    },
+    {
+      "file": "application/rflectr-template-18.png",
+      "sha256": "0b4d3fde1d0885c16c5369bb2b5e0a1510b879c7885d03c58f3ecb52cab7b3d5",
+      "format": "png",
+      "width": 18,
+      "height": 18,
+      "transparent": true
+    },
+    {
+      "file": "application/rflectr-template-20.png",
+      "sha256": "2f0902838cd67c244f191f26ab7f19d4ae68d422c5b22065479d2329f243fd0b",
+      "format": "png",
+      "width": 20,
+      "height": 20,
+      "transparent": true
+    },
+    {
+      "file": "application/rflectr-template-22.png",
+      "sha256": "57a3887872313a6d6ba526db8faec4f293400c9fd5123b143bced670caa94959",
+      "format": "png",
+      "width": 22,
+      "height": 22,
+      "transparent": true
+    },
+    {
+      "file": "application/rflectr-template-24.png",
+      "sha256": "63970e39a0e5690408c3e3a3f02b221793b502f016652353bc3b4c7c7dc79157",
+      "format": "png",
+      "width": 24,
+      "height": 24,
+      "transparent": true
+    },
+    {
+      "file": "application/rflectr-template-32.png",
+      "sha256": "deb32deb9ee20c49e2daa4d5ca1f08ace972d864c8ab2ef87c4bf0195a8aded6",
+      "format": "png",
+      "width": 32,
+      "height": 32,
+      "transparent": true
+    },
+    {
+      "file": "application/rflectr-template-36.png",
+      "sha256": "bac47f22e621efdd3f4e2f060a294eb8247f5f6134dc4c34c5912db7e591ecd3",
+      "format": "png",
+      "width": 36,
+      "height": 36,
+      "transparent": true
+    },
+    {
+      "file": "application/rflectr-template-40.png",
+      "sha256": "2b1255ba1828dbfcc0fd2791c219e3006a3b48110c8d8a2e00057918c29355cf",
+      "format": "png",
+      "width": 40,
+      "height": 40,
+      "transparent": true
+    },
+    {
+      "file": "application/rflectr-template-44.png",
+      "sha256": "cf854d38a54c0afdd9c655935997ab23fd652a61447f4595e548e7417b2edb46",
+      "format": "png",
+      "width": 44,
+      "height": 44,
+      "transparent": true
+    },
+    {
+      "file": "application/rflectr-template-48.png",
+      "sha256": "255264c6a80479311b2e125a3ebafad393970f0066578e9a4d0d2f374e2113ae",
+      "format": "png",
+      "width": 48,
+      "height": 48,
+      "transparent": true
+    },
+    {
+      "file": "application/rflectr-template-64.png",
+      "sha256": "49c86e2dc270ef33b710b328a3129655452768894f4b34639374e363e408d622",
+      "format": "png",
+      "width": 64,
+      "height": 64,
+      "transparent": true
+    }
+  ]
+}

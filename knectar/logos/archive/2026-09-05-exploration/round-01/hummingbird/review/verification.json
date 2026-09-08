@@ -1,0 +1,194 @@
+[
+  {
+    "file": "png/knectar-a-swift-ink-lockup.png",
+    "size": [
+      2000,
+      614
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-a-swift-ink-icon.png",
+    "size": [
+      512,
+      512
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-a-swift-white-lockup.png",
+    "size": [
+      2000,
+      614
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-a-swift-white-icon.png",
+    "size": [
+      512,
+      512
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-b-hover-ink-lockup.png",
+    "size": [
+      2000,
+      614
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-b-hover-ink-icon.png",
+    "size": [
+      512,
+      512
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-b-hover-white-lockup.png",
+    "size": [
+      2000,
+      614
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-b-hover-white-icon.png",
+    "size": [
+      512,
+      512
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-c-vector-ink-lockup.png",
+    "size": [
+      2000,
+      614
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-c-vector-ink-icon.png",
+    "size": [
+      512,
+      512
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-c-vector-white-lockup.png",
+    "size": [
+      2000,
+      614
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-c-vector-white-icon.png",
+    "size": [
+      512,
+      512
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-d-flow-ink-lockup.png",
+    "size": [
+      2000,
+      614
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-d-flow-ink-icon.png",
+    "size": [
+      512,
+      512
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-d-flow-white-lockup.png",
+    "size": [
+      2000,
+      614
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "png/knectar-d-flow-white-icon.png",
+    "size": [
+      512,
+      512
+    ],
+    "mode": "RGBA",
+    "alpha_min_max": [
+      0,
+      255
+    ]
+  }
+]
