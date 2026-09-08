@@ -18,18 +18,18 @@ Status legend: ✅ on file · ❌ not on file.
 | File | What |
 |---|---|
 | `logos/svg/my-identity-provider-icon.svg` | icon master |
-| `logos/png/my-identity-provider-icon.png` | icon raster |
-| `logos/png/my-identity-provider-icon-white-800.png` | white icon, 800px |
+| `logos/png/my-identity-provider-icon.png` | icon raster (local-only, untracked) |
+| `logos/png/my-identity-provider-icon-white-800.png` | white icon, 800px (local-only, untracked) |
 
 No lockup, wordmark, or favicon variants on file.
 
 ## 4–9. Color · Typography · Iconography · Voice · Components · UI kits
 
-❌ Nothing on file for any of these. *Checked 2026-09-07.*
+Icon color sampled from the raster: violet `#7C46EE` (cluster `#7030E0` to `#9060F0`). Typography, voice, and components: ❌ nothing on file. *Checked 2026-09-07.*
 
 ## 10. Asset map
 
-`logos/svg/` + `logos/png/`, three files total.
+`logos/svg/` (tracked) + `logos/png/` (local-only), three files total.
 
 ## 11. Gaps & provenance
 

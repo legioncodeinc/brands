@@ -1,0 +1,63 @@
+{
+  "brand": "shrke",
+  "generated": "2026-09-07",
+  "policy": "SVG-only in the repo. Raster exports (png/ico/zips) live locally and are intentionally untracked.",
+  "note": "Lockups (horizontal + stacked: themeable/on-dark/on-light/mono) + wordmark.",
+  "marks": [
+    {
+      "file": "shrke/logos/svg/shrke-lockup-horizontal-mono-black.svg",
+      "kind": "svg",
+      "tracked": true
+    },
+    {
+      "file": "shrke/logos/svg/shrke-lockup-horizontal-mono-white.svg",
+      "kind": "svg",
+      "tracked": true
+    },
+    {
+      "file": "shrke/logos/svg/shrke-lockup-horizontal-on-dark.svg",
+      "kind": "svg",
+      "tracked": true
+    },
+    {
+      "file": "shrke/logos/svg/shrke-lockup-horizontal-on-light.svg",
+      "kind": "svg",
+      "tracked": true
+    },
+    {
+      "file": "shrke/logos/svg/shrke-lockup-horizontal-themeable.svg",
+      "kind": "svg",
+      "tracked": true
+    },
+    {
+      "file": "shrke/logos/svg/shrke-lockup-stacked-mono-black.svg",
+      "kind": "svg",
+      "tracked": true
+    },
+    {
+      "file": "shrke/logos/svg/shrke-lockup-stacked-mono-white.svg",
+      "kind": "svg",
+      "tracked": true
+    },
+    {
+      "file": "shrke/logos/svg/shrke-lockup-stacked-on-dark.svg",
+      "kind": "svg",
+      "tracked": true
+    },
+    {
+      "file": "shrke/logos/svg/shrke-lockup-stacked-on-light.svg",
+      "kind": "svg",
+      "tracked": true
+    },
+    {
+      "file": "shrke/logos/svg/shrke-lockup-stacked-themeable.svg",
+      "kind": "svg",
+      "tracked": true
+    },
+    {
+      "file": "shrke/logos/svg/wordmark.svg",
+      "kind": "svg",
+      "tracked": true
+    }
+  ]
+}

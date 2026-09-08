@@ -13,4 +13,4 @@ Key rules to carry into every rflectr surface:
 - Configured intent (Off/Observe/Route) and effective runtime state are always shown separately.
 - Every number carries provenance; estimates are prefixed `~`; cost bases never merge.
 - Metadata only, never render prompt, response, tool, header, or credential content.
-- Spell the product `rflectr`; use the supplied logo files in `assets/`, never redraw them.
+- Spell the product `rflectr`; use the supplied logo files in `logos/`, never redraw them.

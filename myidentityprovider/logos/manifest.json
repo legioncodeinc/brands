@@ -1,0 +1,13 @@
+{
+  "brand": "My Identity Provider",
+  "generated": "2026-09-07",
+  "policy": "SVG-only in the repo. Raster exports (png/ico/zips) live locally and are intentionally untracked.",
+  "note": "Icon only; palette and lockups not yet on file.",
+  "marks": [
+    {
+      "file": "myidentityprovider/logos/svg/my-identity-provider-icon.svg",
+      "kind": "svg",
+      "tracked": true
+    }
+  ]
+}

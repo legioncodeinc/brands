@@ -20,14 +20,14 @@ Status legend: ✅ on file · ⚠️ partial · ❌ not on file.
 
 - **Catalog:** `assets/logos/whippet-brand-kit-v1/`, concepts `01-pursuit/` (default) and `02-full-stride/`, each with favicon/ PNG sizes/ SVG; plus `index.html` browser, `manifest.json`, `palette.json`, `preview/`, `source/`, `checksums.sha256`, `validation.json`.
 - **Compatibility copies:** `assets/logos/whipt-logo-{light,dark}.svg` (horizontal Pursuit lockup), `whipt-symbol-{light,dark}.svg` + `whipt-symbol.svg` (square symbol; silhouette follows `currentColor`, mint fixed), `whipt-wordmark-{light,dark}.svg` (shared outlined wordmark), `whipt-favicon.svg` (Pursuit on solid dark square). Light/dark filenames name the intended background.
-- **Packages:** `assets/logos/whipt-complete-brand-kit-v1.zip`, `whipt-pursuit-assets-v1.zip`, `whipt-full-stride-assets-v1.zip`.
+- **Packages:** `whipt-complete-brand-kit-v1.zip` plus per-concept zips (local-only, untracked).
 - **Rules:** use the supplied files, never redraw; see `assets/logos/README.md` and the kit's usage guide.
 
 ## 4. Color, ✅ (token sheets, no prose doc)
 
 - **Files:** `assets/whipt-tokens.css` (base: fonts + core palette) and `assets/whipt-tokens-v2.css` (premium layer: glass, aurora, vibe accents `--vibe-*`, capability accents `--cap-browser|comms|code|research|media` + subtle tints, chart, motion tokens). Load base first; v2 extends it.
 - **Theme:** light-first product surfaces via `.theme-light`; dark `#06070A` canvas for the demo stage.
-- Machine-readable palette: `assets/logos/whippet-brand-kit-v1/palette.json`.
+- Machine-readable palette: `assets/logos/whippet-brand-kit-v1/palette.json` (ink `#0A0B0D`, white `#F5F6F7`, mint `#3DDC97`).
 
 ## 5. Typography, ✅
 

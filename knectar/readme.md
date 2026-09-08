@@ -1,32 +1,18 @@
 # knectar Design System
 
-**rflectr** (ships at knectar.dev; formerly *Frosty*) is a control plane for cloud AI inference — a drop-in replacement for Portkey. One endpoint in front of every model provider: request logs, routing, budgets, virtual keys, guardrails, MCP gateway, alerting and governance. Built for developers and engineers — which, today, means anyone shipping software with AI in it.
+knectar (ships at knectar.dev) is a product of Legion Code Inc. This folder carries its complete design system.
 
 knectar is a product of **Legion Code Inc.** and inherits the Legion parent brand (ink surfaces, verified-green `#3DDC97`, Inter + JetBrains Mono). The knectar mark is **Hover**: a hummingbird with one raised green wing beside a lowercase wordmark.
 
-**Target stack for the port:** Svelte 5 + shadcn-svelte + WorkOS AuthKit (hosted login/logout on a custom domain). The token file exposes the full shadcn semantic contract (`--background`, `--card`, `--primary`, `--muted-foreground`, `--border`, `--input`, `--ring`, `--sidebar-*`) so shadcn-svelte's `app.css` can be replaced wholesale by `tokens/styles.css`.
+The token file exposes the full shadcn semantic contract (`--background`, `--card`, `--primary`, `--muted-foreground`, `--border`, `--input`, `--ring`, `--sidebar-*`) so shadcn-svelte's `app.css` can be replaced wholesale by `tokens/styles.css`.
 
 ## Sources
 
-| Source | Path (as attached) | What it gave us |
-|---|---|---|
-| rflectr legacy UI (React + TanStack + Redux + Radix, Tailwind v4) | attached as `legacy-ui/` — `app/globals.css`, `components/ui/*.tsx`, `components/sidebar.tsx`, `app/workspace/**` | Component inventory, exact sizes/radii/type scale, route + navigation structure, copy |
-| knectar brand kit | `knectar/` (also `brands/knectar/`) — `README.md`, `manifest.json`, `logos/svg/**` | Logo system (horizontal / stacked / mark / wordmark × color / mono × on-light / on-dark), usage rules |
-| Legion Code Inc. brand kit | `brands/legion-code-inc/` — `tokens/colors_and_type.css`, `readme.md`, `assets/fonts/`, `docs/preview/*.html` | Parent palette, fonts, spacing/radii/motion foundations, voice |
-| Other Legion brands | `brands/llamaforce/`, `brands/macsitna/` | Sibling brands, **not** used here |
+Assembled from the approved knectar logo system and the Legion parent brand kit (`../legion-code-inc/`).
 
 ## Product surfaces
 
-One product: the **knectar app** (workspace). Routes carried over from the legacy UI, grouped as the sidebar groups them:
-
-- **Observability** — Dashboard, LLM Logs (default landing), MCP Logs, Connectors, Logs Settings
-- **Models** — Model Catalog, Model Providers, Budgets & Limits, Routing Rules, Complexity Router, Circuit Breaker, Pricing Overrides, Model Settings
-- **MCP Gateway** — MCP Catalog, MCP Library, Tool Groups, Auth Sessions, OAuth Grants, MCP Settings
-- **Plugins**, **Alerting** (Channels, Rules, History), **Governance** (Virtual Keys, Users, Teams, Business Units, Customers, User Provisioning, Roles & Permissions, Access Profiles, Audit Logs), **Guardrails** (Rules, Providers), **Webhooks**, **Cluster Config**, **Adaptive Routing**, **Prompt Repository**, **Skills Repository**
-- **Settings** — Client Settings, Compatibility, Caching, Security, Proxy, API Keys, Performance Tuning, Feature Flags
-- **Auth** — `/login` (WorkOS AuthKit redirect) and logout from the sidebar user menu
-
-Marketing site and docs were not in the sources; no kit is provided for them.
+One product surface: the **knectar app** (workspace). The authoritative screen inventory lives with the product team; this repo defines the design language that renders it.
 
 ## Content fundamentals
 
@@ -47,7 +33,7 @@ Marketing site and docs were not in the sources; no kit is provided for them.
 
 - **Direction: "Nectar & wing."** Light-first (canvas `#F6F8F7`, white surfaces, hairline `#E1E7E4` borders); dark theme via `.dark` (ink `#0A0B0D` / `#13151A` / `#1C1F26`). The signature is the **nectar gradient** `--grad-nectar` (green `#3DDC97` → teal `#2DD4BF`) used on the primary button, active nav icon tile, avatar, card top-rail (`accent`) and gradient headline text (`.nectar-text`), plus a soft green **glow** (`--glow-nectar`) on hover of primary actions and the ⌘K trigger.
 - **Colour:** One brand green `#3DDC97` (`#18A968` on light). **Scarcity rule:** green appears at most once per visible region — active nav item, primary button, success status, or the wing; not all four at once. Status colours are semantic only: red error, amber warning, blue info/processing, gray cancelled. Request-type chips use a wider tinted set (blue chat, yellow chat-stream, teal responses, violet stream/speech, orange transcription, pink embedding) at 12% tint backgrounds.
-- **Type:** Inter for all UI; JetBrains Mono for identifiers. Scale carried from the legacy UI (odd sizes intentional): xs 12px, **sm 13.2px** (`0.825rem`, the app's working size), **base 15.2px** (`0.95rem`), lg 18, xl 20, 2xl 24. Headings 600, tracking −0.02em. Page title in header: 15.2px/600. Eyebrow labels: mono 12px uppercase +0.08em tertiary.
+- **Type:** Inter for all UI; JetBrains Mono for identifiers. Type scale (odd sizes intentional): xs 12px, **sm 13.2px** (`0.825rem`, the app's working size), **base 15.2px** (`0.95rem`), lg 18, xl 20, 2xl 24. Headings 600, tracking −0.02em. Page title in header: 15.2px/600. Eyebrow labels: mono 12px uppercase +0.08em tertiary.
 - **Spacing:** 4px base. Dense: controls 30px tall (`h-7.5`), inputs 36px, table rows 36–40px, cell padding 8×16, sidebar items 30px, sub-items 28px.
 - **Radii:** rounded and friendly — controls 8px (`--radius-sm`: buttons, inputs, badges, popovers, nav rows), surfaces 12px (`--radius-lg`: cards, tables), dialogs & command bar 16px, sheets 16px on the open edge. Avatars, live dots and the user tile are round.
 - **Borders:** 1px everywhere; `--border` on dark is `#2A2E37`, subtle dividers `#1F2229`. Inputs use `--input` (`#3A3F4A`) with a 3% white fill. Focus = 1px ring of `--ring` (green) with 1px offset; keyboard focus outline 2px green.
@@ -63,18 +49,18 @@ Marketing site and docs were not in the sources; no kit is provided for them.
 
 ## Iconography
 
-- **System:** [Lucide](https://lucide.dev) — same set as the legacy UI (`lucide-react`; use `@lucide/svelte` in the port). 24-grid, 1.5–2px stroke, stroked not filled. Rendered at 16px (`size-4`) in controls and table cells, 14px (`size-3.5`) in sub-nav, 20–22px in the sidebar footer link row.
+- **System:** [Lucide](https://lucide.dev) (`lucide-react`; use `@lucide/svelte` in the port). 24-grid, 1.5–2px stroke, stroked not filled. Rendered at 16px (`size-4`) in controls and table cells, 14px (`size-3.5`) in sub-nav, 20–22px in the sidebar footer link row.
 - **Loading:** `Loader2` with `animate-spin`, replaces button label while `isLoading`.
-- **Custom SVGs:** the MCP glyph (`assets/icons/mcp.svg`, from the legacy public/images) used for MCP Gateway + MCP Logs nav items. Phosphor icons (`@phosphor-icons/react`) were used only for the Discord/GitHub/Books footer links — substitute Lucide `github`, `book-open`, `message-circle` in the port.
-- **Provider logos:** The legacy UI ships per-provider webp/svg marks (`public/images/*`) and a `RenderProviderIcon` registry. Not copied (third-party marks); render the provider name in mono if a mark is unavailable.
+- **Custom SVGs:** the MCP glyph (`assets/icons/mcp.svg`) used for MCP Gateway + MCP Logs nav items. Footer social links use Lucide `github`, `book-open`, `message-circle`.
+- **Provider logos:** third-party marks are not included; render the provider name in mono when a mark is unavailable.
 - **Loading via CDN in HTML artifacts:** `<script src="https://unpkg.com/lucide@latest"></script>` then `<i data-lucide="telescope"></i>` + `lucide.createIcons()`. The `Icon` component in `components/core/` wraps this.
 - **Emoji:** never. **Unicode-as-icon:** only `⌘` `K` in the sidebar search kbd hint.
-- **Nav icon map** (Lucide names): Observability `telescope`, Dashboard `chart-column-big`, LLM Logs `logs`, Connectors `chevrons-left-right-ellipsis`, Models `box`, Model Catalog `layout-grid`, Model Providers `boxes`, Budgets & Limits `wallet`, Routing Rules `network`, Circuit Breaker `circuit-board`, Plugins `puzzle`, Alerting `siren`, Governance `landmark`, Virtual Keys `key-round`, Users `users`, Teams `building`, Guardrails `construction`, Webhooks `webhook`, Cluster `network`, Adaptive Routing `shuffle`, Prompt Repo `folder-git`, Settings `settings-2`, Logout `log-out`, collapse `panel-left-close`.
+- **Nav icon map:** one Lucide name per nav item, authored in `components/navigation/Sidebar`.
 
 ## Intentional additions
 
 - `Icon` — thin Lucide wrapper so components and kits share one glyph source.
-- `CommandBar` — ⌘K palette; the legacy UI only had a sidebar filter box, rflectr promotes it to primary navigation.
+- `CommandBar` — ⌘K palette, the primary way to move around the app.
 - `Sidebar` is authored as a knectar-specific composite (nav groups + footer + collapse) rather than the generic shadcn sidebar primitive family, since every screen uses exactly one configuration.
 
 ## Components

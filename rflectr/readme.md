@@ -1,16 +1,12 @@
 # rflectr Design System
 
-rflectr (Legion Code Inc.) is a local desktop control plane — a lightweight Tauri 2 / Rust app for Windows 11 and macOS 14+ — that lets a developer decide, per harness, whether AI inference traffic from Cursor, Codex, ZCode, Claude Code, and Claude Desktop is left alone (**Off**), classified as metadata on its native path (**Observe**), or sent through a selected provider, local model, or authorized subscription bridge (**Route**). It never touches harness credentials or sessions, stores metadata only, and shows request-level provider, model, latency, tokens, cost, and usage-window data so the user can control spend.
+rflectr (Legion Code Inc.) is a local desktop control plane for AI inference traffic, per harness: **Off**, **Observe**, or **Route**.
 
 This design system is a **new visual direction** built around the approved rflectr logo system. It intentionally does not reuse the existing Tauri renderer's appearance.
 
 ## Sources
 
-- GitHub: https://github.com/legioncodeinc/rflectr — logo system (`assets/logo-system/`, docs + SVG/PNG masters), product README, PRD-009 library, and the current renderer (read for vocabulary only; visuals discarded on request). See `github.md` for sync state.
-- Uploaded lockups: `uploads/rflectr-lockup-*.svg` (10 files) → copied to `assets/lockup/`.
-- Product brief: "rflectr Complete Product Interface Brief" (September 2026) — information architecture, object vocabulary, state vocabulary, and privacy rules. Its terminology governs all copy here.
-
-Explore the repository for deeper context (PRDs under `library/requirements/`, logo docs under `assets/logo-system/docs/`) before designing new rflectr surfaces.
+Built from the approved rflectr echo-bat logo system and the Legion parent brand kit (`../legion-code-inc/`). Copy follows the rflectr product vocabulary documented below.
 
 ## Content fundamentals
 
@@ -58,7 +54,7 @@ Explore the repository for deeper context (PRDs under `library/requirements/`, l
 
 ## Components
 
-Standard set authored for rflectr (no component source existed; the old renderer was excluded by request). All under `components/`:
+Standard set authored for rflectr. All under `components/`:
 
 - **core/** — `Button` (primary · route · secondary · ghost · danger; sm/md/lg; loading), `IconButton`, `Badge` (state-word → tone inference), `Icon`, `Tooltip`
 - **forms/** — `Input` (mono, one-way `secret`), `Select`, `Switch` (route/neutral tone), `Checkbox`, `ModeSegment` (Off / Observe / Route, Route-disabled with reason)

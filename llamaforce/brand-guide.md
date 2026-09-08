@@ -21,7 +21,7 @@ No standalone logo SVG/lockup on file. The heroes carry the MACSITNA mark and LL
 
 ## 4. Color, ⚠️ observed only
 
-Dark cyber-navy with teal/green accent, consistent with the MACSITNA marks. ❌ No tokens on file.
+Sampled from the heroes: deep teal-black canvas (`#002020` family) on `#000000`, with the MACSITNA mint-green accent family. ❌ No tokens on file.
 
 ## 5. Typography, ❌
 

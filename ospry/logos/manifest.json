@@ -1,0 +1,33 @@
+{
+  "brand": "OSPRY",
+  "generated": "2026-09-07",
+  "policy": "SVG-only in the repo. Raster exports (png/ico/zips) live locally and are intentionally untracked.",
+  "note": "OSPRY v2 system: horizontal, stacked, tagline lockups + symbol + wordmark.",
+  "marks": [
+    {
+      "file": "ospry/logos/svg/ospry-v2-lockup-horizontal.svg",
+      "kind": "svg",
+      "tracked": true
+    },
+    {
+      "file": "ospry/logos/svg/ospry-v2-lockup-stacked.svg",
+      "kind": "svg",
+      "tracked": true
+    },
+    {
+      "file": "ospry/logos/svg/ospry-v2-lockup-tagline.svg",
+      "kind": "svg",
+      "tracked": true
+    },
+    {
+      "file": "ospry/logos/svg/ospry-v2-symbol.svg",
+      "kind": "svg",
+      "tracked": true
+    },
+    {
+      "file": "ospry/logos/svg/ospry-v2-wordmark.svg",
+      "kind": "svg",
+      "tracked": true
+    }
+  ]
+}

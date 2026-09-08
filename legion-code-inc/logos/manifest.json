@@ -1,0 +1,103 @@
+{
+  "brand": "Legion Code Inc.",
+  "generated": "2026-09-07",
+  "policy": "SVG-only in the repo. Raster exports (png/ico/zips) live locally and are intentionally untracked.",
+  "note": "Parent identity: 19 SVG marks (logo, icon, symbol variants).",
+  "marks": [
+    {
+      "file": "legion-code-inc/logos/legion-favicon.svg",
+      "kind": "svg",
+      "tracked": true
+    },
+    {
+      "file": "legion-code-inc/logos/legion-icon-green-dark-sharp.svg",
+      "kind": "svg",
+      "tracked": true
+    },
+    {
+      "file": "legion-code-inc/logos/legion-icon-green-dark.svg",
+      "kind": "svg",
+      "tracked": true
+    },
+    {
+      "file": "legion-code-inc/logos/legion-icon-green-light-sharp.svg",
+      "kind": "svg",
+      "tracked": true
+    },
+    {
+      "file": "legion-code-inc/logos/legion-icon-green-light.svg",
+      "kind": "svg",
+      "tracked": true
+    },
+    {
+      "file": "legion-code-inc/logos/legion-icon-mono-black.svg",
+      "kind": "svg",
+      "tracked": true
+    },
+    {
+      "file": "legion-code-inc/logos/legion-icon-mono-green.svg",
+      "kind": "svg",
+      "tracked": true
+    },
+    {
+      "file": "legion-code-inc/logos/legion-icon-mono-white.svg",
+      "kind": "svg",
+      "tracked": true
+    },
+    {
+      "file": "legion-code-inc/logos/legion-icon-outline-dark.svg",
+      "kind": "svg",
+      "tracked": true
+    },
+    {
+      "file": "legion-code-inc/logos/legion-icon-outline-light.svg",
+      "kind": "svg",
+      "tracked": true
+    },
+    {
+      "file": "legion-code-inc/logos/legion-icon-rounded-dark.svg",
+      "kind": "svg",
+      "tracked": true
+    },
+    {
+      "file": "legion-code-inc/logos/legion-icon-rounded-light.svg",
+      "kind": "svg",
+      "tracked": true
+    },
+    {
+      "file": "legion-code-inc/logos/legion-logo-dark.svg",
+      "kind": "svg",
+      "tracked": true
+    },
+    {
+      "file": "legion-code-inc/logos/legion-logo-light.svg",
+      "kind": "svg",
+      "tracked": true
+    },
+    {
+      "file": "legion-code-inc/logos/legion-symbol-dark.svg",
+      "kind": "svg",
+      "tracked": true
+    },
+    {
+      "file": "legion-code-inc/logos/legion-symbol-light.svg",
+      "kind": "svg",
+      "tracked": true
+    },
+    {
+      "file": "legion-code-inc/logos/legion-symbol.svg",
+      "kind": "svg",
+      "tracked": true
+    },
+    {
+      "file": "legion-code-inc/logos/legion-wordmark-dark.svg",
+      "kind": "svg",
+      "tracked": true
+    },
+    {
+      "file": "legion-code-inc/logos/legion-wordmark-light.svg",
+      "kind": "svg",
+      "tracked": true
+    }
+  ]
+}

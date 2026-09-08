@@ -18,11 +18,11 @@ Status legend: ✅ on file · ⚠️ partial · ❌ not on file.
 ## 3. Logo system, ✅
 
 - **Lockups:** `logos/svg/`, 10 lockups: horizontal + stacked, each in themeable / on-dark / on-light / mono-black / mono-white (authored for the rflectr design system).
-- **Marks:** `logos/svg/wordmark.svg` (wordmark master), `logos/png/logo.png` (square symbol, 1254×1254).
+- **Marks:** `logos/svg/wordmark.svg` (wordmark master), `logos/png/logo.png` (square symbol, 1254×1254, local-only: rasters are untracked).
 
 ## 4. Color, ❌
 
-No token sheet on file. The UI kit renders with rflectr's palette (ink `#0A0B0D`, route green `#3DDC97`); commit a shrke tokens/colors sheet before new surfaces ship.
+Exact vector fills from the on-file SVG sources: ink `#0A0B0D`, mark green `#18A968` (the on-light Legion green; `#3DDC97` on dark surfaces). No token sheet yet; commit a shrke tokens sheet before new surfaces ship.
 
 ## 5. Typography, ❌
 

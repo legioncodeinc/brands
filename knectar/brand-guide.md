@@ -1,6 +1,6 @@
 # knectar, Brand Guide
 
-knectar (knectar.dev, codename rflectr lineage) is the Legion Code AI inference control plane built on rflectr. Dark-native ink surfaces tuned for a Svelte 5 + shadcn-svelte + WorkOS AuthKit production stack, the token file speaks the full shadcn semantic contract, so `tokens/styles.css` can replace an app's `app.css` directly.
+knectar (knectar.dev) is a Legion Code Inc. product. The token file speaks the full shadcn semantic contract, so `tokens/styles.css` can replace an app's `app.css` directly.
 
 Status legend: ✅ on file · ⚠️ referenced but missing · ❌ not on file.
 
@@ -8,18 +8,18 @@ Status legend: ✅ on file · ⚠️ referenced but missing · ❌ not on file.
 
 - **Canonical spelling:** `knectar`, lowercase, always.
 - **Tagline:** ❌ not on file.
-- **One-liner:** The AI inference control plane: route, observe, and spend-control for AI coding traffic.
+- **One-liner:** ❌ not on file.
 
 ## 2. Relationships
 
-- Built on rflectr (`../rflectr/`), shares its control-plane vocabulary and Legion green, with its own surface language.
+- Shares the rflectr design system foundation (`../rflectr/`) and Legion green, with its own surface language.
 - Parent brand: Legion Code Inc. (`../legion-code-inc/`).
 
 ## 3. Logo system, ✅
 
-- **Production exports:** `logos/png/` + `logos/svg/` (landscape-16x9, native, square-1x1). Favicon in `logos/png/`.
+- **Production exports:** `logos/svg/` (landscape-16x9, native, square-1x1); the matching PNG renders are local-only, untracked.
 - **Skill-facing copies:** `assets/logo*.svg`, `assets/mark*.svg`, `assets/wordmark*.svg` (on-light / mono-on-dark / mono-on-light / stacked variants), `assets/app-icon-512.png`, `assets/app-icon-square.svg`.
-- **History:** `logos/archive/2026-09-05-exploration/` (round-01 + hummingbird concepts), masters in `logos/source/`, export tooling `logos/scripts/export_brand.py`, proofs + verification in `logos/review/`, packaged `logos/knectar-hover-brand-kit.zip`.
+- **History:** exploration archive, review proofs, and the packaged brand-kit zip exist locally only (untracked, raster-heavy). Masters in `logos/source/`, export tooling `logos/scripts/export_brand.py`.
 - **Rule:** use the supplied logo files, never redraw them.
 - **Provenance note:** the loose SVGs in `assets/` carry C2PA AI-generation manifests, treat the `logos/` export set as canonical for production.
 

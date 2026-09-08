@@ -18,7 +18,7 @@ Status legend: ✅ on file · ⚠️ partial · ❌ not on file.
 
 ## 3. Logo system, ✅ PNG / ❌ SVG masters
 
-- **Files:** `logos/png/`, 64-file export matrix:
+- **Files:** `logos/png/`, 64-file export matrix (local-only, untracked):
   - favicons: 16/32/48/180/192/512, opaque + transparent pairs
   - landscape: 16x9, 21x9
   - square: 1080×1080
@@ -30,7 +30,7 @@ Status legend: ✅ on file · ⚠️ partial · ❌ not on file.
 
 ## 4. Color, ⚠️ observed only
 
-Dark charcoal/near-black backgrounds with a green accent family across the marks; green-on-black treatments exist in the lockup matrix. ❌ No token sheet or documented hexes on file, sample from the SVG masters once they exist.
+Sampled from the square lockup mark: green family `#30C885` (gradient shades `#207050` to `#30D090`) on near-black `#000000`, with off-white `#F0F0F0` type. Still ❌ no token sheet; exact hexes should come from the SVG masters when exported.
 
 ## 5. Typography, ❌
 
@@ -56,7 +56,7 @@ None on file. (Site-page screenshots for the related Llama Force site live in `.
 
 | Path | What's there |
 |---|---|
-| `logos/png/` | full PNG export matrix (64 files) |
+| `logos/png/` | full PNG export matrix, 64 files (local-only, untracked) |
 | `assets/` | macsinta.png hero |
 
 ## 11. Gaps & provenance

@@ -38,15 +38,31 @@ ui_kits/             gitignored drop zone; kits live outside the repo in ../UI_K
 
 | Folder | Brand | What's inside |
 |---|---|---|
-| [`legion-code-inc/`](legion-code-inc/) | **Legion Code Inc.** (parent) | Full brand kit: 19 SVG marks, 200+ PNGs, ICOs, Inter + JetBrains Mono, CSS tokens, 34 preview cards, interactive brand guide |
-| [`ospry/`](ospry/) | **OSPRY** (product) | Osprey mark in 5 SVG lockups, PNG export matrix, favicons, interactive brand guide, 10 public PDFs |
+| [`legion-code-inc/`](legion-code-inc/) | **Legion Code Inc.** (parent) | Full brand kit: 19 SVG marks, Inter + JetBrains Mono, CSS tokens, 34 preview cards, interactive brand guide |
+| [`ospry/`](ospry/) | **OSPRY** (product) | Osprey mark in 5 SVG lockups, interactive brand guide, 10 public PDFs |
 | [`knectar/`](knectar/) | **knectar** (product) | Design system on the Legion language: tokens, 33 components, 20 guideline cards, hummingbird "Hover" logo system |
 | [`rflectr/`](rflectr/) | **rflectr** (product) | Echo-bat logo system, ink/route token layer, 22 components, 18 guideline cards, full voice spec |
 | [`shrke/`](shrke/) | **shrke** (product) | Lockup set (10 SVGs), wordmark, symbol; design inherited from rflectr |
 | [`whipt/`](whipt/) | **WHIPT** (product) | Whippet brand kit (Pursuit + Full Stride), token sheets, fonts; the demo app lives in the private UI_Kit workspace |
-| [`macsitna/`](macsitna/) | **MACSITNA** (product) | 64-file PNG logo matrix, brand hero; anti-scam spelled backwards |
+| [`macsitna/`](macsitna/) | **MACSITNA** (product) | Logo matrix (SVG exports pending), brand hero; anti-scam spelled backwards |
 | [`llamaforce/`](llamaforce/) | **Llama Force** (sub-brand) | The operators behind MACSITNA: heroes, site page graphics, social assets |
 | [`myidentityprovider/`](myidentityprovider/) | **My Identity Provider** | Icon set (SVG + PNG) |
+
+### Standard conformance
+
+Logo areas are SVG-only in the repo; raster exports live locally and are untracked. Counts are tracked SVG marks.
+
+| Product | Guide | Skill | Logos (SVG) | Logo manifest | Tokens | Components | UI kit |
+|---|---|---|---|---|---|---|---|
+| legion-code-inc | ✅ | ✅ | ✅ 19 | ✅ | ✅ | ⚠️ preview cards | ❌ pending export |
+| ospry | ✅ | ✅ | ✅ 5 | ✅ | ❌ | ❌ | n/a |
+| knectar | ✅ | ✅ | ✅ 66 | ✅ | ✅ | ✅ 33 | ✅ external |
+| rflectr | ✅ | ✅ | ✅ 37 | ✅ | ✅ | ✅ 22 | ✅ external |
+| shrke | ✅ | ✅ | ✅ 11 | ✅ | ❌ | ❌ | ✅ external |
+| whipt | ✅ | ✅ | ✅ 60 | ✅ kit | ✅ | ❌ | ✅ external |
+| macsitna | ✅ | ✅ | ⚠️ SVGs pending | ❌ pending | ❌ | ❌ | n/a |
+| llamaforce | ✅ | ✅ | ❌ imagery-only | n/a | ❌ | ❌ | n/a |
+| myidentityprovider | ✅ | ✅ | ✅ 1 | ✅ | ❌ | ❌ | n/a |
 
 ## UI kits
 
@@ -94,8 +110,7 @@ Both families ship in [`legion-code-inc/assets/fonts/`](legion-code-inc/assets/f
 | Lockup on dark | [`logos/legion-logo-dark.svg`](legion-code-inc/logos/legion-logo-dark.svg) |
 | Lockup on light / print | [`logos/legion-logo-light.svg`](legion-code-inc/logos/legion-logo-light.svg) |
 | Symbol alone (inherits text color) | [`logos/legion-symbol.svg`](legion-code-inc/logos/legion-symbol.svg) |
-| Favicon / app icon | [`logos/legion-favicon.svg`](legion-code-inc/logos/legion-favicon.svg) + [`logos/ico/`](legion-code-inc/logos/ico/) |
-| PNG at a specific size | [`logos/png/`](legion-code-inc/logos/png/) (16px through 2048px) |
+| Favicon / app icon | [`logos/legion-favicon.svg`](legion-code-inc/logos/legion-favicon.svg) |
 
 Minimums: symbol 24px, wordmark 80px wide, full lockup 120px wide. Clear space equals the height of the accent cap. Never recolor the cap, never add a shadow or gradient, never place the mark over a photo.
 
@@ -136,8 +151,6 @@ Green stays reserved for verified and identified. Three additional accents carry
 | Horizontal lockup (bird + OSPRY / by Legion) | [`logos/svg/ospry-v2-lockup-horizontal.svg`](ospry/logos/svg/ospry-v2-lockup-horizontal.svg) |
 | Lockup with tagline | [`logos/svg/ospry-v2-lockup-tagline.svg`](ospry/logos/svg/ospry-v2-lockup-tagline.svg) |
 | Stacked lockup | [`logos/svg/ospry-v2-lockup-stacked.svg`](ospry/logos/svg/ospry-v2-lockup-stacked.svg) |
-| PNG exports (transparent, square, 16:9, 21:9) | [`logos/png/png-assets/`](ospry/logos/png/png-assets/) |
-| Favicon | [`logos/png/png-assets/favicon/`](ospry/logos/png/png-assets/favicon/) |
 
 Dark backgrounds get the white-body bird. Light backgrounds get the ink-body bird. The green stays green on both.
 

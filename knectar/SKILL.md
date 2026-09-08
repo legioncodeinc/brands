@@ -1,6 +1,6 @@
 ---
 name: knectar-design
-description: Use this skill to generate well-branded interfaces and assets for knectar (knectar.dev, codename rflectr, the Legion Code AI inference control plane built on rflectr), either for production Svelte 5 / shadcn-svelte code or throwaway prototypes/mocks. Contains essential design guidelines, colors, type, fonts, assets, and UI kit components for prototyping.
+description: Use this skill to generate well-branded interfaces and assets for knectar (knectar.dev), either for production Svelte 5 / shadcn-svelte code or throwaway prototypes/mocks. Contains essential design guidelines, colors, type, fonts, assets, and UI kit components for prototyping.
 user-invocable: true
 ---
 

@@ -1,24 +1,24 @@
 # rflectr, Brand Guide
 
-rflectr (Legion Code Inc.) is a local desktop control plane, a lightweight Tauri 2 / Rust app for Windows 11 and macOS 14+, that lets a developer decide, per harness, whether AI inference traffic from Cursor, Codex, ZCode, Claude Code, and Claude Desktop is left alone (**Off**), classified as metadata on its native path (**Observe**), or sent through a selected provider, local model, or authorized subscription bridge (**Route**). It never touches harness credentials or sessions, stores metadata only, and shows request-level provider, model, latency, tokens, cost, and usage-window data.
+rflectr (Legion Code Inc.) is a local desktop control plane for AI inference traffic, per harness: **Off**, **Observe**, or **Route**.
 
 Status legend: ✅ on file · ⚠️ partial · ❌ not on file.
 
 ## 1. Identity
 
 - **Canonical spelling:** `rflectr`, exactly five lowercase letters plus r; never "Rflectr", never with an I.
-- **Tagline:** ❌ none on file; the product brief's terminology governs copy.
+- **Tagline:** ❌ none on file.
 - **One-liner:** Per-harness AI inference control: Off / Observe / Route, with metadata-only observability.
 
 ## 2. Relationships
 
-- Parent brand: Legion Code Inc. Product repo: `legioncodeinc/rflectr` (sync state in `system/github.md`).
-- knectar (`../knectar/`) is built on rflectr and extends this design system.
+- Parent brand: Legion Code Inc.
+- knectar (`../knectar/`) extends this design system.
 - The `shrke-desktop` UI kit (see §9) belongs to the shrke product (`../shrke/`).
 
 ## 3. Logo system, ✅
 
-- **Files:** `logos/`, the echo-bat system: SVG masters (`source/`), full PNG export matrix at native + square ratios in color/mono on dark/light (`png/`, `svg/`), application icon set dark/light + tray template icons (`application/`), proofs and verification (`review/`), manifest.json, preview.html, packaged `rflectr-echo-bat-brand-kit.zip`.
+- **Files:** `logos/`, the echo-bat system: SVG masters (`source/`), SVG export matrices at native + square ratios in color/mono on dark/light (`svg/`), application icon SVGs + tray templates (`application/`), manifest.json, preview.html. The PNG/ICO renders, review proofs, and the packaged zip are local-only, untracked.
 - **Rule:** the wordmark is a custom outlined construction (Inter-derived), never typeset it live; use the supplied files, never redraw.
 
 ## 4. Color, ✅
@@ -80,7 +80,6 @@ Belongs to the shrke product; lives in the private UI_Kit workspace, excluded fr
 ## 11. Gaps & provenance
 
 - ❌ Geist / Geist Mono binary font files, not in this repo (tokens/fonts.css references them). *Checked 2026-09-07.*
-- ⚠️ Product brief ("rflectr Complete Product Interface Brief", September 2026) referenced by readme.md, lives in the product repo, not here.
 
 ## 12. Changelog
 
