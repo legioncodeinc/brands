@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#F5EEDC"></rect>
+  <circle cx="40" cy="40" r="4" fill="#6B2D9B" opacity="0.6"></circle>
+  <circle cx="360" cy="40" r="4" fill="#6B2D9B" opacity="0.6"></circle>
+  <circle cx="40" cy="360" r="4" fill="#6B2D9B" opacity="0.6"></circle>
+  <circle cx="360" cy="360" r="4" fill="#6B2D9B" opacity="0.6"></circle>
+
+  <path d="M 172 92 Q 200 60 228 92 Q 218 102 200 97 Q 182 102 172 92" fill="#0F0B1F"></path>
+  <path d="M 132 115 L 152 65 L 168 122 Z" fill="#0F0B1F"></path>
+  <path d="M 268 115 L 248 65 L 232 122 Z" fill="#0F0B1F"></path>
+  <path d="M 148 110 L 156 80 L 162 115 Z" fill="#6B2D9B" opacity="0.85"></path>
+  <path d="M 252 110 L 244 80 L 238 115 Z" fill="#6B2D9B" opacity="0.85"></path>
+  <ellipse cx="200" cy="210" rx="72" ry="100" fill="#0F0B1F"></ellipse>
+  <ellipse cx="200" cy="278" rx="50" ry="38" fill="#2A2438"></ellipse>
+  <rect x="140" y="188" width="56" height="38" rx="7" fill="#F4C430" stroke="#6B2D9B" stroke-width="3"></rect>
+  <rect x="204" y="188" width="56" height="38" rx="7" fill="#F4C430" stroke="#6B2D9B" stroke-width="3"></rect>
+  <rect x="194" y="203" width="12" height="5" fill="#6B2D9B"></rect>
+  <rect x="146" y="194" width="10" height="6" rx="2" fill="#0F0B1F" opacity="0.35"></rect>
+  <rect x="210" y="194" width="10" height="6" rx="2" fill="#0F0B1F" opacity="0.35"></rect>
+  <ellipse cx="190" cy="275" rx="3.5" ry="5" fill="#F5EEDC"></ellipse>
+  <ellipse cx="210" cy="275" rx="3.5" ry="5" fill="#F5EEDC"></ellipse>
+  <path d="M 178 302 Q 200 316 222 302" stroke="#F5EEDC" stroke-width="3.5" fill="none" stroke-linecap="round"></path>
+  <path d="M 196 314 Q 200 325 204 314 L 200 322 Z" fill="#0F0B1F"></path>
+  <circle cx="200" cy="358" r="10" fill="#F4C430" stroke="#0F0B1F" stroke-width="1.5"></circle>
+  <text x="200" y="362" text-anchor="middle" font-family="Anton, Impact, sans-serif" font-size="11" fill="#0F0B1F" font-weight="bold">N</text>
+
+</svg>
